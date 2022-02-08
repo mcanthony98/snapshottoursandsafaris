@@ -6,7 +6,7 @@
     <meta name="keywords" content="The best of the wildlife photography, Explore The World, 50 Years of Wildlife Photographer of the Year, Top scientists demand NSW commit to brumby cull in Kosciuszko national park, Top 10 Wildlife Photographers To Watch, INTUITIVE">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>Home | Snapshot Tours and Safaris</title>
+    <title>Home | Snapshot Tours and Safaris - East African Holiday Destination</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
 <link rel="stylesheet" href="Home.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
