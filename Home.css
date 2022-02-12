@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/0c90a67e55f210c04449d915a885c063ee4a4b4a4ad9c80c8b5fc4ef02b5b1a2d70c3cad8e5b74282a812526c6eb6d1525db62788c26d923a6d34a_1280.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/31483dd931014b4db1190b38199565e5b52fd0beb6c73b6420abf9f11b088282159982d37299550b97d5b0935fdcdfc0e91b516df412b9e2ef72d0_1280.jpg");
 }
 
 .u-section-1 .u-sheet-1 {
@@ -377,7 +377,7 @@
 }
 
 .u-section-3 .u-image-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/123.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/WhatsAppImage2022-02-10at10.39.37PM1.jpeg");
   background-position: 50% 50%;
   min-height: 630px;
 }
@@ -392,7 +392,7 @@
 }
 
 .u-section-3 .u-image-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/wildebeest_-l_.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/WhatsAppImage2022-02-10at9.51.51PM.jpeg");
   background-position: 50% 50%;
   min-height: 630px;
 }
@@ -407,7 +407,7 @@
 }
 
 .u-section-3 .u-image-3 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("https://pixabay.com/get/g103fc41d344fa927002949d3e3f7790377b0cd89e84a0d0216f6a3d7150a923b6a31ca301c5ce4cc1cf620077d21797f2aa5b8fe17080d5b2b12bcedb7301d0f_1280.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/WhatsAppImage2022-02-10at10.03.21PM.jpeg");
   background-position: 50% 50%;
   min-height: 630px;
 }
@@ -661,8 +661,7 @@
 
 .u-section-4 .u-text-1 {
   font-size: 4.5rem;
-  width: 221px;
-  margin: 49px auto 0;
+  margin: 49px 435px 0 460px;
 }
 
 .u-section-4 .u-gallery-1 {
@@ -760,6 +759,12 @@
     left: 90px;
   }
 
+  .u-section-4 .u-text-1 {
+    margin-left: 360px;
+    margin-right: 335px;
+    width: 221px;
+  }
+
   .u-section-4 .u-gallery-1 {
     height: 327px;
     margin-top: 71px;
@@ -822,8 +827,7 @@
 
   .u-section-4 .u-text-1 {
     font-size: 3.75rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 135px;
   }
 
   .u-section-4 .u-gallery-1 {
@@ -857,6 +861,8 @@
     width: 163px;
     font-size: 2.25rem;
     margin-top: 64px;
+    margin-left: 60px;
+    margin-right: 35px;
   }
 
   .u-section-4 .u-gallery-1 {
@@ -1015,7 +1021,7 @@
 .u-section-6 .u-text-3 {
   text-align: left;
   font-weight: normal;
-  margin: -11px 0 0 auto;
+  margin: -16px 0 0;
 }
 
 .u-section-6 .u-list-icon-1 {
