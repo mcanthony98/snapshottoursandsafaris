@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <html style="font-size: 16px;">
   <head>
@@ -91,7 +92,7 @@
             <div class="u-layout-row">
               <div class="u-align-left u-container-style u-image u-layout-cell u-shading u-size-20 u-image-1" data-image-width="640" data-image-height="800">
                 <div class="u-container-layout u-container-layout-2">
-                  <h3 class="u-text u-text-2">Malindi, Kenya</h3>
+                  <h3 class="u-text u-text-2">Diani, Kenya</h3>
                 </div>
               </div>
               <div class="u-align-left u-container-style u-image u-layout-cell u-shading u-size-20 u-image-2" data-image-width="612" data-image-height="612">
@@ -182,6 +183,9 @@
         </div>
       </div>
     </section>
+
+
+
     <section class="u-clearfix u-section-5" id="carousel_1513" src="">
       <img class="u-expanded-width u-flip-horizontal u-image u-image-default u-image-1" data-image-width="1280" data-image-height="720" src="images/73f18baa7fe24eac5c2c0b13699ba4e2c62bf5a674125167439c6815b697cf2d61a45967aff8866e49d8a09317c6f95394c74971d4661347a8c90e_1280.jpg">
       <div class="u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-container-style u-group u-palette-1-base u-group-1">
@@ -190,8 +194,8 @@
         </div>
       </div>
       <div class="u-form u-radius-20 u-white u-form-1">
-        <form action="scripts/form-carousel_1513.php" method="POST" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 15px;" source="customphp" name="form">
-          <div class="u-form-group u-form-name">
+        <form action="includes/mailprocessor.php" method="POST" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 15px;" source="customphp" name="form">
+          <div class="u-form-group u-form-name" id="turnback">
             <label for="name-6797" class="u-form-control-hidden u-label">Name</label>
             <input type="text" placeholder="Name" id="name-6797" name="name" class="u-border-1 u-border-palette-3-base u-input u-input-rectangle u-radius-9" required="">
           </div>
@@ -200,7 +204,7 @@
             <input type="text" id="text-7907" name="phone" class="u-border-1 u-border-palette-3-base u-input u-input-rectangle u-radius-9" placeholder="Phone Number" required="required">
           </div>
           <div class="u-form-email u-form-group">
-            <label for="email-6797" class="u-form-control-hidden u-label">Email</label>
+            <label for="email-6797" class="u-form-control-hidden u-label"></label>
             <input type="email" placeholder="Email" id="email-6797" name="email" class="u-border-1 u-border-palette-3-base u-input u-input-rectangle u-radius-9" required="">
           </div>
           <div class="u-form-group u-form-group-4">
@@ -208,19 +212,23 @@
             <input type="text" placeholder="Describe Safari Title" id="text-56a9" name="safari" class="u-border-1 u-border-palette-3-base u-input u-input-rectangle u-radius-9" required="required">
           </div>
           <div class="u-form-group u-form-message">
-            <label for="message-6797" class="u-form-control-hidden u-label">Address</label>
+            <label for="message-6797" class="u-form-control-hidden u-label"></label>
             <textarea placeholder="Comments regarding safari" rows="4" cols="50" id="message-6797" name="message" class="u-border-1 u-border-palette-3-base u-input u-input-rectangle u-radius-9"></textarea>
           </div>
           <div class="u-align-center u-form-group u-form-submit">
             <a href="#" class="u-border-none u-btn u-btn-round u-btn-submit u-button-style u-palette-3-base u-radius-4 u-btn-1">Submit</a>
-            <input type="submit" value="submit" class="u-form-control-hidden">
+            <input type="submit" value="submit" name="plan_trip" class="u-form-control-hidden">
           </div>
-          <div class="u-form-send-message u-form-send-success">Thank you! You trip request has been recieved. We will contact you shortly.</div>
-          <div class="u-form-send-error u-form-send-message">Unable to send your message. Please fix errors then try again.</div>
+          <?php if(isset($_SESSION['success'])){?>
+          <div class="u-form-send-message " style="text-align:center;padding:10px;background-color:green;width:100%; margin-top: 4px;">Thank you! You trip request has been recieved. We will contact you shortly.</div>
+          <?php unset($_SESSION['success']); }?>
           <input type="hidden" value="" name="recaptchaResponse">
         </form>
       </div>
     </section>
+
+
+
     <section class="u-clearfix u-section-6" id="carousel_68ec">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <div class="u-clearfix u-expanded-width-xs u-layout-wrap u-layout-wrap-1">

@@ -16,7 +16,7 @@ $mailer = new Swift_Mailer($transport);
 $message = (new Swift_Message())
   ->setSubject($subject)
   ->setFrom(['info@writtela.com' => 'New Form Submission'])
-  ->setTo(['mcanthony98@gmail.com']);
+  ->setTo(['info@snapshottoursandsafaris.com']);
 
 $headers = ($message->getHeaders())
   -> addTextHeader('X-CloudMTA-Class', 'standard');

@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <html style="font-size: 16px;">
   <head>
@@ -91,7 +92,9 @@
           <div class="u-container-layout u-container-layout-1">
             <h2 class="u-custom-font u-font-montserrat u-text u-text-default u-text-1"> Book Your Flight Now</h2>
             <div class="u-align-center u-form u-radius-30 u-white u-form-1">
-              <form action="scripts/form-carousel_6509.php" method="POST" class="u-clearfix u-form-spacing-28 u-form-vertical u-inner-form" source="customphp" name="form" style="padding: 4px;">
+
+            
+              <form action="includes/mailprocessor.php" method="POST" class="u-clearfix u-form-spacing-28 u-form-vertical u-inner-form" source="customphp" name="form" style="padding: 4px;">
                 <div class="u-form-group u-form-name u-label-top">
                   <label for="name-2e40" class="u-label">Name</label>
                   <input type="text" placeholder="Enter your Name" id="name-2e40" name="name" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-radius-30 u-white" required="">
@@ -100,7 +103,7 @@
                   <label for="text-ef66" class="u-label">Phone Number</label>
                   <input type="text" placeholder="Enter Phone Number" id="text-ef66" name="phone" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-radius-30 u-white" required="required">
                 </div>
-                <div class="u-form-email u-form-group u-label-top">
+                <div class="u-form-email u-form-group u-label-top" id="turnback">
                   <label for="email-2e40" class="u-label">Email</label>
                   <input type="email" placeholder="Enter a valid email address" id="email-2e40" name="email" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-radius-30 u-white" required="required">
                 </div>
@@ -113,12 +116,11 @@
                   <input type="date" placeholder="DD/MM/YYYY" id="date-32f7" name="date" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-radius-30 u-white" required="">
                 </div>
                 <div class="u-align-center u-form-group u-form-submit">
-                  <a href="#" class="u-border-2 u-border-black u-btn u-btn-submit u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-1">Submit<br>
-                  </a>
-                  <input type="submit" value="submit" class="u-form-control-hidden">
+                  <input type="submit" value="submit" name="book_flight" class="u-border-2 u-border-black u-btn u-btn-submit u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-1">
                 </div>
-                <div class="u-form-send-message u-form-send-success">Thank you! Your flight request has ben sent. We will contact you shortly.</div>
-                <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
+                <?php if(isset($_SESSION['success'])){?>
+                <div class="u-form-send-message " style="text-align:center;padding:10px;background-color:green;width:100%; margin-top: 4px;">Thank you! Your flight request has ben sent. We will contact you shortly.</div>
+                  <?php unset($_SESSION['success']);}?>
                 <input type="hidden" value="" name="recaptchaResponse">
               </form>
             </div>
