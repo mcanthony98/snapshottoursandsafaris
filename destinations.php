@@ -60,7 +60,7 @@
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-3">
                 <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-3" data-image-width="1280" data-image-height="967" src="images/ce716e1bc28b9f1d8e367ede10cfe827637e5f8370c8c30f8526cedc5884f9bdf8ebc80b27490cc56d1933f7ddeed41c5ea10610b1e4153f40468b_1280.jpg">
-                <h3 class="u-text u-text-default u-text-3">3 Daysa Amboseli Safari</h3>
+                <h3 class="u-text u-text-default u-text-3">3 Days Amboseli Safari</h3>
                 <a href="" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-3">learn more</a>
               </div>
             </div>
