@@ -23,11 +23,11 @@
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
-		"name": "Site1",
+		"name": "Snapshot Tours and Safaris",
 		"logo": "images/logo.png",
 		"sameAs": []
 }</script>
-    <meta name="theme-color" content="#478ac9">
+    <meta name="theme-color" content="#F1C40F">
     <meta property="og:title" content="About">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
