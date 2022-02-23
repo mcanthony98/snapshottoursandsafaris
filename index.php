@@ -278,6 +278,15 @@
         </a>
       </div>
     </section>
+
+
+    <section style="text-align:center;background-color:#f2f3f4;padding:5px 2px 5px 2px;"> 
+    <h3 style="font-size: 2rem;">What our Clients Say</h3>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-fdeca291-515c-4524-a940-dc654f16ce08"></div>
+</section>
+
+
     <section class="u-align-center u-clearfix u-image u-shading u-section-7" id="carousel_bbb1" data-image-width="1280" data-image-height="720">
       <div class="u-align-left u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
         <div class="u-clearfix u-layout-wrap u-layout-wrap-1">

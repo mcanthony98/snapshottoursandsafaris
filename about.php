@@ -34,6 +34,9 @@
   </head>
   <body class="u-body">
 
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v13.0" nonce="5kW7DadN"></script>
+
 <?php include 'includes/navbar.php';?>
 
     <section class="u-align-center u-clearfix u-image u-shading u-section-1" id="sec-a8a5" data-image-width="1280" data-image-height="402">
@@ -142,6 +145,11 @@
     </section>
     
     
+   <section style="text-align:center;background-color:#f2f3f4;padding:5px 2px 5px 2px;margin-top:0px;"> 
+    <h3 style="font-size: 2rem;">What our Clients Say</h3>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-fdeca291-515c-4524-a940-dc654f16ce08"></div>
+</section>
     <?php include "includes/footer.php";?>
 
 

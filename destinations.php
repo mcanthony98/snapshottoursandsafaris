@@ -46,29 +46,29 @@
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-1">
                 <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-1" data-image-width="1280" data-image-height="960" src="images/4fa927002949d3e3f7790377b0cd89e84a0d0216f6a3d7150a923b6a31ca301c5ce4cc1cf620077d21797f2aa5b8fe17080d5b2b12bcedb7301d0f_12801.jpg">
-                <h3 class="u-text u-text-default u-text-1">3 Days 2 Nights Amboseli Safari</h3>
-                <a href="" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-1">learn more</a>
+                <h3 class="u-text u-text-default u-text-1">2 Days 1 Night Amboseli Safari</h3>
+                <a href="destinations/2-days-1-night-amboseli-safari.php" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-1">learn more</a>
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-2">
                 <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-2" data-image-width="1280" data-image-height="853" src="images/d581f73b929c2c583976112b19ebbd8e00bccb04b16558b45258871fc6509717363b384b285f64191f873306b3b5a3058689ac2561199a51455862_1280.jpg">
-                <h3 class="u-text u-text-default u-text-2">2 Days Maasai Mara Safari</h3>
-                <a href="" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-2">learn more</a>
+                <h3 class="u-text u-text-default u-text-2">3 Days 2 Nights Amboseli Safari</h3>
+                <a href="destinations/3-days-2-nights-amboseli-safari.php" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-2">learn more</a>
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-3">
                 <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-3" data-image-width="1280" data-image-height="967" src="images/ce716e1bc28b9f1d8e367ede10cfe827637e5f8370c8c30f8526cedc5884f9bdf8ebc80b27490cc56d1933f7ddeed41c5ea10610b1e4153f40468b_1280.jpg">
-                <h3 class="u-text u-text-default u-text-3">3 Days Amboseli Safari</h3>
-                <a href="" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-3">learn more</a>
+                <h3 class="u-text u-text-default u-text-3">3 Days 2 Nights Maasai Mara Safari</h3>
+                <a href="destinations/3-days-2-nights-maasai-mara-safari.php" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-3">learn more</a>
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-4">
                 <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-4" data-image-width="1280" data-image-height="853" src="images/32fa0b701217fac3a6552ef9c838e0dd4cdea72e966864ab865f4fd20b700f462212494fbf98ab69c2131e6e3b941b28d076a0ca12e56fadfa8ec1_1280.jpg">
-                <h3 class="u-text u-text-default u-text-4">3 Days Maasai Mara Safari</h3>
-                <a href="" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-4">View more</a>
+                <h3 class="u-text u-text-default u-text-4">5 Days 4 Nights Amboseli Tsavo Safari</h3>
+                <a href="destinations/5-days-4-nights-amboseli-tsavo-safari.php" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-4">View more</a>
               </div>
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
