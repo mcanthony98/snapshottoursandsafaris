@@ -1,6 +1,6 @@
 <?php 
 $pagetitle = "Amboseli National Park 2 days 1 night Safari";
-$pagename = "2 Days 1 Nights Amboseli National Park";
+$pagename = "2 Days 1 Night Amboseli National Park";
 $pagefilename = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
 include 'includes/head.php';?>
   <body class="u-body">
