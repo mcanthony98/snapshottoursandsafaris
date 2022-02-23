@@ -39,7 +39,7 @@ include 'includes/head.php';?>
                   <div class="u-align-center u-container-style u-group u-group-3">
                     <div class="u-container-layout">
                       <h5 class="u-align-center u-text u-text-3">NAIROBI-TSAVO EAST </h5>
-                      <p class="u-align-center u-text u-text-grey-40 u-text-4">Pick up from Lotos inn & suites in the morning drive to Tsavo East national pack which is renowned for its large numbers of elephants and the famous man eating lion’s Game enroute to Voi wildlife lodge .Check in and have lunch at your lodge. In the afternoon, another game drive at the park later dinner and overnight at the Voi wildlife lodge.
+                      <p class="u-align-center u-text u-text-grey-40 u-text-4">Pick up airport/hotel in the morning, then drive to Tsavo East national pack which is renowned for its large numbers of elephants and the famous man eating lion’s Game enroute to Voi wildlife lodge .Check in and have lunch at your lodge. In the afternoon, another game drive at the park later dinner and overnight at the Voi wildlife lodge.
 </p>
                     </div>
                   </div>
