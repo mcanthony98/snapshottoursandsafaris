@@ -1,3 +1,6 @@
+<a href="https://api.whatsapp.com/send?phone=254759949546" target="_blank" class="float" style="position:fixed;	width:62px; height:62px;bottom:40px;right:40px;background-color:#25D366;color:#FFF;border-radius:50px;text-align:center;box-shadow: 2px 2px 3px #999;">
+      <i class="fa fa-whatsapp fa-3x my-float" style="margin-top:8px;"></i>
+      </a>
  <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-black u-clearfix u-footer u-footer" id="sec-f48b"><div class="u-clearfix u-sheet u-sheet-1">
         <a href="index.php" data-page-id="431927156" class="u-image u-logo u-image-1" data-image-width="352" data-image-height="270" title="Home">
           <img src="images/logo.png" class="u-logo-image u-logo-image-1">
@@ -49,3 +52,4 @@
         </div>
         <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-4"> Copyright © 2022, Snapshot Tours &amp; Safaris. All rights reserved&nbsp;</p>
       </div></footer>
+      
