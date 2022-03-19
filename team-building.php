@@ -195,51 +195,104 @@
           <div class="u-repeater u-repeater-1">
             <div class="u-container-style u-image u-list-item u-repeater-item u-image-1" data-image-width="1600" data-image-height="1200">
               <div class="u-container-layout u-similar-container u-container-layout-1">
-                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-2">Nairobi&nbsp;</h3>
+                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-2"></h3>
               </div>
             </div>
             <div class="u-container-style u-image u-list-item u-repeater-item u-image-2" data-image-width="1280" data-image-height="960">
               <div class="u-container-layout u-similar-container u-container-layout-2">
-                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-3">Sagana</h3>
+                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-3"></h3>
               </div>
             </div>
             <div class="u-container-style u-image u-list-item u-repeater-item u-image-3" data-image-width="1280" data-image-height="960">
               <div class="u-container-layout u-similar-container u-container-layout-3">
-                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-4">Naivasha</h3>
+                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-4"></h3>
               </div>
             </div>
             <div class="u-container-style u-image u-list-item u-repeater-item u-image-4" data-image-width="1599" data-image-height="899">
               <div class="u-container-layout u-similar-container u-container-layout-4">
-                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-5">Limuru</h3>
+                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-5"></h3>
               </div>
             </div>
             <div class="u-container-style u-image u-list-item u-repeater-item u-image-5" data-image-width="1280" data-image-height="853">
               <div class="u-container-layout u-similar-container u-container-layout-5">
-                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-6">Thika</h3>
+                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-6"></h3>
               </div>
             </div>
             <div class="u-container-style u-image u-list-item u-repeater-item u-image-6" data-image-width="1599" data-image-height="899">
               <div class="u-container-layout u-similar-container u-container-layout-6">
-                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-7">Nakuru</h3>
+                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-7"></h3>
               </div>
             </div>
             <div class="u-container-style u-image u-list-item u-repeater-item u-image-7" data-image-width="1080" data-image-height="717">
               <div class="u-container-layout u-similar-container u-container-layout-7">
-                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-8">Coast</h3>
+                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-8"></h3>
               </div>
             </div>
             <div class="u-container-style u-image u-list-item u-repeater-item u-image-8" data-image-width="1600" data-image-height="1200">
               <div class="u-container-layout u-similar-container u-container-layout-8">
-                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-9">Nanyuki</h3>
+                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-9"></h3>
               </div>
             </div>
             <div class="u-container-style u-image u-list-item u-repeater-item u-image-9" data-image-width="1600" data-image-height="1200">
               <div class="u-container-layout u-similar-container u-container-layout-9">
-                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-10">Amboseli</h3>
+                <h3 class="u-text u-text-default u-text-palette-3-light-1 u-text-10"></h3>
               </div>
             </div>
           </div>
         </div>
+
+        <ul class="u-align-left u-custom-font u-custom-list u-font-montserrat u-indent-14 u-spacing-8 u-text u-text-3" style="margin-top:0px;padding-top:0px">
+                        <li style="margin-left: 1.7em;">
+                          <div class="u-list-icon u-text-palette-3-base u-list-icon-1">
+                            <svg class="u-svg-content" viewBox="0 0 512.002 512.002" x="0px" y="0px" id="svg-cb64" style="font-size: 1.2em; margin: -1.2em;"><polygon style="fill:#FFC107;" points="16.001,400.001 205.537,256.001 16.001,112.001 306.465,112.001 496.001,256.001   306.465,400.001 "></polygon><path d="M306.465,416.001H16.001c-8.837,0-16-7.163-16-16c0-5.036,2.371-9.778,6.4-12.8l172.8-131.2l-172.8-131.2  c-7.069-5.302-8.502-15.331-3.2-22.4c3.022-4.029,7.764-6.4,12.8-6.4h290.464c3.462,0,6.83,1.123,9.6,3.2l189.536,144  c7.069,5.302,8.502,15.331,3.2,22.4c-0.91,1.213-1.987,2.29-3.2,3.2l-189.472,144C313.342,414.891,309.949,416.015,306.465,416.001z   M63.489,384.001h237.6l168.448-128l-168.448-128h-237.6l151.712,115.2c7.069,5.302,8.502,15.331,3.2,22.4  c-0.91,1.213-1.987,2.29-3.2,3.2L63.489,384.001z"></path></svg>
+                          </div>Nairobi
+                        </li>
+                        <li style="margin-left: 1.7em;">
+                          <div class="u-list-icon u-text-palette-3-base u-list-icon-2">
+                            <svg class="u-svg-content" viewBox="0 0 512.002 512.002" x="0px" y="0px" id="svg-cb64" style="font-size: 1.2em; margin: -1.2em;"><polygon style="fill:#FFC107;" points="16.001,400.001 205.537,256.001 16.001,112.001 306.465,112.001 496.001,256.001   306.465,400.001 "></polygon><path d="M306.465,416.001H16.001c-8.837,0-16-7.163-16-16c0-5.036,2.371-9.778,6.4-12.8l172.8-131.2l-172.8-131.2  c-7.069-5.302-8.502-15.331-3.2-22.4c3.022-4.029,7.764-6.4,12.8-6.4h290.464c3.462,0,6.83,1.123,9.6,3.2l189.536,144  c7.069,5.302,8.502,15.331,3.2,22.4c-0.91,1.213-1.987,2.29-3.2,3.2l-189.472,144C313.342,414.891,309.949,416.015,306.465,416.001z   M63.489,384.001h237.6l168.448-128l-168.448-128h-237.6l151.712,115.2c7.069,5.302,8.502,15.331,3.2,22.4  c-0.91,1.213-1.987,2.29-3.2,3.2L63.489,384.001z"></path></svg>
+                          </div>Sagana
+                        </li>
+                        <li style="margin-left: 1.7em;">
+                          <div class="u-list-icon u-text-palette-3-base u-list-icon-3">
+                            <svg class="u-svg-content" viewBox="0 0 512.002 512.002" x="0px" y="0px" id="svg-cb64" style="font-size: 1.2em; margin: -1.2em;"><polygon style="fill:#FFC107;" points="16.001,400.001 205.537,256.001 16.001,112.001 306.465,112.001 496.001,256.001   306.465,400.001 "></polygon><path d="M306.465,416.001H16.001c-8.837,0-16-7.163-16-16c0-5.036,2.371-9.778,6.4-12.8l172.8-131.2l-172.8-131.2  c-7.069-5.302-8.502-15.331-3.2-22.4c3.022-4.029,7.764-6.4,12.8-6.4h290.464c3.462,0,6.83,1.123,9.6,3.2l189.536,144  c7.069,5.302,8.502,15.331,3.2,22.4c-0.91,1.213-1.987,2.29-3.2,3.2l-189.472,144C313.342,414.891,309.949,416.015,306.465,416.001z   M63.489,384.001h237.6l168.448-128l-168.448-128h-237.6l151.712,115.2c7.069,5.302,8.502,15.331,3.2,22.4  c-0.91,1.213-1.987,2.29-3.2,3.2L63.489,384.001z"></path></svg>
+                          </div>Naivasha
+                        </li>
+                        <li style="margin-left: 1.7em;">
+                          <div class="u-list-icon u-text-palette-3-base u-list-icon-4">
+                            <svg class="u-svg-content" viewBox="0 0 512.002 512.002" x="0px" y="0px" id="svg-cb64" style="font-size: 1.2em; margin: -1.2em;"><polygon style="fill:#FFC107;" points="16.001,400.001 205.537,256.001 16.001,112.001 306.465,112.001 496.001,256.001   306.465,400.001 "></polygon><path d="M306.465,416.001H16.001c-8.837,0-16-7.163-16-16c0-5.036,2.371-9.778,6.4-12.8l172.8-131.2l-172.8-131.2  c-7.069-5.302-8.502-15.331-3.2-22.4c3.022-4.029,7.764-6.4,12.8-6.4h290.464c3.462,0,6.83,1.123,9.6,3.2l189.536,144  c7.069,5.302,8.502,15.331,3.2,22.4c-0.91,1.213-1.987,2.29-3.2,3.2l-189.472,144C313.342,414.891,309.949,416.015,306.465,416.001z   M63.489,384.001h237.6l168.448-128l-168.448-128h-237.6l151.712,115.2c7.069,5.302,8.502,15.331,3.2,22.4  c-0.91,1.213-1.987,2.29-3.2,3.2L63.489,384.001z"></path></svg>
+                          </div>Limuru
+                        </li>
+                        <li style="margin-left: 1.7em;">
+                          <div class="u-list-icon u-text-palette-3-base u-list-icon-4">
+                            <svg class="u-svg-content" viewBox="0 0 512.002 512.002" x="0px" y="0px" id="svg-cb64" style="font-size: 1.2em; margin: -1.2em;"><polygon style="fill:#FFC107;" points="16.001,400.001 205.537,256.001 16.001,112.001 306.465,112.001 496.001,256.001   306.465,400.001 "></polygon><path d="M306.465,416.001H16.001c-8.837,0-16-7.163-16-16c0-5.036,2.371-9.778,6.4-12.8l172.8-131.2l-172.8-131.2  c-7.069-5.302-8.502-15.331-3.2-22.4c3.022-4.029,7.764-6.4,12.8-6.4h290.464c3.462,0,6.83,1.123,9.6,3.2l189.536,144  c7.069,5.302,8.502,15.331,3.2,22.4c-0.91,1.213-1.987,2.29-3.2,3.2l-189.472,144C313.342,414.891,309.949,416.015,306.465,416.001z   M63.489,384.001h237.6l168.448-128l-168.448-128h-237.6l151.712,115.2c7.069,5.302,8.502,15.331,3.2,22.4  c-0.91,1.213-1.987,2.29-3.2,3.2L63.489,384.001z"></path></svg>
+                          </div>Thika
+                        </li>
+                        <li style="margin-left: 1.7em;">
+                          <div class="u-list-icon u-text-palette-3-base u-list-icon-4">
+                            <svg class="u-svg-content" viewBox="0 0 512.002 512.002" x="0px" y="0px" id="svg-cb64" style="font-size: 1.2em; margin: -1.2em;"><polygon style="fill:#FFC107;" points="16.001,400.001 205.537,256.001 16.001,112.001 306.465,112.001 496.001,256.001   306.465,400.001 "></polygon><path d="M306.465,416.001H16.001c-8.837,0-16-7.163-16-16c0-5.036,2.371-9.778,6.4-12.8l172.8-131.2l-172.8-131.2  c-7.069-5.302-8.502-15.331-3.2-22.4c3.022-4.029,7.764-6.4,12.8-6.4h290.464c3.462,0,6.83,1.123,9.6,3.2l189.536,144  c7.069,5.302,8.502,15.331,3.2,22.4c-0.91,1.213-1.987,2.29-3.2,3.2l-189.472,144C313.342,414.891,309.949,416.015,306.465,416.001z   M63.489,384.001h237.6l168.448-128l-168.448-128h-237.6l151.712,115.2c7.069,5.302,8.502,15.331,3.2,22.4  c-0.91,1.213-1.987,2.29-3.2,3.2L63.489,384.001z"></path></svg>
+                          </div>Nakuru
+                        </li>
+                        <li style="margin-left: 1.7em;">
+                          <div class="u-list-icon u-text-palette-3-base u-list-icon-4">
+                            <svg class="u-svg-content" viewBox="0 0 512.002 512.002" x="0px" y="0px" id="svg-cb64" style="font-size: 1.2em; margin: -1.2em;"><polygon style="fill:#FFC107;" points="16.001,400.001 205.537,256.001 16.001,112.001 306.465,112.001 496.001,256.001   306.465,400.001 "></polygon><path d="M306.465,416.001H16.001c-8.837,0-16-7.163-16-16c0-5.036,2.371-9.778,6.4-12.8l172.8-131.2l-172.8-131.2  c-7.069-5.302-8.502-15.331-3.2-22.4c3.022-4.029,7.764-6.4,12.8-6.4h290.464c3.462,0,6.83,1.123,9.6,3.2l189.536,144  c7.069,5.302,8.502,15.331,3.2,22.4c-0.91,1.213-1.987,2.29-3.2,3.2l-189.472,144C313.342,414.891,309.949,416.015,306.465,416.001z   M63.489,384.001h237.6l168.448-128l-168.448-128h-237.6l151.712,115.2c7.069,5.302,8.502,15.331,3.2,22.4  c-0.91,1.213-1.987,2.29-3.2,3.2L63.489,384.001z"></path></svg>
+                          </div>Limuru
+                        </li>
+                        <li style="margin-left: 1.7em;">
+                          <div class="u-list-icon u-text-palette-3-base u-list-icon-4">
+                            <svg class="u-svg-content" viewBox="0 0 512.002 512.002" x="0px" y="0px" id="svg-cb64" style="font-size: 1.2em; margin: -1.2em;"><polygon style="fill:#FFC107;" points="16.001,400.001 205.537,256.001 16.001,112.001 306.465,112.001 496.001,256.001   306.465,400.001 "></polygon><path d="M306.465,416.001H16.001c-8.837,0-16-7.163-16-16c0-5.036,2.371-9.778,6.4-12.8l172.8-131.2l-172.8-131.2  c-7.069-5.302-8.502-15.331-3.2-22.4c3.022-4.029,7.764-6.4,12.8-6.4h290.464c3.462,0,6.83,1.123,9.6,3.2l189.536,144  c7.069,5.302,8.502,15.331,3.2,22.4c-0.91,1.213-1.987,2.29-3.2,3.2l-189.472,144C313.342,414.891,309.949,416.015,306.465,416.001z   M63.489,384.001h237.6l168.448-128l-168.448-128h-237.6l151.712,115.2c7.069,5.302,8.502,15.331,3.2,22.4  c-0.91,1.213-1.987,2.29-3.2,3.2L63.489,384.001z"></path></svg>
+                          </div>Coast
+                        </li>
+                        <li style="margin-left: 1.7em;">
+                          <div class="u-list-icon u-text-palette-3-base u-list-icon-4">
+                            <svg class="u-svg-content" viewBox="0 0 512.002 512.002" x="0px" y="0px" id="svg-cb64" style="font-size: 1.2em; margin: -1.2em;"><polygon style="fill:#FFC107;" points="16.001,400.001 205.537,256.001 16.001,112.001 306.465,112.001 496.001,256.001   306.465,400.001 "></polygon><path d="M306.465,416.001H16.001c-8.837,0-16-7.163-16-16c0-5.036,2.371-9.778,6.4-12.8l172.8-131.2l-172.8-131.2  c-7.069-5.302-8.502-15.331-3.2-22.4c3.022-4.029,7.764-6.4,12.8-6.4h290.464c3.462,0,6.83,1.123,9.6,3.2l189.536,144  c7.069,5.302,8.502,15.331,3.2,22.4c-0.91,1.213-1.987,2.29-3.2,3.2l-189.472,144C313.342,414.891,309.949,416.015,306.465,416.001z   M63.489,384.001h237.6l168.448-128l-168.448-128h-237.6l151.712,115.2c7.069,5.302,8.502,15.331,3.2,22.4  c-0.91,1.213-1.987,2.29-3.2,3.2L63.489,384.001z"></path></svg>
+                          </div>Nanyuki
+                        </li>
+                        <li style="margin-left: 1.7em;">
+                          <div class="u-list-icon u-text-palette-3-base u-list-icon-4">
+                            <svg class="u-svg-content" viewBox="0 0 512.002 512.002" x="0px" y="0px" id="svg-cb64" style="font-size: 1.2em; margin: -1.2em;"><polygon style="fill:#FFC107;" points="16.001,400.001 205.537,256.001 16.001,112.001 306.465,112.001 496.001,256.001   306.465,400.001 "></polygon><path d="M306.465,416.001H16.001c-8.837,0-16-7.163-16-16c0-5.036,2.371-9.778,6.4-12.8l172.8-131.2l-172.8-131.2  c-7.069-5.302-8.502-15.331-3.2-22.4c3.022-4.029,7.764-6.4,12.8-6.4h290.464c3.462,0,6.83,1.123,9.6,3.2l189.536,144  c7.069,5.302,8.502,15.331,3.2,22.4c-0.91,1.213-1.987,2.29-3.2,3.2l-189.472,144C313.342,414.891,309.949,416.015,306.465,416.001z   M63.489,384.001h237.6l168.448-128l-168.448-128h-237.6l151.712,115.2c7.069,5.302,8.502,15.331,3.2,22.4  c-0.91,1.213-1.987,2.29-3.2,3.2L63.489,384.001z"></path></svg>
+                          </div>Amboseli
+                        </li>
+                      </ul>
       </div>
     </section>
     <section class="u-clearfix u-valign-middle-md u-white u-section-6" id="carousel_7a8c">
