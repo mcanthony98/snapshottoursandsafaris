@@ -17,7 +17,7 @@
 </li><li class="u-nav-item"><a class="u-border-3 u-border-active-white u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="destinations.php" style="padding: 10px 0px;">Destinations</a>
 </li><li class="u-nav-item"><a class="u-border-3 u-border-active-white u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="book-flight.php" style="padding: 10px 0px;">Book a flight</a>
 </li><li class="u-nav-item"><a class="u-border-3 u-border-active-white u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="team-building.php" style="padding: 10px 0px;">Team Building</a>
-</li><li class="u-nav-item"><a class="u-border-3 u-border-active-white u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="gallery.php" style="padding: 10px 0px;">Gallery</a>
+</li><li class="u-nav-item"><a class="u-border-3 u-border-active-white u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="gallery/" style="padding: 10px 0px;">Gallery</a>
 </li><li class="u-nav-item"><a class="u-border-3 u-border-active-white u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-white u-text-grey-90 u-text-hover-white" href="contact.php" style="padding: 10px 0px;">Contact</a>
 </li></ul>
           </div>
@@ -30,7 +30,7 @@
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="destinations.php" style="padding: 10px 0px;">Destinations</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="book-flight.php" style="padding: 10px 0px;">Book a flight</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="team-building.php" style="padding: 10px 0px;">Team Building</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="gallery.php" style="padding: 10px 0px;">Gallery</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="gallery/" style="padding: 10px 0px;">Gallery</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="contact.php" style="padding: 10px 0px;">Contact</a>
 </li></ul>
               </div>
