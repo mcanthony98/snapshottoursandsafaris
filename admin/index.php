@@ -5,8 +5,9 @@ session_start();
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Snapshot Admin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+  <title>Administrator | Snapshot Tours And Safaris</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
