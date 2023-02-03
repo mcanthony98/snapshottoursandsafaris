@@ -87,6 +87,24 @@
                 </li>
              </ul>
             </li>
+
+            <li class="nav-item has-treeview <?php if($pg >= 5 && $pg<6 ){echo "menu-open";}?>">
+                <a href="#" class="nav-link <?php if($pg >= 5 && $pg<6 ){echo "active";}?>">
+                <i class="nav-icon fas fa-globe"></i>
+                <p>
+                    Accounts
+                    <i class="right fas fa-angle-left"></i>
+                </p>
+                </a>
+                <ul class="nav nav-treeview">
+                <li class="nav-item">
+                    <a href="#" class="nav-link <?php if($pg==5.1){echo "active";}?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Petty Cash</p>
+                    </a>
+                </li>
+             </ul>
+            </li>
             
                     
         </ul>
