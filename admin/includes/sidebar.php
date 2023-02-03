@@ -90,7 +90,7 @@
 
             <li class="nav-item has-treeview <?php if($pg >= 5 && $pg<6 ){echo "menu-open";}?>">
                 <a href="#" class="nav-link <?php if($pg >= 5 && $pg<6 ){echo "active";}?>">
-                <i class="nav-icon fas fa-money"></i>
+                <i class="nav-icon far fa-money-bill-alt"></i>
                 <p>
                     Accounts
                     <i class="right fas fa-angle-left"></i>
