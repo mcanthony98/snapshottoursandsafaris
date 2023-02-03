@@ -45,13 +45,13 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="potential-clients.php" class="nav-link <?php if($pg==3.2){echo "active";}?>">
+                    <a href="#" class="nav-link <?php if($pg==3.2){echo "active";}?>">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Potential clients</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="converted-clients.php" class="nav-link <?php if($pg==3.3){echo "active";}?>">
+                    <a href="#" class="nav-link <?php if($pg==3.3){echo "active";}?>">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Converted Clients</p>
                     </a>
