@@ -4,8 +4,15 @@ include "includes/header.php";
 include "../includes/connect.php";
 include "includes/sessions.php";
 
-$stqry = "SELECT * FROM employee";
+if(!isset($_GET['emp'])){
+    echo '<script>location.replace("employees.php");</script>';
+    exit();
+}
+$eid = $_GET['emp'];
+
+$stqry = "SELECT * FROM employee WHERE employee_id = $eid";
 $stres = $conn->query($stqry);
+$emprow = $stres->fetch_assoc();
 ?>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -28,12 +35,12 @@ include "includes/sidebar.php";
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Employees</h1>
+            <h1 class="m-0">Employee Activity</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="dashboard.php">Admin</a></li>
-              <li class="breadcrumb-item active">Employees</li>
+              <li class="breadcrumb-item active">Employee Activity</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -48,36 +55,36 @@ include "includes/sidebar.php";
                         <!-- Default box -->
                         <div class="card">
                             <div class="card-header">
-                                <div class="card-tools">
-                                    <button class="btn btn-sm btn-primary bg-gradient-warning" data-toggle="modal" data-target="#modal-new"><i class="fa fa-plus"></i> Create New</button>
-                                </div>
+                                <h4 class="card-title">
+                                   <?php echo $emprow["firstname"] . " " . $emprow["lastname"];?>
+                                </h4>
                             </div>
                             <div class="card-body">
 
-                                <table id="example1" class="table table-bordered table-striped ">
-                                    <thead>
-                                        <tr>
-                                            <th>Name</th>
-                                            <th>Email</th>
-                                            <th>Phone</th>
-                                            <th>Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <?php while($strow = $stres->fetch_assoc()){?>
-                                        <tr>
-                                            <td><?php echo $strow['firstname']." ". $strow['lastname'];?></td>
-                                            <td><?php echo $strow['email'];?></td>
-                                            <td><?php echo $strow['phone'];?></td>
-                                            <td class="text-nowrap">
-                                                <button class="btn btn-sm btn-info editstd" id="<?php echo $strow['employee_id'];?>"  data-toggle="modal" data-target="#modal-edit"><i class="fas fa-edit"></i> </button>
-                                                <a href="activity.php?emp=<?php echo $strow['employee_id'];?>" class="btn btn-sm btn-info"><i class="fas fa-chart-line"></i> </a>
-                                                <a onclick="return deleteRequest('<?php echo $strow['firstname'].' '. $strow['lastname'];?>');" href="processes/processes.php?delete_emp=<?php echo $strow['employee_id'];?>" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i> </a>
-                                            </td>
-                                        </tr>
-                                        <?php } ?>
-                                    </tbody>
-                                </table>
+                              <div class="w-50">
+                                 <!-- Date and time range -->
+                                 <div class="form-group">
+                                    <label>Date and time range:</label>
+
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="far fa-clock"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control float-right" id="reservationtime">
+                                    </div>
+                                    <!-- /.input group -->
+                                </div>
+                                <!-- /.form group -->
+                              </div>
+                              <div class="w-50">
+                                <a class="btn btn-warning" target="_blank" href="fullmap.php">See Full Map</a>
+                              </div>
+
+                              <hr class="my-2">
+
+                              <div id="my-map"></div>
+
+                                
 
                             </div>
                             <!-- /.card-body -->
@@ -223,6 +230,89 @@ include "includes/footer.php";
 <?php
 include "includes/scripts.php";
 ?>
+
+<script type="text/javascript">
+      var map = L.map("my-map").setView([-1.0983475,37.0216585], 10);
+
+      // Get your own API Key on https://myprojects.geoapify.com
+      var myAPIKey = "4516024d306a46c0805d530943c5c6bd";
+
+      // Retina displays require different mat tiles quality
+      var isRetina = L.Browser.retina;
+
+      var baseUrl =
+        "https://maps.geoapify.com/v1/tile/osm-bright/{z}/{x}/{y}.png?apiKey={apiKey}";
+      var retinaUrl =
+        "https://maps.geoapify.com/v1/tile/osm-bright/{z}/{x}/{y}@2x.png?apiKey={apiKey}";
+
+      // Add map tiles layer. Set 20 as the maximal zoom and provide map data attribution.
+      L.tileLayer(isRetina ? retinaUrl : baseUrl, {
+        attribution:
+          'Powered by <a href="https://www.geoapify.com/" target="_blank">Geoapify</a> | © OpenStreetMap <a href="https://www.openstreetmap.org/copyright" target="_blank">contributors</a>',
+        apiKey: myAPIKey,
+        maxZoom: 20,
+        id: "osm-bright",
+      }).addTo(map);
+    </script>
+
+<script>
+  $(function () {
+    //Initialize Select2 Elements
+    $('.select2').select2()
+
+    //Initialize Select2 Elements
+    $('.select2bs4').select2({
+      theme: 'bootstrap4'
+    });
+
+    //Date picker
+    $('#reservationdate').datetimepicker({
+        format: 'L'
+    });
+
+    //Date and time picker
+    $('#reservationdatetime').datetimepicker({ icons: { time: 'far fa-clock' } });
+
+    //Date range picker
+    $('#reservation').daterangepicker()
+    //Date range picker with time picker
+    $('#reservationtime').daterangepicker({
+      timePicker: true,
+      timePickerIncrement: 30,
+      locale: {
+        format: 'MM/DD/YYYY hh:mm A'
+      }
+    })
+    //Date range as a button
+    $('#daterange-btn').daterangepicker(
+      {
+        ranges   : {
+          'Today'       : [moment(), moment()],
+          'Yesterday'   : [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+          'Last 7 Days' : [moment().subtract(6, 'days'), moment()],
+          'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+          'This Month'  : [moment().startOf('month'), moment().endOf('month')],
+          'Last Month'  : [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+        },
+        startDate: moment().subtract(29, 'days'),
+        endDate  : moment()
+      },
+      function (start, end) {
+        $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'))
+      }
+    )
+
+    //Timepicker
+    $('#timepicker').datetimepicker({
+      format: 'LT'
+    })
+
+  })
+  
+</script>
+
+
+
 
 <script >  
  $(document).ready(function(){  

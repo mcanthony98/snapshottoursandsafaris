@@ -17,6 +17,8 @@
 <script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
 <!-- jQuery Knob Chart -->
 <script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- Select2 -->
+<script src="plugins/select2/js/select2.full.min.js"></script>
 <!-- DataTables -->
 <script src="plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
@@ -72,20 +74,7 @@
       "responsive": true,
       "pageLength": 1000,
     });
-    //Date range picker
-    $('#datetimepicker9').datetimepicker({
-                icons: {
-                    time: "fa fa-clock",
-                    date: "fa fa-calendar",
-                    up: "fa fa-arrow-up",
-                    down: "fa fa-arrow-down"
-                }
-            });
-         
-    $('#datetimepicker8').datetimepicker({
-      format: 'L' 
-    });
-  });   
+      });   
   
 </script>
 
