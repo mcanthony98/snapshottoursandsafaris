@@ -33,8 +33,8 @@ $destres = $conn->query($destqry);
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
 <div class="col-md-7 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
-<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Welcome To Snapshot Tours and Safaris</h1>
-<p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel without going around in circles with Snapshot Tours and Safaris</p>
+<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"></h1>
+<p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel without going around in circWelcome To Snapshot Tours and Safariles with Snapshot Tours and Safaris</p>
 </div>
 </div>
 </div>
