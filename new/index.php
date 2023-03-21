@@ -1,3 +1,9 @@
+<?php
+require "../includes/connect.php";
+include "includes/functions.php";
+$destqry = "SELECT * FROM destination ORDER BY position ASC LIMIT 4";
+$destres = $conn->query($destqry);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +16,7 @@
 <body>
 <?php include "includes/navbar.php";?>
 
-<div class="hero-wrap js-fullheight" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
+<div class="hero-wrap js-fullheight mySlides" id="caro1"  style="display:none; background-image: url('images/caro1.jpg');" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
@@ -21,12 +27,39 @@
 </div>
 </div>
 </div>
+
+<div class="hero-wrap js-fullheight mySlides" id="caro2" style="display:none; background-image: url('images/caro2.jpg');" data-stellar-background-ratio="0.5">
+<div class="overlay"></div>
+<div class="container">
+<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
+<div class="col-md-7 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
+<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Welcome To Snapshot Tours and Safaris</h1>
+<p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel without going around in circles with Snapshot Tours and Safaris</p>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="hero-wrap js-fullheight mySlides" id="caro3" style="display:none; background-image: url('images/bg_4.jpg');" data-stellar-background-ratio="0.5">
+<div class="overlay"></div>
+<div class="container">
+<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
+<div class="col-md-7 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
+<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Welcome To Snapshot Tours and Safaris</h1>
+<p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel without going around in circles with Snapshot Tours and Safaris</p>
+</div>
+</div>
+</div>
+</div>
+
+
 <section class="ftco-section ftco-no-pb ftco-no-pt">
 <div class="container">
 <div class="row">
 <div class="col-md-12">
 <div class="search-wrap-1 ftco-animate p-4">
-<form action="#" class="search-property-1">
+<form action="destinations.php" class="search-property-1">
 <div class="row">
 <div class="col-lg align-items-end">
 <div class="form-group">
@@ -104,42 +137,18 @@
 </div>
 </div>
 <div class="row">
+<?php
+while($destrow = $destres->fetch_assoc()){
+?>
 <div class="col-md-6 col-lg-3 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/destination-1.jpg" class="img-fluid" alt="Colorlib Template">
+<img src="files/<?php echo $destrow['image'];?>" class="img-fluid" alt="<?php echo $destrow['location'];?>">
 </div>
 <div class="text">
-<h4 class="price">$400</h4>
-<span>5 Days 4 Nights</span>
-<h3><a href="project.html">Maasai Mara, Kenya</a></h3>
-<div class="star d-flex clearfix">
-<div class="mr-auto float-left">
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star-o"></span>
-</div>
-<div class="float-right">
-<span class="rate"><a href="#">(120)</a></span>
-</div>
-</div>
-</div>
-<a href="images/destination-1.jpg" class="icon d-flex justify-content-center align-items-center">
-<span class="icon-expand"></span>
-</a>
-</div>
-</div>
-<div class="col-md-6 col-lg-3 ftco-animate">
-<div class="project">
-<div class="img">
-<img src="images/destination-2.jpg" class="img-fluid" alt="Colorlib Template">
-</div>
-<div class="text">
-<h4 class="price">$400</h4>
-<span>5 Days 4 Nights</span>
-<h3><a href="project.html">Amboseli, Kenya</a></h3>
+<h4 class="price">$<?php echo $destrow['price'];?></h4>
+<span><?php echo $destrow['days'] . " Days " . $destrow['nights'] . " Nights ";?></span>
+<h3><a href="project.html"><?php echo $destrow["location"];?></a></h3>
 <div class="star d-flex clearfix">
 <div class="mr-auto float-left">
 <span class="ion-ios-star"></span>
@@ -149,69 +158,17 @@
 <span class="ion-ios-star"></span>
 </div>
 <div class="float-right">
-<span class="rate"><a href="#">(120)</a></span>
+<span class="rate"><a href="#">(<?php echo randomRates();?>)</a></span>
 </div>
 </div>
 </div>
-<a href="images/destination-2.jpg" class="icon d-flex justify-content-center align-items-center">
+<a href="files/<?php echo $destrow['image'];?>" class="icon d-flex justify-content-center align-items-center">
 <span class="icon-expand"></span>
 </a>
 </div>
 </div>
-<div class="col-md-6 col-lg-3 ftco-animate">
-<div class="project">
-<div class="img">
-<img src="images/destination-3.jpg" class="img-fluid" alt="Colorlib Template">
-</div>
-<div class="text">
-<h4 class="price">$400</h4>
-<span>5 Days 4 Nights</span>
-<h3><a href="project.html">Diani Beach, Kenya</a></h3>
-<div class="star d-flex clearfix">
-<div class="mr-auto float-left">
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-</div>
-<div class="float-right">
-<span class="rate"><a href="#">(120)</a></span>
-</div>
-</div>
-</div>
-<a href="images/destination-3.jpg" class="icon d-flex justify-content-center align-items-center">
-<span class="icon-expand"></span>
-</a>
-</div>
-</div>
-<div class="col-md-6 col-lg-3 ftco-animate">
-<div class="project">
-<div class="img">
-<img src="images/destination-4.jpg" class="img-fluid" alt="Colorlib Template">
-</div>
-<div class="text">
-<h4 class="price">$400</h4>
-<span>5 Days 4 Nights</span>
-<h3><a href="project.html">Serengeti, Tanzania</a></h3>
-<div class="star d-flex clearfix">
-<div class="mr-auto float-left">
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-</div>
-<div class="float-right">
-<span class="rate"><a href="#">(120)</a></span>
-</div>
-</div>
-</div>
-<a href="images/destination-4.jpg" class="icon d-flex justify-content-center align-items-center">
-<span class="icon-expand"></span>
-</a>
-</div>
-</div>
+<?php } ?>
+
 <div class="col-md-12 heading-section text-center ftco-animate">
 <a class="btn border border-primary" href="destinations.php">See more Destinations</a>
 <a class="btn btn-primary" href="destinations.php">Plan Your Trip Now</a>
@@ -394,6 +351,9 @@
 <a href="destinations.php" class="btn btn-primary">Learn more</a>
 </div>
 </div>
+</div>
+<div class="col-md-12 mt-4 heading-section text-center ftco-animate">
+<a class="btn border border-primary" href="#">Download our Catalogue</a>
 </div>
 </div>
 </div>

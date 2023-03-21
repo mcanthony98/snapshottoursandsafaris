@@ -1,3 +1,27 @@
+<section class="ftco-subscribe" style="background-image: url(images/bg_1.jpg);">
+<div class="overlay">
+<div class="container">
+<div class="row d-flex justify-content-center">
+<div class="col-md-10 text-wrap text-center heading-section ftco-animate">
+<h2>Subcribe to our Newsletter</h2>
+<p id="subtext"></p>
+<div class="row d-flex justify-content-center mt-4 mb-4">
+<div class="col-md-10">
+<form id="subnewsletter" class="subscribe-form">
+<div class="form-group d-flex">
+<input type="email" required id="subemail" class="form-control" name="sub_newsletter" placeholder="Enter email address">
+<input type="submit" id="subbtn" value="Subscribe" class="submit px-3">
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
 <footer class="ftco-footer ftco-footer-2 ftco-section">
 <div class="container">
 <div class="row mb-5">

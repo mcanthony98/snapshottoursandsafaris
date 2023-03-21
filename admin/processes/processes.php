@@ -3,6 +3,7 @@
 	require "../../includes/connect.php";
 	date_default_timezone_set("Africa/Nairobi");
     $date = date("m/d/Y g:iA");
+    $ddate = date("Y_m_d_H_i_s");
 
 	//Login Page
 if(isset($_POST['login'])){
@@ -104,4 +105,158 @@ elseif(isset($_GET['delete_report'])){
     echo json_encode($row);
 
 }
+
+// Add new destination
+elseif(isset($_POST['new-dest'])){
+    $loc = mysqli_real_escape_string($conn, $_POST["loc"]);
+    $days = mysqli_real_escape_string($conn, $_POST["days"]);
+    $nights = mysqli_real_escape_string($conn, $_POST["nights"]);
+    $price = mysqli_real_escape_string($conn, $_POST["price"]);
+    $desc = mysqli_real_escape_string($conn, $_POST["desc"]);
+
+    $image = $_FILES['photos']['tmp_name'];
+    $imgContent = addslashes(file_get_contents($image));
+        
+    $file_name = $_FILES["photos"]["name"];
+    $_FILES["photos"]["type"];
+    $tmp_file = $_FILES["photos"]["tmp_name"];
+    
+    $destination = "../../new/files/" . $file_name;
+    
+    move_uploaded_file($tmp_file, $destination);
+    $new = $ddate.$file_name;
+    $new_name = rename('../../new/files/'.$file_name , '../../new/files/'.$new);
+    
+    if($new_name === TRUE){
+        $qry = "INSERT INTO destination (location, price, nights, days, image, description) VALUES ('$loc', '$price', '$nights', '$days', '$new', '$desc')";
+        $res = $conn->query($qry);
+        if($res === TRUE){
+            $_SESSION['success'] = "Destination added Successfully!";
+        }else{
+            $_SESSION['error'] = "An error occured! Try Again!";
+        }
+    }else{
+        $_SESSION['error'] = "An error occured! Try Again";
+    }
+
+    header('location: ../destinations.php');
+    exit();
+}
+
+// Add new blog
+elseif(isset($_POST['new-blog'])){
+    $title = mysqli_real_escape_string($conn, $_POST["title"]);
+    $sub = mysqli_real_escape_string($conn, $_POST["sub"]);
+    $tags = mysqli_real_escape_string($conn, $_POST["tags"]);
+    $desc = mysqli_real_escape_string($conn, $_POST["desc"]);
+
+    
+    $qry = "INSERT INTO snapshot_blog (title, subheading, tags, blog, date_created) VALUES ('$title', '$sub', '$tags', '$desc', '$date')";
+    $res = $conn->query($qry);
+    if($res === TRUE){
+        $_SESSION['success'] = "Blog added Successfully!";
+    }else{
+        $_SESSION['error'] = "An error occured! Try Again!";
+    }
+   
+
+    header('location: ../blogs.php');
+    exit();
+}
+
+
+// Add new catalogue
+elseif(isset($_POST['new-catalogue'])){
+    
+    $image = $_FILES['photos']['tmp_name'];
+    $imgContent = addslashes(file_get_contents($image));
+        
+    $file_name = $_FILES["photos"]["name"];
+    $_FILES["photos"]["type"];
+    $tmp_file = $_FILES["photos"]["tmp_name"];
+    
+    $destination = "../../new/files/" . $file_name;
+    
+    move_uploaded_file($tmp_file, $destination);
+    $new = $ddate.$file_name;
+    $new_name = rename('../../new/files/'.$file_name , '../../new/files/'.$new);
+    
+    if($new_name === TRUE){
+        $qry = "INSERT INTO catalogue (catalogue, date_created) VALUES ('$new', '$date')";
+        $res = $conn->query($qry);
+        if($res === TRUE){
+            $_SESSION['success'] = "Catalogue Updated Successfully!";
+        }else{
+            $_SESSION['error'] = "An error occured! Try Again!";
+        }
+    }else{
+        $_SESSION['error'] = "An error occured! Try Again";
+    }
+
+    header('location: ../catalogue.php');
+    exit();
+}
+
+// Add new Subscriber
+elseif(isset($_POST['new-subscr'])){
+    $em = mysqli_real_escape_string($conn, $_POST["email"]);
+
+    
+    $qry = "INSERT INTO subscriber (email, date_subscribed) VALUES ('$em', '$date')";
+    $res = $conn->query($qry);
+    if($res === TRUE){
+        $_SESSION['success'] = "Subscriber added Successfully!";
+    }else{
+        $_SESSION['error'] = "An error occured! Try Again!";
+    }
+   
+
+    header('location: ../subscribers.php');
+    exit();
+}
+
+// Delete Subscriber
+elseif(isset($_GET['delete_sub'])){
+    $id = mysqli_real_escape_string($conn, $_GET["delete_sub"]);
+
+    
+    $qry = "DELETE FROM subscriber WHERE subscriber_id='$id'";
+    $res = $conn->query($qry);
+    if($res === TRUE){
+        $_SESSION['success'] = "Subscriber Removed Successfully!";
+    }else{
+        $_SESSION['error'] = "An error occured! Try Again!";
+    }
+   
+
+    header('location: ../subscribers.php');
+    exit();
+}
+
+// Read/ Unread Enquiry
+elseif(isset($_GET['read_enq'])){
+    $id = mysqli_real_escape_string($conn, $_GET["read_enq"]);
+
+    $chkres = $conn->query("SELECT * FROM enquiries WHERE enquiry_id = '$id'");
+    $chkrow = $chkres->fetch_assoc();
+
+    if($chkrow['status'] == 0){
+        $new = 1;
+    }else{
+        $new = 0;
+    }
+
+    $qry = "UPDATE enquiries SET status = '$new' WHERE enquiry_id ='$id'";
+    $res = $conn->query($qry);
+    if($res === TRUE){
+        $_SESSION['success'] = "Enquiry status Updated Successfully!";
+    }else{
+        $_SESSION['error'] = "An error occured! Try Again!";
+    }
+   
+
+    header('location: ../enquiries.php');
+    exit();
+}
+
 ?>

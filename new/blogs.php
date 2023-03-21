@@ -1,3 +1,9 @@
+<?php
+require "../includes/connect.php";
+include "includes/functions.php";
+$destqry = "SELECT * FROM snapshot_blog ORDER BY blog_id DESC";
+$destres = $conn->query($destqry);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,7 +23,7 @@
 <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
 <div class="col-md-9 ftco-animate pb-5 text-center">
 <h1 class="mb-3 bread">Our Stories</h1>
-<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Blog <i class="ion-ios-arrow-forward"></i></span></p>
+<p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Blog <i class="ion-ios-arrow-forward"></i></span></p>
 </div>
 </div>
 </div>
@@ -25,120 +31,29 @@
 <section class="ftco-section bg-light">
 <div class="container">
 <div class="row d-flex">
+
+<?php while($row = $destres->fetch_assoc()){?>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="blog-single.php" class="block-20" style="background-image: url('images/image_1.jpg');">
+<a href="blog-single.php?blog=<?php echo $row['blog_id'];?>" class="block-20" style="background-image: url('images/image_1.jpg');">
 </a>
 <div class="text mt-3 float-right d-block">
 <div class="d-flex align-items-center pt-2 mb-4 topp">
 <div class="one">
-<span class="day">12</span>
+<span class="day"><?php echo date('d', strtotime($row['date_created']));?></span>
 </div>
 <div class="two">
-<span class="yr">2019</span>
-<span class="mos">February</span>
+<span class="yr"><?php echo date('Y', strtotime($row['date_created']));?></span>
+<span class="mos"><?php echo date('F', strtotime($row['date_created']));?></span>
 </div>
 </div>
-<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 d-flex ftco-animate">
- <div class="blog-entry justify-content-end">
-<a href="blog-single.php" class="block-20" style="background-image: url('images/image_2.jpg');">
-</a>
-<div class="text mt-3 float-right d-block">
-<div class="d-flex align-items-center pt-2 mb-4 topp">
-<div class="one">
-<span class="day">12</span>
-</div>
-<div class="two">
-<span class="yr">2019</span>
-<span class="mos">February</span>
-</div>
-</div>
-<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+<h3 class="heading"><a href="blog-single.php?blog=<?php echo $row['blog_id'];?>"><?php echo $row['title'];?></a></h3>
+<p><?php echo $row['subheading'];?></p>
 </div>
 </div>
 </div>
-<div class="col-md-4 d-flex ftco-animate">
-<div class="blog-entry">
-<a href="blog-single.php" class="block-20" style="background-image: url('images/image_3.jpg');">
-</a>
-<div class="text mt-3 float-right d-block">
-<div class="d-flex align-items-center pt-2 mb-4 topp">
-<div class="one">
-<span class="day">12</span>
-</div>
-<div class="two">
-<span class="yr">2019</span>
-<span class="mos">February</span>
-</div>
-</div>
-<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 d-flex ftco-animate">
-<div class="blog-entry justify-content-end">
-<a href="blog-single.php" class="block-20" style="background-image: url('images/image_4.jpg');">
-</a>
-<div class="text mt-3 float-right d-block">
-<div class="d-flex align-items-center pt-2 mb-4 topp">
-<div class="one">
-<span class="day">12</span>
-</div>
-<div class="two">
-<span class="yr">2019</span>
-<span class="mos">February</span>
-</div>
-</div>
-<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 d-flex ftco-animate">
-<div class="blog-entry justify-content-end">
-<a href="blog-single.php" class="block-20" style="background-image: url('images/image_5.jpg');">
-</a>
-<div class="text mt-3 float-right d-block">
-<div class="d-flex align-items-center pt-2 mb-4 topp">
-<div class="one">
-<span class="day">12</span>
-</div>
-<div class="two">
-<span class="yr">2019</span>
-<span class="mos">February</span>
-</div>
-</div>
-<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-</div>
-</div>
-</div>
-<div class="col-md-4 d-flex ftco-animate">
-<div class="blog-entry">
-<a href="blog-single.php" class="block-20" style="background-image: url('images/image_6.jpg');">
-</a>
-<div class="text mt-3 float-right d-block">
-<div class="d-flex align-items-center pt-2 mb-4 topp">
-<div class="one">
-<span class="day">12</span>
-</div>
-<div class="two">
-<span class="yr">2019</span>
-<span class="mos">February</span>
-</div>
-</div>
-<h3 class="heading"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-</div>
-</div>
-</div>
+<?php } ?>
+
 </div>
 <div class="row mt-5">
 <div class="col text-center">

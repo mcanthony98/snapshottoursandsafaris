@@ -58,38 +58,10 @@
                 </li>
              </ul>
             </li>
+           
+
             <li class="nav-item has-treeview <?php if($pg >= 4 && $pg<5 ){echo "menu-open";}?>">
                 <a href="#" class="nav-link <?php if($pg >= 4 && $pg<5 ){echo "active";}?>">
-                <i class="nav-icon fas fa-globe"></i>
-                <p>
-                    Website Management
-                    <i class="right fas fa-angle-left"></i>
-                </p>
-                </a>
-                <ul class="nav nav-treeview">
-                <li class="nav-item">
-                    <a href="#" class="nav-link <?php if($pg==4.1){echo "active";}?>">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Blogs</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link <?php if($pg==4.2){echo "active";}?>">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Catalogue</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link <?php if($pg==4.3){echo "active";}?>">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Booking Requests</p>
-                    </a>
-                </li>
-             </ul>
-            </li>
-
-            <li class="nav-item has-treeview <?php if($pg >= 5 && $pg<6 ){echo "menu-open";}?>">
-                <a href="#" class="nav-link <?php if($pg >= 5 && $pg<6 ){echo "active";}?>">
                 <i class="nav-icon far fa-money-bill-alt"></i>
                 <p>
                     Accounts
@@ -98,15 +70,145 @@
                 </a>
                 <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="#" class="nav-link <?php if($pg==5.1){echo "active";}?>">
+                    <a href="#" class="nav-link <?php if($pg==4.1){echo "active";}?>">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Petty Cash</p>
                     </a>
                 </li>
              </ul>
             </li>
+
+            <li class="nav-header">Website Manager</li>
+
+            <li class="nav-item has-treeview <?php if($pg >= 5 && $pg<6 ){echo "menu-open";}?>">
+                <a href="#" class="nav-link <?php if($pg >= 5 && $pg<6 ){echo "active";}?>">
+                <i class="nav-icon fas fa-address-card"></i>
+                <p>
+                    Booking Requests
+                    <i class="right fas fa-angle-left"></i>
+                </p>
+                </a>
+                <ul class="nav nav-treeview">
+                <li class="nav-item">
+                    <a href="#" class="nav-link <?php if($pg==5.1){echo "active";}?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Travel Bookings</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link <?php if($pg==5.2){echo "active";}?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Booking Requests</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link <?php if($pg==5.3){echo "active";}?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Flight Bookings</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link <?php if($pg==5.4){echo "active";}?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Transport Bookings</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link <?php if($pg==5.5){echo "active";}?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Conference Bookings</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link <?php if($pg==5.6){echo "active";}?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Event Bookings</p>
+                    </a>
+                </li>
+             </ul>
+            </li>
             
+            <li class="nav-item">
+                <a href="#" class="nav-link <?php if($pg==13){echo 'active';}?>">
+                    <i class="nav-icon fas fa-comments"></i>
+                    <p>
+                    Reviews
+                    </p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="enquiries.php" class="nav-link <?php if($pg==7){echo 'active';}?>">
+                    <i class="nav-icon fas fa-quote-right"></i>
+                    <p>
+                    Enquiries
+                    </p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link <?php if($pg==8){echo 'active';}?>">
+                    <i class="nav-icon fas fa-file-image"></i>
+                    <p>
+                    Gallery
+                    </p>
+                </a>
+            </li>
+            <li class="nav-item has-treeview <?php if($pg >= 9 && $pg<10 ){echo "menu-open";}?>">
+                <a href="#" class="nav-link <?php if($pg >= 9 && $pg<10 ){echo "active";}?>">
+                <i class="nav-icon far fa-calendar-alt"></i>
+                <p>
+                    Newsletters
+                    <i class="right fas fa-angle-left"></i>
+                </p>
+                </a>
+                <ul class="nav nav-treeview">
+                <li class="nav-item">
+                    <a href="#" class="nav-link <?php if($pg==9.1){echo "active";}?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Newsletters</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="subscribers.php" class="nav-link <?php if($pg==9.2){echo "active";}?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Subscribers</p>
+                    </a>
+                </li>
+             </ul>
+            </li>
+            <li class="nav-item">
+                <a href="blogs.php" class="nav-link <?php if($pg==10){echo 'active';}?>">
+                    <i class="nav-icon fas fa-file-alt"></i>
+                    <p>
+                    Blogs
+                    </p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="destinations.php" class="nav-link <?php if($pg==11){echo 'active';}?>">
+                    <i class="nav-icon fas fa-compass"></i>
+                    <p>
+                    Destinations
+                    </p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="catalogue.php" class="nav-link <?php if($pg==12){echo 'active';}?>">
+                    <i class="nav-icon fas fa-map"></i>
+                    <p>
+                    Catalogue
+                    </p>
+                </a>
+            </li>
+                 
+            
+            <li class="nav-item">
+                <a href="javascript:void()" class="nav-link">
+                    <i class="nav-icon"></i>
+                    <p>
                     
+                    </p>
+                </a>
+            </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

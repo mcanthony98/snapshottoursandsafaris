@@ -1,3 +1,7 @@
+ <?php 
+ header ("Location: new/");
+ ?>
+ 
  <header class="u-clearfix u-gradient u-header u-sticky u-header" id="sec-cd51"><div class="u-clearfix u-sheet u-sheet-1">
         <a href="index.php" data-page-id="431927156" class="u-align-left-xs u-image u-logo u-image-1" data-image-width="352" data-image-height="270" title="Home">
           <img src="images/logo.png" class="u-logo-image u-logo-image-1">

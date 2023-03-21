@@ -117,6 +117,90 @@
 
 
 
+
+    <section class="ftco-section mt-0 bg-light">
+<div class="container">
+<div class="row justify-content-center mb-5 pb-3">
+<div class="col-md-7 heading-section text-center ftco-animate">
+<h2>What we Offer</h2>
+</div>
+</div>
+<div class="row d-flex">
+<div class="col-md-4 d-flex ftco-animate">
+<div class="blog-entry justify-content-end">
+<a href="destinations.php" class="block-20" style="background-image: url('images/hotel-resto-2.jpg');">
+</a>
+<div class="text mt-3 float-right d-block text-center">
+<h3 class="heading"><a href="destinations.php">Personal and Business Holidays</a></h3>
+<p>We offer memorable Beach and Adventure Safaris for vacation and business.</p>
+<a href="destinations.php" class="btn btn-primary">Learn more</a>
+</div>
+</div>
+</div>
+<div class="col-md-4 d-flex ftco-animate">
+<div class="blog-entry justify-content-end">
+<a href="team-building.php" class="block-20" style="background-image: url('images/treeplanting.JPG');">
+</a>
+<div class="text mt-3 float-right d-block text-center">
+<h3 class="heading"><a href="team-building.php">Team Building Activities</a></h3>
+<p>Corporate outdoor events for organizations and teams.</p>
+<a href="team-building.php" class="btn btn-primary">Learn more</a>
+</div>
+</div>
+</div>
+<div class="col-md-4 d-flex ftco-animate">
+<div class="blog-entry justify-content-end">
+<a href="destinations.php" class="block-20" style="background-image: url('images/transport.jpg');">
+</a>
+<div class="text mt-3 float-right d-block text-center">
+<h3 class="heading"><a href="destinations.php">Transport</a></h3>
+<p>Hire  Land cruisers, Tours Vans, Tour buses. Driver included.</p>
+<a href="destinations.php" class="btn btn-primary">Learn more</a>
+</div>
+</div>
+</div>
+<div class="col-md-4 d-flex ftco-animate">
+<div class="blog-entry justify-content-end">
+<a href="destinations.php" class="block-20" style="background-image: url('images/air.jpg');">
+</a>
+<div class="text mt-3 float-right d-block text-center">
+<h3 class="heading"><a href="#">Flight Booking</a></h3>
+<p>We help you forget the hustle in booking your plane</p>
+<a href="destinations.php" class="btn btn-primary">Learn more</a>
+</div>
+</div>
+</div>
+<div class="col-md-4 d-flex ftco-animate">
+<div class="blog-entry justify-content-end">
+<a href="destinations.php" class="block-20" style="background-image: url('images/conference.jpg');">
+</a>
+<div class="text mt-3 float-right d-block text-center">
+<h3 class="heading"><a href="destinations.php">Conference Booking</a></h3>
+<p>We plan and organise indoor events and conferences</p>
+<a href="destinations.php" class="btn btn-primary">Learn more</a>
+</div>
+</div>
+</div>
+<div class="col-md-4 d-flex ftco-animate">
+<div class="blog-entry justify-content-end">
+<a href="destinations.php" class="block-20" style="background-image: url('images/events.jpg');">
+</a>
+<div class="text mt-3 float-right d-block text-center">
+<h3 class="heading"><a href="#">Personalized Events</a></h3>
+<p>We facilitate birthday parties, weddings and parties</p>
+<a href="destinations.php" class="btn btn-primary">Learn more</a>
+</div>
+</div>
+</div>
+<div class="col-md-12 mt-4 heading-section text-center ftco-animate">
+<a class="btn border border-primary" href="#">Download our Catalogue</a>
+</div>
+</div>
+</div>
+</section>
+
+
+
 <section class="ftco-section my-3  testimony-section" style="background-image: url(images/bg_1.jpg);">
 <div class="overlay"></div>
 <div class="container">
