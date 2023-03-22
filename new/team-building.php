@@ -1,3 +1,6 @@
+<?php
+$pg = 4;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,36 +13,37 @@
 <body>
 <?php include "includes/navbar.php";?>
 
-<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/IMG_4925.jpg');" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
 <div class="col-md-9 ftco-animate pb-5 text-center">
 <h1 class="mb-3 bread">Team Building</h1>
-<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Team Building <i class="ion-ios-arrow-forward"></i></span></p>
+<p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Team Building <i class="ion-ios-arrow-forward"></i></span></p>
 </div>
 </div>
 </div>
 </section>
 
-<section class="ftco-counter img" id="section-counter">
+<section class="ftco-counter img mt-5" id="section-counter">
 <div class="container">
 <div class="row d-flex">
 <div class="col-md-6 order-md-last d-flex">
-<div class="img d-flex align-self-stretch" style="background-image:url(images/about-1.jpg);"></div>
+<div class="img d-flex align-self-stretch" style="background-image:url(images/IMG_1959.jpg);"></div>
 </div>
 <div class="col-md-6 pr-md-5 py-5">
 <div class="row justify-content-start pb-3">
 <div class="col-md-12 heading-section ftco-animate">
 <h2 class="mb-4">Team Building</h2>
-<p>At <span class="text-bold">Snapshot Tours and Safaris</span> we pride in providing professional co-orporate training and team building activities. Our main goals include:</p>
+<p><span class="text-bold">Snapshot Tours and Safaris</span> prides itself as the Premier Safaris and Event Company. We have worked with
+thousands of organizations in the past in all sectors of the economy from Government Agencies, Charity Organizations, Private Corporates, and Learning Institutions.<br><br/>
+We have partnered with some of the most prestigious East African team-building venues and hotels to deliver
+personalized team development activities, ranging from ice breakers to full blown indoorteam-building events
+or outdoor activities and motivational talks</p>
 </div>
 </div>
 <div class="row">
 <div class="col-md-12">
-<p class="ftco-animate tips"><span>1.</span> A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-<p class="ftco-animate tips"><span>2.</span> A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-<p class="ftco-animate tips"><span>3.</span> It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 <p class="ftco-animate mt-4"><a href="#" class="btn btn-primary py-3 px-5">Book Now</a></p>
 </div>
 </div>
@@ -47,6 +51,124 @@
 </div>
 </div>
 </section>
+
+
+<section class="ftco-section ftco-no-pb bg-light">
+<div class="container">
+<div class="row justify-content-center pb-5">
+<div class="col-md-12 heading-section text-center ftco-animate">
+<h2 class="mb-4">Why you should choose us</h2>
+<h4>Our Objectives</h4>
+<p></p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 col-lg-3 ftco-animate">
+<div class="project">
+<div class="img">
+<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
+</div>
+<div class="text">
+<h1 style="font-size:18px;"><a href="javascript:void()"><span style="font-size:18px;color:#f9c400;">1.<span> To bind the team, and bring in a sense of togetherness</a></h1>
+</div>
+<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+<span class="icon-expand"></span>
+</a>
+</div>
+</div>
+
+<div class="col-md-4 col-lg-3 ftco-animate">
+<div class="project">
+<div class="img">
+<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
+</div>
+<div class="text">
+<h1 style="font-size:18px;"><a href="javascript:void()"><span style="font-size:18px;color:#f9c400;">2.<span> To align them to a shared purpose, goal and vision</a></h1>
+</div>
+<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+<span class="icon-expand"></span>
+</a>
+</div>
+</div>
+
+<div class="col-md-4 col-lg-3 ftco-animate">
+<div class="project">
+<div class="img">
+<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
+</div>
+<div class="text">
+<h1 style="font-size:18px;"><a href="javascript:void()"><span style="font-size:18px;color:#f9c400;">3.<span> To establish a positive team culture, values ,and norms of behavior</a></h1>
+</div>
+<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+<span class="icon-expand"></span>
+</a>
+</div>
+</div>
+
+<div class="col-md-4 col-lg-3 ftco-animate">
+<div class="project">
+<div class="img">
+<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
+</div>
+<div class="text">
+<h1 style="font-size:18px;"><a href="javascript:void()"><span style="font-size:18px;color:#f9c400;">4.<span> To establish the role of the leader</a></h1>
+</div>
+<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+<span class="icon-expand"></span>
+</a>
+</div>
+</div>
+
+<div class="col-md-4 col-lg-4 ftco-animate">
+<div class="project">
+<div class="img">
+<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
+</div>
+<div class="text">
+<h1 style="font-size:18px;"><a href="javascript:void()"><span style="font-size:18px;color:#f9c400;">5.<span> To enhance communication within the team</a></h1>
+</div>
+<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+<span class="icon-expand"></span>
+</a>
+</div>
+</div>
+
+<div class="col-md-4 col-lg-4 ftco-animate">
+<div class="project">
+<div class="img">
+<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
+</div>
+<div class="text">
+<h1 style="font-size:18px;"><a href="javascript:void()"><span style="font-size:18px;color:#f9c400;">6.<span> To develop good working relationships between all members</a></h1>
+</div>
+<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+<span class="icon-expand"></span>
+</a>
+</div>
+</div>
+
+<div class="col-md-4 col-lg-4 ftco-animate">
+<div class="project">
+<div class="img">
+<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
+</div>
+<div class="text">
+<h1 style="font-size:18px;"><a href="javascript:void()"><span style="font-size:18px;color:#f9c400;">7.<span> To nurture shared problem solving while generating new ideas.</a></h1>
+</div>
+<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+<span class="icon-expand"></span>
+</a>
+</div>
+</div>
+
+<div class="col-md-12 mt-3 mb-5 heading-section text-center ftco-animate">
+<a class="btn btn-primary py-3 px-5">Book Us Today</a>
+</div>
+
+</div>
+</div>
+</section>
+
 
 <section class="ftco-section">
 <div class="container">
@@ -63,20 +185,8 @@
 <img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
 </div>
 <div class="text">
-<span>3000 per person</span>
-<h3><a href="project.html">Lake Naivasha</a></h3>
-<div class="star d-flex clearfix">
-<div class="mr-auto float-left">
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-</div>
-<div class="float-right">
-<span class="rate"><a href="#">(120)</a></span>
-</div>
-</div>
+<span>1000 per person</span>
+<h3><a href="project.html">Naivasha</a></h3>
 </div>
 <a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 <span class="icon-expand"></span>

@@ -6,9 +6,9 @@
 </button>
 <div class="collapse navbar-collapse" id="ftco-nav">
 <ul class="navbar-nav ml-auto">
-<li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
-<li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-<li class="nav-item dropdown">
+<li class="nav-item <?php if($pg == 1){echo "active";}?>"><a href="index.php" class="nav-link">Home</a></li>
+<li class="nav-item <?php if($pg == 2){echo "active";}?>"><a href="about.php" class="nav-link">About</a></li>
+<li class="nav-item dropdown <?php if($pg == 3){echo "active";}?>">
         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">Tours &amp; Safaris</a>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="destinations.php">Our Destinations</a>
@@ -16,17 +16,17 @@
           <a class="dropdown-item" href="#">Get Transport</a>
         </div>
       </li>
-<li class="nav-item"><a href="team-building.php" class="nav-link">Team Building</a></li>
-<li class="nav-item dropdown">
+<li class="nav-item <?php if($pg == 4){echo "active";}?>"><a href="team-building.php" class="nav-link">Team Building</a></li>
+<li class="nav-item dropdown <?php if($pg == 5){echo "active";}?>">
         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">Events</a>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="#">Conference Booking</a>
           <a class="dropdown-item" href="#">Snapshot Events</a>
         </div>
       </li>
-<li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
-<li class="nav-item"><a href="blogs.php" class="nav-link">Blog</a></li>
-<li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+<li class="nav-item <?php if($pg == 6){echo "active";}?>"><a href="#" class="nav-link">Gallery</a></li>
+<li class="nav-item <?php if($pg == 7){echo "active";}?>"><a href="blogs.php" class="nav-link">Blogs</a></li>
+<li class="nav-item <?php if($pg == 8){echo "active";}?>"><a href="contact.php" class="nav-link">Contact</a></li>
 <li class="nav-item cta"><a href="#" class="nav-link">Book Now</a></li>
 </ul>
 </div>

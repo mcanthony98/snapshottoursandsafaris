@@ -1,4 +1,5 @@
 <?php
+$pg = 3;
 require "../includes/connect.php";
 include "includes/functions.php";
 $destqry = "SELECT * FROM destination ORDER BY position ASC";
@@ -18,7 +19,7 @@ $destres = $conn->query($destqry);
 
 
 
-<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/banner2.jpg');" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">

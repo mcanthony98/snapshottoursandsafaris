@@ -1,3 +1,6 @@
+<?php
+$pg = 8;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,7 +15,7 @@
 
 
 
-<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/banner2.jpg');" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -32,7 +35,7 @@
 <span class="icon-map-signs"></span>
 </div>
 <h3 class="mb-4">Address</h3>
-<p><a href="https://www.google.com/maps/place/Hotel+Lillies+Juja/@-1.0981562,37.0201615,17z/data=!3m1!4b1!4m9!3m8!1s0x182f4619d85a3dc9:0x2fd210b445a60840!5m2!4m1!1i2!8m2!3d-1.0981616!4d37.0223502!16s%2Fg%2F11c5x2svv_" target="_blank" >Office 3, Hotel Lillies, Juja, Nairobi, Kenya</a></p>
+<p><a href="https://www.google.com/maps/place/Hotel+Lillies+Juja/@-1.0981562,37.0201615,17z/data=!3m1!4b1!4m9!3m8!1s0x182f4619d85a3dc9:0x2fd210b445a60840!5m2!4m1!1i2!8m2!3d-1.0981616!4d37.0223502!16s%2Fg%2F11c5x2svv_" target="_blank" >Office 4, Hotel Lillies, Juja, Nairobi, Kenya</a></p>
 </div>
 </div>
 <div class="col-md-3 d-flex">

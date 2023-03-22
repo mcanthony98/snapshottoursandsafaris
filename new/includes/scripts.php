@@ -88,10 +88,13 @@ $(document).ready(function(){
       $(".mySlides").hide();
       //$("#p1").fadeIn(3000).fadeOut(4000);
       function showText(no){
-        
-        $("#caro"+no).fadeIn(2000);
-        $("#caro"+no).fadeOut(8000);
+
+        $("#caro"+no).show();
+        $("#caro"+no).delay(6500).fadeOut(500, function(){document.getElementById("caro"+no).style.display = "none";});
        
+      }
+      function hideText(no){
+        document.getElementById("caro"+no).style.display = "none";
       }
       showText(counter);
       setInterval (function () {
@@ -100,9 +103,8 @@ $(document).ready(function(){
         if(counter == 4){
           counter = 1;
         }
-        
         showText(counter);
-    }, 10000);
+    }, 7000);
 
 });
 </script>

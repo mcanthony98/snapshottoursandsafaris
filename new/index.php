@@ -1,8 +1,17 @@
 <?php
+$pg = 1;
 require "../includes/connect.php";
 include "includes/functions.php";
 $destqry = "SELECT * FROM destination ORDER BY position ASC LIMIT 4";
 $destres = $conn->query($destqry);
+
+$catalogueqry = "SELECT * FROM catalogue ORDER BY catalogue_id DESC LIMIT 1";
+$catalogueres = $conn->query($catalogueqry);
+$cataloguerow = $catalogueres->fetch_assoc();
+
+
+$blogsqry = "SELECT * FROM snapshot_blog ORDER BY blog_id DESC LIMIT 3";
+$blogsres = $conn->query($blogsqry);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,42 +20,43 @@ $destres = $conn->query($destqry);
 <title>Snapshot Tours and Safaris - Explore Unlimited!</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 <?php include "includes/stylesheets.php";?>
 </head>
 <body>
 <?php include "includes/navbar.php";?>
 
-<div class="hero-wrap js-fullheight mySlides" id="caro1"  style="display:none; background-image: url('images/caro1.jpg');" data-stellar-background-ratio="0.5">
+<div class="hero-wrap js-fullheight mySlides" id="caro1"  style="display:none; background-image: url('images/caro12.jpg');" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
 <div class="col-md-7 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
 <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Welcome To Snapshot Tours and Safaris</h1>
-<p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel without going around in circles with Snapshot Tours and Safaris</p>
+<p class="mb-4" style="color:#f9c400;" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Explore Unlimited!</p>
 </div>
 </div>
 </div>
 </div>
 
-<div class="hero-wrap js-fullheight mySlides" id="caro2" style="display:none; background-image: url('images/caro2.jpg');" data-stellar-background-ratio="0.5">
+<div class="hero-wrap js-fullheight mySlides" id="caro2" style="display:none; background-image: url('images/caro8.jpg');" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
 <div class="col-md-7 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
-<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"></h1>
-<p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel without going around in circWelcome To Snapshot Tours and Safariles with Snapshot Tours and Safaris</p>
+<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Discover Africa's wildlife on our safaris.</h1>
+<p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel | Leisure | Experience | Discover</p>
 </div>
 </div>
 </div>
 </div>
 
 
-<div class="hero-wrap js-fullheight mySlides" id="caro3" style="display:none; background-image: url('images/bg_4.jpg');" data-stellar-background-ratio="0.5">
+<div class="hero-wrap js-fullheight mySlides" id="caro3" style="display:none; background-image: url('images/caro11.jpg');" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
 <div class="col-md-7 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
-<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Welcome To Snapshot Tours and Safaris</h1>
+<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Experience the adventure of a lifetime!</h1>
 <p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel without going around in circles with Snapshot Tours and Safaris</p>
 </div>
 </div>
@@ -128,6 +138,11 @@ $destres = $conn->query($destqry);
 </div>
 </div>
 </section>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
 <section class="ftco-section">
 <div class="container">
 <div class="row justify-content-center pb-5">
@@ -242,7 +257,7 @@ while($destrow = $destres->fetch_assoc()){
 <div class="icon"><span class="flaticon-yatch"></span></div>
 <div class="media-body">
 <h3 class="heading mb-3">Activities</h3>
-<p>We have a range of activities including hiking, boat excutions etc</p>
+<p>We have a range of activities including safaris, beach holidays and corporate training.</p>
 </div>
 </div>
 </div>
@@ -251,7 +266,7 @@ while($destrow = $destres->fetch_assoc()){
 <div class="icon"><span class="flaticon-around"></span></div>
 <div class="media-body">
 <h3 class="heading mb-3">Travel Arrangements</h3>
-<p>We offer customized itinerary. You get what you want.</p>
+<p>We offer customized itineraries to suit your travel plan and budget.</p>
 </div>
 </div>
 </div>
@@ -260,7 +275,7 @@ while($destrow = $destres->fetch_assoc()){
 <div class="icon"><span class="flaticon-compass"></span></div>
 <div class="media-body">
 <h3 class="heading mb-3">Private Guide</h3>
-<p>You get a professional Tour Guide as part of your packages.</p>
+<p>You get an experienced professional Tour Guide on all your safaris.</p>
 </div>
 </div>
 </div>
@@ -269,7 +284,7 @@ while($destrow = $destres->fetch_assoc()){
 <div class="icon"><span class="flaticon-map-of-roads"></span></div>
 <div class="media-body">
 <h3 class="heading mb-3">Location Manager</h3>
-<p>You don't need to worry about manouvering new places. Our team will has got your back.</p>
+<p>We handle everything. You just need to show up and enjoy.</p>
 </div>
 </div>
 </div>
@@ -310,50 +325,50 @@ while($destrow = $destres->fetch_assoc()){
 </div>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="destinations.php" class="block-20" style="background-image: url('images/transport.jpg');">
+<a href="transport.php" class="block-20" style="background-image: url('images/transport.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
-<h3 class="heading"><a href="destinations.php">Transport</a></h3>
+<h3 class="heading"><a href="transport.php">Transport</a></h3>
 <p>Hire  Land cruisers, Tours Vans, Tour buses. Driver included.</p>
-<a href="destinations.php" class="btn btn-primary">Learn more</a>
+<a href="transport.php" class="btn btn-primary">Learn more</a>
 </div>
 </div>
 </div>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="destinations.php" class="block-20" style="background-image: url('images/air.jpg');">
+<a href="flights.php" class="block-20" style="background-image: url('images/air.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
-<h3 class="heading"><a href="#">Flight Booking</a></h3>
+<h3 class="heading"><a href="flights.php">Flight Booking</a></h3>
 <p>We help you forget the hustle in booking your plane</p>
-<a href="destinations.php" class="btn btn-primary">Learn more</a>
+<a href="flights.php" class="btn btn-primary">Learn more</a>
 </div>
 </div>
 </div>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="destinations.php" class="block-20" style="background-image: url('images/conference.jpg');">
+<a href="conferences.php" class="block-20" style="background-image: url('images/conference.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
-<h3 class="heading"><a href="destinations.php">Conference Booking</a></h3>
+<h3 class="heading"><a href="conferences.php">Conference Booking</a></h3>
 <p>We plan and organise indoor events and conferences</p>
-<a href="destinations.php" class="btn btn-primary">Learn more</a>
+<a href="conferences.php" class="btn btn-primary">Learn more</a>
 </div>
 </div>
 </div>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="destinations.php" class="block-20" style="background-image: url('images/events.jpg');">
+<a href="events.php" class="block-20" style="background-image: url('images/events.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
-<h3 class="heading"><a href="#">Personalized Events</a></h3>
+<h3 class="heading"><a href="events.php">Personalized Events</a></h3>
 <p>We facilitate birthday parties, weddings and parties</p>
-<a href="destinations.php" class="btn btn-primary">Learn more</a>
+<a href="events.php" class="btn btn-primary">Learn more</a>
 </div>
 </div>
 </div>
 <div class="col-md-12 mt-4 heading-section text-center ftco-animate">
-<a class="btn border border-primary" href="#">Download our Catalogue</a>
+<a class="btn border border-primary" target="_blank" href="files/<?php echo $cataloguerow['catalogue'];?>">Download our Catalogue</a>
 </div>
 </div>
 </div>
@@ -372,7 +387,7 @@ while($destrow = $destres->fetch_assoc()){
 <div class="col-md-12 testimonial">
 <div class="carousel-testimony owl-carousel ftco-owl">
 <div class="item">
-<div class="testimony-wrap img" style="background-image: url(images/traveler-1.jpg);">
+<div class="testimony-wrap img" style="background-image: url(images/samnnpark.jpg);">
 <div class="overlay"></div>
 <div class="text">
 <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -434,88 +449,35 @@ while($destrow = $destres->fetch_assoc()){
 </div>
 </div>
 <div class="row d-flex">
+<?php while($blogsrow = $blogsres->fetch_assoc()){?>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="blog-single.php" class="block-20" style="background-image: url('images/image_1.jpg');">
+<a href="blog-single.php?blog=<?php echo $blogsrow['blog_id'];?>" class="block-20" style="background-image: url('files/<?php echo $blogsrow['image'];?>');">
+</a>
 </a>
 <div class="text mt-3 float-right d-block">
 <div class="d-flex align-items-center pt-2 mb-4 topp">
 <div class="one">
-<span class="day">12</span>
+<span class="day"><?php echo date('d', strtotime($blogsrow['date_created']));?></span>
 </div>
 <div class="two">
-<span class="yr">2023</span>
-<span class="mos">February</span>
+<span class="yr"><?php echo date('Y', strtotime($blogsrow['date_created']));?></span>
+<span class="mos"><?php echo date('F', strtotime($blogsrow['date_created']));?></span>
 </div>
 </div>
-<h3 class="heading"><a href="#">Why you should Travel to Africa in 2023</a></h3>
-</div>
-</div>
-</div>
-<div class="col-md-4 d-flex ftco-animate">
-<div class="blog-entry justify-content-end">
-<a href="blog-single.php" class="block-20" style="background-image: url('images/image_2.jpg');">
-</a>
-<div class="text mt-3 float-right d-block">
-<div class="d-flex align-items-center pt-2 mb-4 topp">
-<div class="one">
-<span class="day">12</span>
-</div>
-<div class="two">
-<span class="yr">2023</span>
-<span class="mos">February</span>
-</div>
-</div>
-<h3 class="heading"><a href="#">Why you should Travel to Africa in 2023</a></h3>
+<h3 class="heading"><a href="blog-single.php?blog=<?php echo $blogsrow['blog_id'];?>"><?php echo $blogsrow['title'];?></a></h3>
 </div>
 </div>
 </div>
-<div class="col-md-4 d-flex ftco-animate">
-<div class="blog-entry">
-<a href="blog-single.php" class="block-20" style="background-image: url('images/image_3.jpg');">
-</a>
-<div class="text mt-3 float-right d-block">
-<div class="d-flex align-items-center pt-2 mb-4 topp">
-<div class="one">
-<span class="day">12</span>
-</div>
-<div class="two">
-<span class="yr">2023</span>
-<span class="mos">February</span>
-</div>
-</div>
-<h3 class="heading"><a href="#">Why you should Travel to Africa in 2023</a></h3>
-</div>
-</div>
-</div>
+<?php } ?>
 <div class="col-md-12 heading-section text-center ftco-animate">
 <a class="btn btn-primary" href="blogs.php">View More Blogs</a>
 </div>
 </div>
 </div>
 </section>
-<section class="ftco-subscribe" style="background-image: url(images/bg_1.jpg);">
-<div class="overlay">
-<div class="container">
-<div class="row d-flex justify-content-center">
-<div class="col-md-10 text-wrap text-center heading-section ftco-animate">
-<h2>Subcribe to our Newsletter</h2>
-<div class="row d-flex justify-content-center mt-4 mb-4">
-<div class="col-md-10">
-<form action="#" class="subscribe-form">
-<div class="form-group d-flex">
-<input type="text" class="form-control" placeholder="Enter email address">
-<input type="submit" value="Subscribe" class="submit px-3">
-</div>
-</form>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
 <?php 
+include "includes/modals.php";
 include "includes/footer.php";
 include "includes/scripts.php";
 ?>

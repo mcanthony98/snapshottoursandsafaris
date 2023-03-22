@@ -1,3 +1,11 @@
+<?php 
+$pg = 2;
+require "../includes/connect.php";
+include "includes/functions.php";
+$catalogueqry = "SELECT * FROM catalogue ORDER BY catalogue_id DESC LIMIT 1";
+$catalogueres = $conn->query($catalogueqry);
+$cataloguerow = $catalogueres->fetch_assoc();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +18,7 @@
 <body>
 <?php include "includes/navbar.php";?>
 
-<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/banner2.jpg');" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -21,49 +29,7 @@
 </div>
 </div>
 </section>
-<section class="ftco-section services-section bg-light">
-    <div class="container">
-    <div class="row d-flex">
-    <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-    <div class="media block-6 services d-block">
-    <div class="icon"><span class="flaticon-yatch"></span></div>
-    <div class="media-body">
-    <h3 class="heading mb-3">Activities</h3>
-    <p>We have a range of activities including hiking, boat excutions etc</p>
-    </div>
-    </div>
-    </div>
-    <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-    <div class="media block-6 services d-block">
-    <div class="icon"><span class="flaticon-around"></span></div>
-    <div class="media-body">
-    <h3 class="heading mb-3">Travel Arrangements</h3>
-    <p>We offer customized itinerary. You get what you want.</p>
-    </div>
-    </div>
-    </div>
-    <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-    <div class="media block-6 services d-block">
-    <div class="icon"><span class="flaticon-compass"></span></div>
-    <div class="media-body">
-    <h3 class="heading mb-3">Private Guide</h3>
-    <p>You get a professional Tour Guide as part of your packages.</p>
-    </div>
-    </div>
-    </div>
-    <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-    <div class="media block-6 services d-block">
-    <div class="icon"><span class="flaticon-map-of-roads"></span></div>
-    <div class="media-body">
-    <h3 class="heading mb-3">Location Manager</h3>
-    <p>You don't need to worry about manouvering new places. </p>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </section>
-    <section class="ftco-counter img" id="section-counter">
+    <section class="ftco-counter img mt-4" id="section-counter">
     <div class="container">
     <div class="row d-flex">
     <div class="col-md-6 d-flex">
@@ -193,15 +159,14 @@
 </div>
 </div>
 <div class="col-md-12 mt-4 heading-section text-center ftco-animate">
-<a class="btn border border-primary" href="#">Download our Catalogue</a>
+<a class="btn border border-primary" target="_blank" href="files/<?php echo $cataloguerow['catalogue'];?>">Download our Catalogue</a>
 </div>
 </div>
 </div>
 </section>
 
 
-
-<section class="ftco-section my-3  testimony-section" style="background-image: url(images/bg_1.jpg);">
+<section class="ftco-section ftco-no-pb testimony-section" style="background-image: url(images/bg_1.jpg);">
 <div class="overlay"></div>
 <div class="container">
 <div class="row justify-content-center mb-5 pb-3">
@@ -213,7 +178,7 @@
 <div class="col-md-12 testimonial">
 <div class="carousel-testimony owl-carousel ftco-owl">
 <div class="item">
-<div class="testimony-wrap img" style="background-image: url(images/traveler-1.jpg);">
+<div class="testimony-wrap img" style="background-image: url(images/samnnpark.jpg);">
 <div class="overlay"></div>
 <div class="text">
 <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -268,21 +233,45 @@
 </div>
 </section>
 
-<section class="ftco-subscribe" style="background-image: url(images/bg_1.jpg);">
-<div class="overlay">
+
+
+
+<section class="ftco-section services-section ftco-no-pb">
 <div class="container">
-<div class="row d-flex justify-content-center">
-<div class="col-md-10 text-wrap text-center heading-section ftco-animate">
-<h2>Subcribe to our Newsletter</h2>
-<div class="row d-flex justify-content-center mt-4 mb-4">
-<div class="col-md-10">
-<form action="#" class="subscribe-form">
-<div class="form-group d-flex">
-<input type="text" class="form-control" placeholder="Enter email address">
-<input type="submit" value="Subscribe" class="submit px-3">
+<div class="row d-flex">
+<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+<div class="media block-6 services d-block">
+<div class="icon"><span class="flaticon-yatch"></span></div>
+<div class="media-body">
+<h3 class="heading mb-3">Activities</h3>
+<p>We have a range of activities including safaris, beach holidays and corporate training.</p>
 </div>
-</form>
 </div>
+</div>
+<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+<div class="media block-6 services d-block">
+<div class="icon"><span class="flaticon-around"></span></div>
+<div class="media-body">
+<h3 class="heading mb-3">Travel Arrangements</h3>
+<p>We offer customized itineraries to suit your travel plan and budget.</p>
+</div>
+</div>
+</div>
+<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+<div class="media block-6 services d-block">
+<div class="icon"><span class="flaticon-compass"></span></div>
+<div class="media-body">
+<h3 class="heading mb-3">Private Guide</h3>
+<p>You get an experienced professional Tour Guide on all your safaris.</p>
+</div>
+</div>
+</div>
+<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+<div class="media block-6 services d-block">
+<div class="icon"><span class="flaticon-map-of-roads"></span></div>
+<div class="media-body">
+<h3 class="heading mb-3">Location Manager</h3>
+<p>We handle everything. You just need to show up and enjoy.</p>
 </div>
 </div>
 </div>
