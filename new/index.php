@@ -311,7 +311,7 @@ while($destrow = $destres->fetch_assoc()){
 </div>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="team-building.php" class="block-20" style="background-image: url('images/treeplanting.JPG');">
+<a href="team-building.php" class="block-20" style="background-image: url('images/treeplanting.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
 <h3 class="heading"><a href="team-building.php">Team Building Activities</a></h3>

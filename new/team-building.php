@@ -66,12 +66,12 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-4 col-lg-3 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/IMG_3745.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+<img src="images/IMG_3745.JPG" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <h1 style="font-size:18px;"><a href="javascript:void()"><span style="font-size:18px;color:#f9c400;">1.<span> To bind the team, and bring in a sense of togetherness</a></h1>
 </div>
-<a href="images/IMG_3745.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+<a href="images/IMG_3745.JPG" class="icon image-popup d-flex justify-content-center align-items-center">
 <span class="icon-expand"></span>
 </a>
 </div>
@@ -136,12 +136,12 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-4 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/IMG_4988.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+<img src="images/IMG_4988.JPG" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <h1 style="font-size:18px;"><a href="javascript:void()"><span style="font-size:18px;color:#f9c400;">6.<span> To develop good working relationships between all members</a></h1>
 </div>
-<a href="images/IMG_4988.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+<a href="images/IMG_4988.JPG" class="icon image-popup d-flex justify-content-center align-items-center">
 <span class="icon-expand"></span>
 </a>
 </div>
