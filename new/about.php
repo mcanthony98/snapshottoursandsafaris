@@ -181,49 +181,29 @@ $cataloguerow = $catalogueres->fetch_assoc();
 <div class="testimony-wrap img" style="background-image: url(images/samnnpark.jpg);">
 <div class="overlay"></div>
 <div class="text">
-<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-<p class="name">Roger Scott</p>
-<span class="position">New York, USA</span>
+<p class="mb-4">I had an incredible experience with your tour company at Nairobi National Park. The wildlife and scenery were breathtaking!</p>
+<p class="name">Mukungi Kamunzyu</p>
+<span class="position">Nairobi, Kenya</span>
 </div>
 </div>
 </div>
 <div class="item">
-<div class="testimony-wrap" style="background-image: url(images/traveler-2.jpg);">
+<div class="testimony-wrap" style="background-image: url(images/traveller3.jpg);">
 <div class="overlay"></div>
 <div class="text">
-<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-<p class="name">Roger Scott</p>
+<p class="mb-4">Thank you for an incredible experience at Tsavo National Park. The wildlife was amazing and the tour guides were knowledgeable and friendly.</p>
+<p class="name">Charles Dean</p>
 <span class="position">United Kingdom</span>
 </div>
 </div>
 </div>
 <div class="item">
-<div class="testimony-wrap" style="background-image: url(images/traveler-3.jpg);">
+<div class="testimony-wrap" style="background-image: url(images/traveller4.jpg);">
 <div class="overlay"></div>
 <div class="text">
-<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-<p class="name">Roger Scott</p>
-<span class="position">China</span>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="testimony-wrap" style="background-image: url(images/traveler-4.jpg);">
-<div class="overlay"></div>
-<div class="text">
-<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-<p class="name">Roger Scott</p>
-<span class="position">Jor'burg, South Africa</span>
-</div>
-</div>
-</div>
-<div class="item">
-<div class="testimony-wrap" style="background-image: url(images/traveler-5.jpg);">
-<div class="overlay"></div>
-<div class="text">
-<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-<p class="name">Roger Scott</p>
-<span class="position">Egypt</span>
+<p class="mb-4">Thanks for an incredible experience with my friends at Samburu. The game drives were unforgettable and the accommodations were top-notch.</p>
+<p class="name">Mark Anthony</p>
+<span class="position">Samburu National Reserve, Kenya</span>
 </div>
 </div>
 </div>
@@ -232,7 +212,6 @@ $cataloguerow = $catalogueres->fetch_assoc();
 </div>
 </div>
 </section>
-
 
 
 

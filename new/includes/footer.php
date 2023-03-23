@@ -1,4 +1,4 @@
-<section class="ftco-subscribe" style="background-image: url(images/bg_1.jpg);">
+<section class="ftco-subscribe" style="background-image: url(images/banner3.jpg);">
 <div class="overlay">
 <div class="container">
 <div class="row d-flex justify-content-center">

@@ -13,7 +13,7 @@ $pg = 4;
 <body>
 <?php include "includes/navbar.php";?>
 
-<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/IMG_4925.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/banner2.jpg');" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -66,12 +66,12 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-4 col-lg-3 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
+<img src="images/IMG_3745.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <h1 style="font-size:18px;"><a href="javascript:void()"><span style="font-size:18px;color:#f9c400;">1.<span> To bind the team, and bring in a sense of togetherness</a></h1>
 </div>
-<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+<a href="images/IMG_3745.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 <span class="icon-expand"></span>
 </a>
 </div>
@@ -80,12 +80,12 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-4 col-lg-3 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
+<img src="images/teams2.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <h1 style="font-size:18px;"><a href="javascript:void()"><span style="font-size:18px;color:#f9c400;">2.<span> To align them to a shared purpose, goal and vision</a></h1>
 </div>
-<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+<a href="images/teams2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 <span class="icon-expand"></span>
 </a>
 </div>
@@ -94,12 +94,12 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-4 col-lg-3 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
+<img src="images/teams3.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <h1 style="font-size:18px;"><a href="javascript:void()"><span style="font-size:18px;color:#f9c400;">3.<span> To establish a positive team culture, values ,and norms of behavior</a></h1>
 </div>
-<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+<a href="images/teams3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 <span class="icon-expand"></span>
 </a>
 </div>
@@ -108,12 +108,12 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-4 col-lg-3 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
+<img src="images/teams4.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <h1 style="font-size:18px;"><a href="javascript:void()"><span style="font-size:18px;color:#f9c400;">4.<span> To establish the role of the leader</a></h1>
 </div>
-<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+<a href="images/teams4.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 <span class="icon-expand"></span>
 </a>
 </div>
@@ -122,12 +122,12 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-4 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
+<img src="images/teams6.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <h1 style="font-size:18px;"><a href="javascript:void()"><span style="font-size:18px;color:#f9c400;">5.<span> To enhance communication within the team</a></h1>
 </div>
-<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+<a href="images/teams6.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 <span class="icon-expand"></span>
 </a>
 </div>
@@ -136,12 +136,12 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-4 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
+<img src="images/IMG_4988.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <h1 style="font-size:18px;"><a href="javascript:void()"><span style="font-size:18px;color:#f9c400;">6.<span> To develop good working relationships between all members</a></h1>
 </div>
-<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+<a href="images/IMG_4988.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 <span class="icon-expand"></span>
 </a>
 </div>
@@ -150,12 +150,12 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-4 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
+<img src="images/teams1.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <h1 style="font-size:18px;"><a href="javascript:void()"><span style="font-size:18px;color:#f9c400;">7.<span> To nurture shared problem solving while generating new ideas.</a></h1>
 </div>
-<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+<a href="images/teams1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 <span class="icon-expand"></span>
 </a>
 </div>
@@ -182,278 +182,114 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-6 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
+<img src="images/treeplanting.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <span>1000 per person</span>
-<h3><a href="project.html">Naivasha</a></h3>
-</div>
-<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-<span class="icon-expand"></span>
-</a>
+<h3><a href="javascript:void()">Naivasha</a></h3>
 </div>
 </div>
+</div>
+
+
 <div class="col-md-6 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/hotel-resto-2.jpg" class="img-fluid" alt="Colorlib Template">
+<img src="images/traveller2.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
-<span>3000 per person</span>
-<h3><a href="project.html">The Coast</a></h3>
-<div class="star d-flex clearfix">
-<div class="mr-auto float-left">
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-</div>
-<div class="float-right">
-<span class="rate"><a href="#">(120)</a></span>
+<span>1000 per person</span>
+<h3><a href="javascript:void()">Sagana</a></h3>
 </div>
 </div>
 </div>
-<a href="images/hotel-resto-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-<span class="icon-expand"></span>
-</a>
-</div>
-</div>
+
+
 <div class="col-md-6 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
+<img src="images/hotel-resto-5.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
-<span>3000 per person</span>
-<h3><a href="project.html">Lake Naivasha</a></h3>
-<div class="star d-flex clearfix">
-<div class="mr-auto float-left">
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-</div>
-<div class="float-right">
-<span class="rate"><a href="#">(120)</a></span>
+<span>1000 per person</span>
+<h3><a href="javascript:void()">Nairobi and Environs</a></h3>
 </div>
 </div>
 </div>
-<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-<span class="icon-expand"></span>
-</a>
-</div>
-</div>
+
+
 <div class="col-md-6 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/hotel-resto-2.jpg" class="img-fluid" alt="Colorlib Template">
+<img src="images/hotel-resto-2.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
-<span>3000 per person</span>
-<h3><a href="project.html">The Coast</a></h3>
-<div class="star d-flex clearfix">
-<div class="mr-auto float-left">
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
+<span>1500 per person</span>
+<h3><a href="javascript:void()">Mombasa, Diani, Watamu</a></h3>
 </div>
-<div class="float-right">
-<span class="rate"><a href="#">(120)</a></span>
-</div>
-</div>
-</div>
-<a href="images/hotel-resto-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-<span class="icon-expand"></span>
-</a>
-</div>
-</div>
-<div class="col-md-6 col-lg-4 ftco-animate">
-<div class="project">
-<div class="img">
-<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
-</div>
-<div class="text">
-<span>3000 per person</span>
-<h3><a href="project.html">Lake Naivasha</a></h3>
-<div class="star d-flex clearfix">
-<div class="mr-auto float-left">
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-</div>
-<div class="float-right">
-<span class="rate"><a href="#">(120)</a></span>
-</div>
-</div>
-</div>
-<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-<span class="icon-expand"></span>
-</a>
-</div>
-</div>
-<div class="col-md-6 col-lg-4 ftco-animate">
-<div class="project">
-<div class="img">
-<img src="images/hotel-resto-2.jpg" class="img-fluid" alt="Colorlib Template">
-</div>
-<div class="text">
-<span>3000 per person</span>
-<h3><a href="project.html">The Coast</a></h3>
-<div class="star d-flex clearfix">
-<div class="mr-auto float-left">
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-</div>
-<div class="float-right">
-<span class="rate"><a href="#">(120)</a></span>
-</div>
-</div>
-</div>
-<a href="images/hotel-resto-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-<span class="icon-expand"></span>
-</a>
-</div>
-</div>
-<div class="col-md-6 col-lg-4 ftco-animate">
-<div class="project">
-<div class="img">
-<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
-</div>
-<div class="text">
-<span>3000 per person</span>
-<h3><a href="project.html">Lake Naivasha</a></h3>
-<div class="star d-flex clearfix">
-<div class="mr-auto float-left">
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-</div>
-<div class="float-right">
-<span class="rate"><a href="#">(120)</a></span>
-</div>
-</div>
-</div>
-<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-<span class="icon-expand"></span>
-</a>
-</div>
-</div>
-<div class="col-md-6 col-lg-4 ftco-animate">
-<div class="project">
-<div class="img">
-<img src="images/hotel-resto-2.jpg" class="img-fluid" alt="Colorlib Template">
-</div>
-<div class="text">
-<span>3000 per person</span>
-<h3><a href="project.html">The Coast</a></h3>
-<div class="star d-flex clearfix">
-<div class="mr-auto float-left">
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-</div>
-<div class="float-right">
-<span class="rate"><a href="#">(120)</a></span>
-</div>
-</div>
-</div>
-<a href="images/hotel-resto-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-<span class="icon-expand"></span>
-</a>
-</div>
-</div>
-<div class="col-md-6 col-lg-4 ftco-animate">
-<div class="project">
-<div class="img">
-<img src="images/hotel-resto-1.jpg" class="img-fluid" alt="Colorlib Template">
-</div>
-<div class="text">
-<span>3000 per person</span>
-<h3><a href="project.html">Lake Naivasha</a></h3>
-<div class="star d-flex clearfix">
-<div class="mr-auto float-left">
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-</div>
-<div class="float-right">
-<span class="rate"><a href="#">(120)</a></span>
-</div>
-</div>
-</div>
-<a href="images/hotel-resto-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-<span class="icon-expand"></span>
-</a>
-</div>
-</div>
-<div class="col-md-6 col-lg-4 ftco-animate">
-<div class="project">
-<div class="img">
-<img src="images/hotel-resto-2.jpg" class="img-fluid" alt="Colorlib Template">
-</div>
-<div class="text">
-<span>3000 per person</span>
-<h3><a href="project.html">The Coast</a></h3>
-<div class="star d-flex clearfix">
-<div class="mr-auto float-left">
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-</div>
-<div class="float-right">
-<span class="rate"><a href="#">(120)</a></span>
-</div>
-</div>
-</div>
-<a href="images/hotel-resto-2.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-<span class="icon-expand"></span>
-</a>
 </div>
 </div>
 
 <div class="col-md-6 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/hotel-resto-3.jpg" class="img-fluid" alt="Colorlib Template">
+<img src="images/teamsaf.jpeg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
-<span>3000 per person</span>
-<h3><a href="project.html">Nairobi</a></h3>
-<div class="star d-flex clearfix">
-<div class="mr-auto float-left">
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-<span class="ion-ios-star"></span>
-</div>
- <div class="float-right">
-<span class="rate"><a href="#">(120)</a></span>
+<span>1000 per person</span>
+<h3><a href="javascript:void()">Nakuru</a></h3>
 </div>
 </div>
 </div>
-<a href="images/hotel-resto-3.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-<span class="icon-expand"></span>
-</a>
+
+<div class="col-md-6 col-lg-4 ftco-animate">
+<div class="project">
+<div class="img">
+<img src="images/traveller2.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+</div>
+<div class="text">
+<span>1000 per person</span>
+<h3><a href="javascript:void()">Nanyuki</a></h3>
 </div>
 </div>
+</div>
+
+<div class="col-md-6 col-lg-4 ftco-animate">
+<div class="project">
+<div class="img">
+<img src="images/traveller2.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+</div>
+<div class="text">
+<span>1500 per person</span>
+<h3><a href="javascript:void()">Maasai Mara</a></h3>
+</div>
+</div>
+</div>
+
+<div class="col-md-6 col-lg-4 ftco-animate">
+<div class="project">
+<div class="img">
+<img src="images/girrafe.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+</div>
+<div class="text">
+<span>1500 per person</span>
+<h3><a href="javascript:void()">Tsavo East & West</a></h3>
+</div>
+</div>
+</div>
+
+<div class="col-md-6 col-lg-4 ftco-animate">
+<div class="project">
+<div class="img">
+<img src="images/traveller2.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+</div>
+<div class="text">
+<span>1000 per person</span>
+<h3><a href="javascript:void()">Amboseli</a></h3>
+</div>
+</div>
+</div>
+
 </div>
 </div>
 </section>

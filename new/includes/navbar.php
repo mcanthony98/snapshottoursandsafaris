@@ -12,16 +12,16 @@
         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">Tours &amp; Safaris</a>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="destinations.php">Our Destinations</a>
-          <a class="dropdown-item" href="#">Book a Flight</a>
-          <a class="dropdown-item" href="#">Get Transport</a>
+          <a class="dropdown-item" href="flight.php">Book a Flight</a>
+          <a class="dropdown-item" href="transport.php">Get Transport</a>
         </div>
       </li>
 <li class="nav-item <?php if($pg == 4){echo "active";}?>"><a href="team-building.php" class="nav-link">Team Building</a></li>
 <li class="nav-item dropdown <?php if($pg == 5){echo "active";}?>">
         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">Events</a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Conference Booking</a>
-          <a class="dropdown-item" href="#">Snapshot Events</a>
+          <a class="dropdown-item" href="conference.php">Conference Booking</a>
+          <a class="dropdown-item" href="events.php">Snapshot Events</a>
         </div>
       </li>
 <li class="nav-item <?php if($pg == 6){echo "active";}?>"><a href="#" class="nav-link">Gallery</a></li>
