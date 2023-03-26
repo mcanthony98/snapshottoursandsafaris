@@ -44,7 +44,7 @@ $pg = 8;
 <span class="icon-phone2"></span>
 </div>
 <h3 class="mb-4">Contact Number</h3>
-<p><a href="tel:+2547599123123">+254 7599 123123</a> <br> iMessage: <a href="#">+254 7135 85070</a></p>
+<p><a href="tel:+2547599123123">+254 7599 49546</a> <br> iMessage: <a href="#">+254 7135 85070</a> <br> Whatsapp: <a href="#">+254 7599 49546</a></p>
 </div>
 </div>
 <div class="col-md-3 d-flex">

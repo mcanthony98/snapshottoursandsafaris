@@ -13,7 +13,7 @@ $pg = 4;
 <body>
 <?php include "includes/navbar.php";?>
 
-<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/banner2.jpg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/tb.jpeg');" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -29,7 +29,7 @@ $pg = 4;
 <div class="container">
 <div class="row d-flex">
 <div class="col-md-6 order-md-last d-flex">
-<div class="img d-flex align-self-stretch" style="background-image:url(images/IMG_1959.jpg);"></div>
+<div class="img d-flex align-self-stretch" style="background-image:url(images/teams3.JPG);"></div>
 </div>
 <div class="col-md-6 pr-md-5 py-5">
 <div class="row justify-content-start pb-3">
@@ -38,7 +38,7 @@ $pg = 4;
 <p><span class="text-bold">Snapshot Tours and Safaris</span> prides itself as the Premier Safaris and Event Company. We have worked with
 thousands of organizations in the past in all sectors of the economy from Government Agencies, Charity Organizations, Private Corporates, and Learning Institutions.<br><br/>
 We have partnered with some of the most prestigious East African team-building venues and hotels to deliver
-personalized team development activities, ranging from ice breakers to full blown indoorteam-building events
+personalized team development activities, ranging from ice breakers to full blown indoor team-building events
 or outdoor activities and motivational talks</p>
 </div>
 </div>
@@ -182,7 +182,7 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-6 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/treeplanting.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+<img src="images/naivasha.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <span>1000 per person</span>
@@ -195,7 +195,7 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-6 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/traveller2.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+<img src="images/sagana.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <span>1000 per person</span>
@@ -208,7 +208,7 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-6 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/hotel-resto-5.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+<img src="images/nairobi.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <span>1000 per person</span>
@@ -221,7 +221,7 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-6 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/hotel-resto-2.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+<img src="images/sarova2.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <span>1500 per person</span>
@@ -233,7 +233,7 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-6 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/teamsaf.jpeg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+<img src="images/nakuru1.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <span>1000 per person</span>
@@ -245,7 +245,7 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-6 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/traveller2.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+<img src="images/nanyuki.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <span>1000 per person</span>
@@ -257,7 +257,7 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-6 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/traveller2.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+<img src="images/mara.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <span>1500 per person</span>
@@ -269,7 +269,7 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-6 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/girrafe.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+<img src="images/saltlick4.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <span>1500 per person</span>
@@ -281,7 +281,7 @@ or outdoor activities and motivational talks</p>
 <div class="col-md-6 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/traveller2.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+<img src="images/amboseli.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <span>1000 per person</span>

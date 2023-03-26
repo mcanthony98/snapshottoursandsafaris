@@ -16,14 +16,20 @@
           <a class="dropdown-item" href="transport.php">Get Transport</a>
         </div>
       </li>
-<li class="nav-item <?php if($pg == 4){echo "active";}?>"><a href="team-building.php" class="nav-link">Team Building</a></li>
-<li class="nav-item dropdown <?php if($pg == 5){echo "active";}?>">
+<li class="nav-item dropdown <?php if($pg == 4){echo "active";}?>">
+  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">Corporate Training</a>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="training.php">Training Programs</a>
+    <a class="dropdown-item" href="team-building.php">Team Building</a>
+  </div>
+</li>
+<!--<li class="nav-item dropdown <?php if($pg == 5){echo "active";}?>">
         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">Events</a>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="conference.php">Conference Booking</a>
           <a class="dropdown-item" href="events.php">Snapshot Events</a>
         </div>
-      </li>
+      </li>-->
 <li class="nav-item <?php if($pg == 6){echo "active";}?>"><a href="#" class="nav-link">Gallery</a></li>
 <li class="nav-item <?php if($pg == 7){echo "active";}?>"><a href="blogs.php" class="nav-link">Blogs</a></li>
 <li class="nav-item <?php if($pg == 8){echo "active";}?>"><a href="contact.php" class="nav-link">Contact</a></li>

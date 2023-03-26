@@ -94,7 +94,7 @@ $cataloguerow = $catalogueres->fetch_assoc();
 <div class="row d-flex">
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="destinations.php" class="block-20" style="background-image: url('images/hotel-resto-2.jpg');">
+<a href="destinations.php" class="block-20" style="background-image: url('images/game.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
 <h3 class="heading"><a href="destinations.php">Personal and Business Holidays</a></h3>
@@ -116,45 +116,45 @@ $cataloguerow = $catalogueres->fetch_assoc();
 </div>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="destinations.php" class="block-20" style="background-image: url('images/transport.jpg');">
+<a href="transport.php" class="block-20" style="background-image: url('images/cruisers.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
 <h3 class="heading"><a href="destinations.php">Transport</a></h3>
 <p>Hire  Land cruisers, Tours Vans, Tour buses. Driver included.</p>
-<a href="destinations.php" class="btn btn-primary">Learn more</a>
+<a href="transport.php" class="btn btn-primary">Learn more</a>
 </div>
 </div>
 </div>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="destinations.php" class="block-20" style="background-image: url('images/air.jpg');">
+<a href="flight.php" class="block-20" style="background-image: url('images/flight.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
 <h3 class="heading"><a href="#">Flight Booking</a></h3>
 <p>We help you forget the hustle in booking your plane</p>
-<a href="destinations.php" class="btn btn-primary">Learn more</a>
+<a href="flight.php" class="btn btn-primary">Learn more</a>
 </div>
 </div>
 </div>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="destinations.php" class="block-20" style="background-image: url('images/conference.jpg');">
+<a href="javascrpt:void()" class="block-20" style="background-image: url('images/conference3.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
 <h3 class="heading"><a href="destinations.php">Conference Booking</a></h3>
 <p>We plan and organise indoor events and conferences</p>
-<a href="destinations.php" class="btn btn-primary">Learn more</a>
+<a href="javascrpt:void()" class="btn btn-primary">Learn more</a>
 </div>
 </div>
 </div>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="destinations.php" class="block-20" style="background-image: url('images/events.jpg');">
+<a href="javascrpt:void()" class="block-20" style="background-image: url('images/IMG_4882.JPG');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
 <h3 class="heading"><a href="#">Personalized Events</a></h3>
 <p>We facilitate birthday parties, weddings and parties</p>
-<a href="destinations.php" class="btn btn-primary">Learn more</a>
+<a href="javascrpt:void()" class="btn btn-primary">Learn more</a>
 </div>
 </div>
 </div>

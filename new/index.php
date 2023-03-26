@@ -20,7 +20,6 @@ $blogsres = $conn->query($blogsqry);
 <title>Snapshot Tours and Safaris - Explore Unlimited!</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 <?php include "includes/stylesheets.php";?>
 </head>
 <body>
@@ -300,7 +299,7 @@ while($destrow = $destres->fetch_assoc()){
 <div class="row d-flex">
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="destinations.php" class="block-20" style="background-image: url('images/hotel-resto-2.jpg');">
+<a href="destinations.php" class="block-20" style="background-image: url('images/game.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
 <h3 class="heading"><a href="destinations.php">Personal and Business Holidays</a></h3>
@@ -322,10 +321,10 @@ while($destrow = $destres->fetch_assoc()){
 </div>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="transport.php" class="block-20" style="background-image: url('images/transport.jpg');">
+<a href="transport.php" class="block-20" style="background-image: url('images/cruisers.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
-<h3 class="heading"><a href="transport.php">Transport</a></h3>
+<h3 class="heading"><a href="destinations.php">Transport</a></h3>
 <p>Hire  Land cruisers, Tours Vans, Tour buses. Driver included.</p>
 <a href="transport.php" class="btn btn-primary">Learn more</a>
 </div>
@@ -333,34 +332,34 @@ while($destrow = $destres->fetch_assoc()){
 </div>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="flights.php" class="block-20" style="background-image: url('images/air.jpg');">
+<a href="flight.php" class="block-20" style="background-image: url('images/flight.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
-<h3 class="heading"><a href="flights.php">Flight Booking</a></h3>
+<h3 class="heading"><a href="#">Flight Booking</a></h3>
 <p>We help you forget the hustle in booking your plane</p>
-<a href="flights.php" class="btn btn-primary">Learn more</a>
+<a href="flight.php" class="btn btn-primary">Learn more</a>
 </div>
 </div>
 </div>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="conferences.php" class="block-20" style="background-image: url('images/conference.jpg');">
+<a href="javascrpt:void()" class="block-20" style="background-image: url('images/conference3.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
-<h3 class="heading"><a href="conferences.php">Conference Booking</a></h3>
+<h3 class="heading"><a href="destinations.php">Conference Booking</a></h3>
 <p>We plan and organise indoor events and conferences</p>
-<a href="conferences.php" class="btn btn-primary">Learn more</a>
+<a href="javascrpt:void()" class="btn btn-primary">Learn more</a>
 </div>
 </div>
 </div>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="events.php" class="block-20" style="background-image: url('images/events.jpg');">
+<a href="javascrpt:void()" class="block-20" style="background-image: url('images/IMG_4882.JPG');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
-<h3 class="heading"><a href="events.php">Personalized Events</a></h3>
+<h3 class="heading"><a href="#">Personalized Events</a></h3>
 <p>We facilitate birthday parties, weddings and parties</p>
-<a href="events.php" class="btn btn-primary">Learn more</a>
+<a href="javascrpt:void()" class="btn btn-primary">Learn more</a>
 </div>
 </div>
 </div>
