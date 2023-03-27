@@ -13,7 +13,7 @@ $pg = 4;
 <body>
 <?php include "includes/navbar.php";?>
 
-<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/IMG_49883.JPG');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/tbb.jpg');" data-stellar-background-ratio="0.1">
 <div class="overlay"></div>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
