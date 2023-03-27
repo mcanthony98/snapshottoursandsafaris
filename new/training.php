@@ -30,7 +30,7 @@ $pg = 4;
 <div class="container">
 <div class="row d-flex">
 <div class="col-md-6 order-md-last d-flex">
-<div class="img d-flex align-self-stretch" style="background-image:url(images/ct3.jpg);"></div>
+<div class="img d-flex align-self-stretch" style="background-image:url(images/P1075718.JPG);"></div>
 </div>
 <div class="col-md-6 pr-md-5 py-5">
 <div class="row justify-content-start pb-3">
@@ -64,7 +64,7 @@ $pg = 4;
 <div class="col-md-4 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/ct.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+<img src="images/P1075674.JPG" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
 <h1 style="font-size:18px;"><a href="javascript:void()">
@@ -78,7 +78,7 @@ $pg = 4;
 <div class="col-md-4 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/ct4.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+<img src="images/P1075721.JPG" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
   <h1 style="font-size:18px;"><a href="javascript:void()">
@@ -93,7 +93,7 @@ $pg = 4;
 <div class="col-md-4 col-lg-4 ftco-animate">
 <div class="project">
 <div class="img">
-<img src="images/ct3.jpg" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
+<img src="images/P1075718.JPG" class="img-fluid" alt="Snapshot Tours and Safaris Corporate Training">
 </div>
 <div class="text">
   <h1 style="font-size:18px;"><a href="javascript:void()">
