@@ -122,7 +122,7 @@ while($destrow = $destres->fetch_assoc()){
 <div class="text">
 <h4 class="price">$<?php echo $destrow['price'];?></h4>
 <span><?php echo $destrow['days'] . " Days " . $destrow['nights'] . " Nights ";?></span>
-<h3><a class="destination-single" href="#"><?php echo $destrow["location"];?></a></h3>
+<h3><a class="destination-single" id="<?php echo $destrow["destination_id"];?>" type="button" data-toggle="modal" data-target="#specificdest"><?php echo $destrow["location"];?></a></h3>
 <div class="star d-flex clearfix">
 <div class="mr-auto float-left">
 <span class="ion-ios-star"></span>
@@ -162,6 +162,7 @@ while($destrow = $destres->fetch_assoc()){
 include "includes/footer.php";
 include "includes/scripts.php";
 ?>
+
 
 </body>
 

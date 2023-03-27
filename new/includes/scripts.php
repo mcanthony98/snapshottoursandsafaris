@@ -26,6 +26,34 @@
 </script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"7a41974e6b10b19c","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.2.0","si":100}' crossorigin="anonymous"></script>
 
+<script>
+$(document).ready(function(){
+      var counter = 1;
+      $(".mySlides").hide();
+      //$("#p1").fadeIn(3000).fadeOut(4000);
+      function showText(no){
+
+        $("#caro"+no).show();
+        $("#caro"+no).delay(6500).fadeOut(500, function(){document.getElementById("caro"+no).style.display = "none";});
+       
+      }
+      function hideText(no){
+        document.getElementById("caro"+no).style.display = "none";
+      }
+      showText(counter);
+      setInterval (function () {
+        counter++;
+
+        if(counter == 4){
+          counter = 1;
+        }
+        showText(counter);
+    }, 7000);
+
+});
+</script>
+
+
 <!--subscribe to newsletter-->
 <script>
 $(document).ready(function() {
@@ -82,29 +110,116 @@ $(document).ready(function() {
   });
 });
 </script>
+
+<script> 
+ $(document).ready(function(){  
+      $('.destination-single').click(function(){  
+          var destid = $(this).attr("id");
+
+          $.ajax({  
+                  url:"processes.php",  
+                  method:"POST",  
+                  data:{fetch_single_dest:destid}, 
+                  dataType: 'json',
+                  success:function(data){
+                    $('#destModalBody').html(data.description);
+                    $('#destModalTitle').html(data.days + " Days " + data.nights + " Nights " + data.location);
+                    $('#destModalId').val(data.destination_id);
+                  }  
+          });
+		  
+      });  
+ });  
+</script>
+
+<script> 
+ $(document).ready(function(){  
+      $('#destBookModal').click(function(){  
+          var destid = $('#destModalId').val();
+          $('#specificdest').modal("hide");
+          $('#bookdest').modal("show");
+
+          $.ajax({  
+                  url:"processes.php",  
+                  method:"POST",  
+                  data:{fetch_single_dest:destid}, 
+                  dataType: 'json',
+                  success:function(data){
+                    $('#destModaldest').val(data.days + " Days " + data.nights + " Nights " + data.location);
+                    $('#bookdestId').val(data.destination_id);
+                  }  
+          });
+		  
+      });  
+ });  
+</script>
+
+<script> 
+ $(document).ready(function(){  
+      $('#customBookModal').click(function(){  
+          $('.modal').modal("hide");
+          $('#bookcustom').modal("show");
+		  
+      });  
+ });  
+</script>
+
+
+<!--Book Specific destination form-->
 <script>
-$(document).ready(function(){
-      var counter = 1;
-      $(".mySlides").hide();
-      //$("#p1").fadeIn(3000).fadeOut(4000);
-      function showText(no){
+$(document).ready(function() {
+  $("#book_dest").submit(function(event) {
+    event.preventDefault();
+      var x = $("#book_dest").serialize();
+      $.ajax({  
+        url:"processes.php",  
+        type:"POST",  
+        data:x,
+        crossDomain: true,
+        cache: false, 
+        beforeSend:function(){  
+          $('#book_dest_btn').val("Submitting...");
+        }, 
+        success:function(data){ 
+            var element = document.getElementById("bookdestsuccess");
+            element.scrollIntoView();
+            $('#bookdestsuccess').html('<span style="color:green;" class="">You Booking Request has been received. We will contact you shortly! <br>Thank You for Choosing Snapshot Tours and Safaris. </span>');
+            $('#book_dest input').val("");
+            $('#book_dest textarea').val("");
+            $('#book_dest_btn').val("Submit");
+        }  
+});
 
-        $("#caro"+no).show();
-        $("#caro"+no).delay(6500).fadeOut(500, function(){document.getElementById("caro"+no).style.display = "none";});
-       
-      }
-      function hideText(no){
-        document.getElementById("caro"+no).style.display = "none";
-      }
-      showText(counter);
-      setInterval (function () {
-        counter++;
+  });
+});
+</script>
 
-        if(counter == 4){
-          counter = 1;
-        }
-        showText(counter);
-    }, 7000);
 
+<!--Book Custom destination form-->
+<script>
+$(document).ready(function() {
+  $("#book_cust").submit(function(event) {
+    event.preventDefault();
+      var x = $("#book_cust").serialize();
+      $.ajax({  
+        url:"processes.php",  
+        type:"POST",  
+        data:x,
+        crossDomain: true,
+        cache: false, 
+        beforeSend:function(){  
+          $('#book_cust_btn').val("Submitting...");
+        }, 
+        success:function(data){ 
+            var element = document.getElementById("bookcustsuccess");
+            element.scrollIntoView();
+            $('#bookcustsuccess').html('<span style="color:green;" class="">You Booking Request has been received. We will contact you shortly! <br>Thank You for Choosing Snapshot Tours and Safaris. </span>');
+            $('#book_cust input').val("");
+            $('#book_cust textarea').val("");
+            $('#book_cust_btn').val("Submit");
+        }  
+});
+
+  });
 });
 </script>

@@ -33,7 +33,7 @@
 <li class="nav-item <?php if($pg == 6){echo "active";}?>"><a href="#" class="nav-link">Gallery</a></li>
 <li class="nav-item <?php if($pg == 7){echo "active";}?>"><a href="blogs.php" class="nav-link">Blogs</a></li>
 <li class="nav-item <?php if($pg == 8){echo "active";}?>"><a href="contact.php" class="nav-link">Contact</a></li>
-<li class="nav-item cta"><a href="#" class="nav-link">Book Now</a></li>
+<li class="nav-item cta"><a class="nav-link" type="button" data-toggle="modal" data-target="#bookcustom">Book Now</a></li>
 </ul>
 </div>
 </div>

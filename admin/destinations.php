@@ -68,20 +68,13 @@ include "includes/sidebar.php";
                                     <?php 
                                     while($row = $stres->fetch_assoc()){
                                     ?>
-                                    <tr data-widget="expandable-table" aria-expanded="false">
+                                    <tr >
                                     <td><?php echo $row['days'] . " Days " . $row['nights'] . " Nights " . $row["location"];?></td>
                                     <td><img src="../new/files/<?php echo $row['image'];?>" width="100px"></td>
                                     <td><?php echo $row["price"];?></td>
                                     <td>
                                         <button class="btn btn-info"><i class="fas fa-edit"> Edit</i></button>
                                         <a onclick="return deleteRequest('<?php echo $row['days'] . ' Days ' . $row['nights'] . ' Nights ' . $row['location'];?>');" class="btn btn-danger"><i class="fas fa-trash"> Delete</i></a>
-                                    </td>
-                                    </tr>
-                                    <tr class="expandable-body">
-                                    <td colspan="4">
-                                        <p>
-                                            <?php echo $row['description'];?>
-                                        </p>
                                     </td>
                                     </tr>
                                     <?php }?>
