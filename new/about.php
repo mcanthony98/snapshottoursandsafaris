@@ -33,7 +33,7 @@ $cataloguerow = $catalogueres->fetch_assoc();
     <div class="container">
     <div class="row d-flex">
     <div class="col-md-6 d-flex">
-    <div class="img d-flex align-self-stretch" style="background-image:url(images/banner.gif);"></div>
+    <div class="img d-flex align-self-stretch" style="background-image:url(images/abouty.jpg);"></div>
     </div>
     <div class="col-md-6 pl-md-5 py-5">
     <div class="row justify-content-start pb-3">
@@ -84,7 +84,7 @@ $cataloguerow = $catalogueres->fetch_assoc();
 
 
 
-    <section class="ftco-section mt-0 bg-light">
+<section class="ftco-section mt-0 bg-light">
 <div class="container">
 <div class="row justify-content-center mb-5 pb-3">
 <div class="col-md-7 heading-section text-center ftco-animate">
@@ -94,7 +94,7 @@ $cataloguerow = $catalogueres->fetch_assoc();
 <div class="row d-flex">
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="destinations.php" class="block-20" style="background-image: url('images/game.jpg');">
+<a href="destinations.php" class="block-20" style="background-image: url('images/beach.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
 <h3 class="heading"><a href="destinations.php">Personal and Business Holidays</a></h3>
@@ -105,7 +105,7 @@ $cataloguerow = $catalogueres->fetch_assoc();
 </div>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="team-building.php" class="block-20" style="background-image: url('images/treeplanting.jpg');">
+<a href="team-building.php" class="block-20" style="background-image: url('images/tb.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
 <h3 class="heading"><a href="team-building.php">Team Building Activities</a></h3>

@@ -104,20 +104,11 @@ $blogsres = $conn->query($blogsqry);
 <div class="select-wrap">
 <div class="icon"><span class="ion-ios-arrow-down"></span></div>
 <select name="" id="" class="form-control ">
-<option value="">$5,000</option>
-<option value="">$10,000</option>
-<option value="">$50,000</option>
-<option value="">$100,000</option>
-<option value="">$200,000</option>
-<option value="">$300,000</option>
-<option value="">$400,000</option>
-<option value="">$500,000</option>
-<option value="">$600,000</option>
-<option value="">$700,000</option>
-<option value="">$800,000</option>
-<option value="">$900,000</option>
-<option value="">$1,000,000</option>
-<option value="">$2,000,000</option>
+<option value="">$100</option>
+<option value="">$150</option>
+<option value="">$200</option>
+<option value="">$250</option>
+<option value="">$300</option>
 </select>
 </div>
 </div>
@@ -299,7 +290,7 @@ while($destrow = $destres->fetch_assoc()){
 <div class="row d-flex">
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="destinations.php" class="block-20" style="background-image: url('images/game.jpg');">
+<a href="destinations.php" class="block-20" style="background-image: url('images/beach.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
 <h3 class="heading"><a href="destinations.php">Personal and Business Holidays</a></h3>
@@ -310,7 +301,7 @@ while($destrow = $destres->fetch_assoc()){
 </div>
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="team-building.php" class="block-20" style="background-image: url('images/treeplanting.jpg');">
+<a href="team-building.php" class="block-20" style="background-image: url('images/tb.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
 <h3 class="heading"><a href="team-building.php">Team Building Activities</a></h3>

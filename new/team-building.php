@@ -13,7 +13,7 @@ $pg = 4;
 <body>
 <?php include "includes/navbar.php";?>
 
-<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/tb.jpeg');" data-stellar-background-ratio="0.5">
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/IMG_49883.JPG');" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
@@ -29,7 +29,7 @@ $pg = 4;
 <div class="container">
 <div class="row d-flex">
 <div class="col-md-6 order-md-last d-flex">
-<div class="img d-flex align-self-stretch" style="background-image:url(images/teams3.JPG);"></div>
+<div class="img d-flex align-self-stretch" style="background-image:url(images/IMG_1959.JPG);"></div>
 </div>
 <div class="col-md-6 pr-md-5 py-5">
 <div class="row justify-content-start pb-3">

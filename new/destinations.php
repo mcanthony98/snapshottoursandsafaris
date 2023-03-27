@@ -72,17 +72,10 @@ $destres = $conn->query($destqry);
 <div class="icon"><span class="ion-ios-arrow-down"></span></div>
 <select name="" id="" class="form-control">
 <option value="">$100</option>
-<option value="">$500</option>
-<option value="">$1000</option>
-<option value="">$2000</option>
-<option value="">$3000</option>
-<option value="">$4000</option>
-<option value="">$5000</option>
-<option value="">$6000</option>
-<option value="">$7000</option>
-<option value="">$8000</option>
-<option value="">$9000</option>
-<option value="">$10000</option>
+<option value="">$150</option>
+<option value="">$200</option>
+<option value="">$250</option>
+<option value="">$300</option>
 </select>
 </div>
 </div>
