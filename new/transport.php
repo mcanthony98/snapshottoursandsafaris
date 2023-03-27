@@ -48,7 +48,7 @@ $pg = 3;
 
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="javascript:void()" class="block-20" style="background-image: url('images/tourvan.jpg');">
+<a href="javascript:void()" class="block-20" style="background-image: url('images/tourvan2.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
 <h3 class="heading"><a href="javascript:void()">Tour Vans</a></h3>
