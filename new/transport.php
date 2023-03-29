@@ -10,6 +10,15 @@ $pg = 3;
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <?php include "includes/stylesheets.php";?>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RM45DWF1DC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RM45DWF1DC');
+</script>
 <body>
 <?php include "includes/navbar.php";?>
 
@@ -48,7 +57,7 @@ $pg = 3;
 
 <div class="col-md-4 d-flex ftco-animate">
 <div class="blog-entry justify-content-end">
-<a href="javascript:void()" class="block-20" style="background-image: url('images/tourvan2.jpg');">
+<a href="javascript:void()" class="block-20" style="background-image: url('images/vans.jpg');">
 </a>
 <div class="text mt-3 float-right d-block text-center">
 <h3 class="heading"><a href="javascript:void()">Tour Vans</a></h3>
@@ -74,8 +83,6 @@ $pg = 3;
 </div>
 </div>
 </section>
-
-
 
 
 

@@ -14,6 +14,15 @@ $destres = $conn->query($destqry);
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <?php include "includes/stylesheets.php";?>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RM45DWF1DC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RM45DWF1DC');
+</script>
 <body>
 <?php include "includes/navbar.php";?>
 
@@ -25,7 +34,7 @@ $destres = $conn->query($destqry);
 <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
 <div class="col-md-9 ftco-animate pb-5 mb-5 text-center">
 <h1 class="mb-3 bread">Places to Travel</h1>
-<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Destination <i class="ion-ios-arrow-forward"></i></span></p>
+<p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Destination <i class="ion-ios-arrow-forward"></i></span></p>
 </div>
 </div>
 </div>

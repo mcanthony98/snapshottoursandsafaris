@@ -14,6 +14,15 @@ $destres = $conn->query($destqry);
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <?php include "includes/stylesheets.php";?>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RM45DWF1DC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RM45DWF1DC');
+</script>
 <body>
 <?php include "includes/navbar.php";?>
 
