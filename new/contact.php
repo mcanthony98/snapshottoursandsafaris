@@ -115,6 +115,26 @@ include "includes/footer.php";
 include "includes/scripts.php";
 ?>
 
+<script>
+  function initialize() {
+    var mapOptions = {
+        zoom: 16,
+        center: new google.maps.LatLng(-1.098023450675555, 37.02236839832163) // Van Munching Hall
+    };
+
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+    // To add the marker to the map, use the 'map' property
+    var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(-1.098023450675555, 37.02236839832163), // Van Munching Hall,
+        map: map,
+        title: "Snapshot Tours and Safaris"
+    });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
 </body>
 
 </html>

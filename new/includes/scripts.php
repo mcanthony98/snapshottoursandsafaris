@@ -12,8 +12,7 @@
 <script src="js/jquery.animateNumber.min.js"></script>
 <script src="js/bootstrap-datepicker.js"></script>
 <script src="js/scrollax.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?center=-1.0981562,37.0201615&key=AIzaSyCj2kVmXd9RmgNx-9VFY37YK8fSB9r4qYU&sensor=false"></script>
-<script src="js/google-map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCj2kVmXd9RmgNx-9VFY37YK8fSB9r4qYU&sensor=false"></script>
 <script src="js/main.js"></script>
 
 

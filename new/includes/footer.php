@@ -21,6 +21,10 @@
 </div>
 </section>
 
+<a href="https://api.whatsapp.com/send?phone=254759949546" target="_blank" class="float" style="position:fixed;	width:62px; height:62px;bottom:40px;right:40px;background-color:#25D366;color:#FFF;border-radius:50px;text-align:center;box-shadow: 2px 2px 3px #999;">
+      <i class="fa fa-whatsapp fa-3x my-float" style="margin-top:8px;"></i>
+      </a>
+
 
 <footer class="ftco-footer ftco-footer-2 ftco-section">
 <div class="container">
@@ -39,7 +43,7 @@
 </div>
 <div class="col-md">
 <div class="ftco-footer-widget mb-4 ml-md-5">
-<h2 class="ftco-heading-2">Infromation</h2>
+<h2 class="ftco-heading-2">Information</h2>
 <ul class="list-unstyled">
 <li><a href="#" class="py-2 d-block">Online Enquiry</a></li>
 <li><a href="#" class="py-2 d-block">General Enquiries</a></li>
@@ -59,7 +63,7 @@
 <li><a href="#" class="py-2 d-block">Beach</a></li>
 <li><a href="#" class="py-2 d-block">Nature</a></li>
 <li><a href="#" class="py-2 d-block">Camping</a></li>
-<li><a href="#" class="py-2 d-block">Party</a></li>
+<li><a href="#" class="py-2 d-block">Corporate Programs</a></li>
 </ul>
 </div>
 </div>
@@ -68,7 +72,7 @@
 <h2 class="ftco-heading-2">Have a Questions?</h2>
 <div class="block-23 mb-3">
 <ul>
-<li><span class="icon icon-map-marker"></span><span class="text">Office 3, Hotel Lillies, Juja, Nairobi, Kenya.</span></li>
+<li><span class="icon icon-map-marker"></span><span class="text">Office 4, Hotel Lillies, Juja, Nairobi, Kenya.</span></li>
 <li><a href="tel:+254759949546"><span class="icon icon-phone"></span><span class="text">+254 7599 49546</span></a></li>
 <li><a href="mail:info@snapshottoursandsafaris.com"><span class="icon icon-envelope mr-2"></span><span class="text"> info@snapshottoursandsafaris.com</span></a></li>
 </ul>
@@ -156,7 +160,7 @@
             </div>
 
             <div class="col-sm-6 my-2">
-              <input type="date" class="form-control" placeholder="Date of Travel" name="dateT" required>
+              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')" class="form-control" placeholder="Date of Travel" name="dateT" required>
             </div>
 
             <div class="col-12 my-2">
@@ -221,7 +225,7 @@
             </div>
 
             <div class="col-sm-6 my-2">
-              <input type="date" class="form-control" placeholder="Date of Travel" name="dateT" required>
+              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')" class="form-control" placeholder="Date of Travel" name="dateT" required>
             </div>
 
             <div class="col-12 my-2">
