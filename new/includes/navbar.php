@@ -30,7 +30,7 @@
           <a class="dropdown-item" href="events.php">Snapshot Events</a>
         </div>
       </li>-->
-<li class="nav-item <?php if($pg == 6){echo "active";}?>"><a href="#" class="nav-link">Gallery</a></li>
+<li class="nav-item <?php if($pg == 6){echo "active";}?>"><a href="gallery.php" class="nav-link">Gallery</a></li>
 <li class="nav-item <?php if($pg == 7){echo "active";}?>"><a href="blogs.php" class="nav-link">Blogs</a></li>
 <li class="nav-item <?php if($pg == 8){echo "active";}?>"><a href="contact.php" class="nav-link">Contact</a></li>
 <li class="nav-item cta"><a class="nav-link" type="button" data-toggle="modal" data-target="#bookcustom">Book Now</a></li>
