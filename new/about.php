@@ -48,7 +48,12 @@ $cataloguerow = $catalogueres->fetch_assoc();
     <div class="row justify-content-start pb-3">
     <div class="col-md-12 heading-section ftco-animate">
     <h2 class="mb-4">About Snapshot Tours and Safaris</h2>
-    <p>We love Africa. It has a magic not found anywhere else on our planet. It is a dream destination and it is our home. Our passion is to inspire you to experience the best of East Africa.We specialise in crafting authentic, memorable and highly customised journeys to soul-enriching destinations in Kenya and Tanzania.Your dream, our expertise. Discover Africa with us.</p>
+    <p>Welcome to snapshot tours and safaris! We are a leading provider of safari tours in Kenya, offering unique and unforgettable experiences for travellers who want to explore the incredible wildlife, landscapes, and cultures of this stunning country.
+Our team of experienced and knowledgeable guides are passionate about sharing their love and understanding of Kenya with our guests. We offer a range of safari tours, including wildlife safaris, bird watching tours, cultural tours, beach tours and adventure safaris, all designed to provide you with an authentic and immersive experience of Kenya.<br>
+Whether you are traveling solo, as a couple, or with a group of friends or family, we can tailor our tours to meet your needs and preferences. From luxury lodges to tented camps, we work with a range of accommodation partners to ensure that you have a comfortable and enjoyable stay throughout your safari.<br>
+At our Kenyan safari tourism company, we are committed to responsible tourism and conservation. We work closely with local communities and conservation organizations to ensure that our tours have a positive impact on the environment and support sustainable development in the region.<br>
+So come join us on a safari adventure of a lifetime! Let us show you the magic and wonder of Kenya's wildlife and landscapes, and introduce you to the warmth and hospitality of its people.
+</p>
     </div>
     </div>
     <div class="row">
