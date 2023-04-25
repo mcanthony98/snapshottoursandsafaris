@@ -44,11 +44,13 @@ $pg = 4;
 <div class="row justify-content-start pb-3">
 <div class="col-md-12 heading-section ftco-animate">
 <h2 class="mb-4">Team Building</h2>
-<p><span class="text-bold">Snapshot Tours and Safaris</span> prides itself as the Premier Safaris and Event Company. We have worked with
-thousands of organizations in the past in all sectors of the economy from Government Agencies, Charity Organizations, Private Corporates, and Learning Institutions.<br><br/>
-We have partnered with some of the most prestigious East African team-building venues and hotels to deliver
-personalized team development activities, ranging from ice breakers to full blown indoor team-building events
-or outdoor activities and motivational talks</p>
+<p>
+Snapshot Tours and Safaris prides itself as the Premier Safaris and Event Company. We have worked with thousands of organizations in the past in all sectors of the economy from Government Agencies, Charity Organizations, Private Corporates, and Learning Institutions.<br>
+We have partnered with some of the most prestigious East African team-building venues and hotels to deliver tailor-made team building programs that cater to the unique needs of your team. Our training programs are designed to enhance team performance, foster better communication, and increase collaboration among team members.<br>
+Our team building programs are built on the principles of experiential learning, which means that participants are actively engaged in hands-on activities that simulate real-life workplace scenarios. This approach allows team members to develop practical skills and knowledge that they can apply directly to their work, leading to improved team dynamics and productivity.<br>
+Our team building training programs are designed to be fun and engaging, while still being challenging enough to promote growth and development. Our experienced facilitators work with your team to create a safe and supportive learning environment where everyone can participate and contribute.
+
+</p>
 </div>
 </div>
 <div class="row">

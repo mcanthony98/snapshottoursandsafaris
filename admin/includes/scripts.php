@@ -135,3 +135,9 @@ function showFileName( event ) {
   infoArea.textContent = fileName;
 }
 </script>
+
+<script>
+  $('#reservationdate').datetimepicker({
+        format: 'L'
+    });
+</script>

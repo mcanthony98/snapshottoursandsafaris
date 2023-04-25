@@ -45,5 +45,10 @@ session_start();
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
 
-   
+ <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+    </style>
 </head>

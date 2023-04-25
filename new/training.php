@@ -45,7 +45,11 @@ $pg = 4;
 <div class="row justify-content-start pb-3">
 <div class="col-md-12 heading-section ftco-animate">
 <h2 class="mb-4">Snapshot Corporate Training</h2>
-<p><span class="text-bold">Our corporate-training services provide comprehensive and personalized learning solutions to improve employee skills and increase productivity. Our courses are designed to address specific organizational needs and challenges. Upon completion of our training, trainees will receive certificates to recognize their achievements and development.</p>
+<p>
+We are a leading provider of professional development and training solutions for businesses of all sizes. Our mission is to help organizations cultivate a skilled workforce and empower their employees to reach their full potential. We understand that in today's fast-paced and ever-changing business world, ongoing learning and development are critical to staying competitive and successful.<br>
+Our training programs are designed to address the specific needs and challenges of modern businesses, we understand that every organization has unique training needs, which is why we offer a range of training programs tailored to meet the specific requirements of our clients. Our team of experienced and NITA certified trainers and experts are dedicated to delivering high-quality, engaging and impactful training sessions that equip your employees with the skills they need to succeed.<br>
+Our comprehensive training programs cover a wide range of topics, including leadership, communication, team building, project management, customer service, and many more. Our team of experienced trainers and coaches are dedicated to delivering practical and engaging training sessions that meet the unique needs and goals of each organization We offer both on-site and online training options to ensure that your employees have access to the training they need, no matter where they are located.
+</p>
 </div>
 </div>
 <div class="row">
