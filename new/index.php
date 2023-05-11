@@ -371,6 +371,7 @@ while($destrow = $destres->fetch_assoc()){
 </section>
 
 
+
 <section class="ftco-section ftco-no-pb testimony-section" style="background-image: url(images/bg_1.jpg);" id="testimonies">
 <div class="overlay"></div>
 <div class="container">
@@ -396,7 +397,7 @@ while($destrow = $destres->fetch_assoc()){
 
 
 <div class="item">
-<div class="testimony-wrap" style="background-image: url(images/traveller3.jpg);">
+<div class="testimony-wrap" style="background-image: url(images/amboseliWazungu.jpg);">
 <div class="overlay"></div>
 <div class="text">
 <p class="mb-4" style="font-size: 17px;">Kenya is a safari lover's paradise, and our experience there was nothing short of amazing. Amboseli National Park stole our hearts with its breathtaking views of Mount Kilimanjaro and the herds of elephants roaming freely. The guides from snapshot tours and safaris were incredibly skilled at spotting wildlife, and we got up close to lions, giraffes, and even a cheetah on the hunt. Our tented camp was comfortable, with all the necessary amenities, and the campfire under the starry sky was a magical way to end each day. We highly recommend snapshot tours and safaris  for an adventure of a lifetime!</p>
@@ -406,17 +407,17 @@ while($destrow = $destres->fetch_assoc()){
 </div>
 </div>
 <div class="item">
-  <div class="testimony-wrap img" style="background-image: url(images/samnnpark.jpg);">
+  <div class="testimony-wrap img" style="background-image: url(images/wazungumas.jpg);">
   <div class="overlay"></div>
   <div class="text">
-  <p class="mb-4" style="font-size: 17px;">Our Kenyan safari was an absolute dream come true! The wildlife sightings in Maasai Mara were beyond our expectations. We witnessed the Great Migration, with thousands of wildebeests and zebras roaming the plains. Our knowledgeable guide from snapshot tours and safaris provided fascinating insights about the animals and their behaviour. The accommodations were luxurious, and the staff was incredibly friendly and attentive. We also enjoyed visiting a Maasai village and learning about their culture. This safari exceeded all our expectations and left us with unforgettable memories.</p>
-  <p class="name">Mukungi Kamunzyu</p>
-  <span class="position">Nairobi, Kenya</span>
+  <p class="mb-4" style="font-size: 17px;">Our Kenyan safari was an absolute dream come true! The wildlife sightings in Maasai Mara were beyond our expectations. We witnessed the Great Migration, with thousands of wildebeests and zebras roaming the plains. Our knowledgeable guide from snapshot tours and safaris provided fascinating insights about the animals and their behaviour. The accommodations were luxurious, and the staff was incredibly friendly and attentive. We also enjoyed visiting a Maasai village and learning about their culture. This safari exceeded all our expectations and left us with unforgettable memories</p>
+  <p class="name">Liam O'Sullivan</p>
+  <span class="position">Dublin, Ireland</span>
   </div>
   </div>
   </div>
 <div class="item">
-<div class="testimony-wrap" style="background-image: url(images/traveller4.jpg);">
+<div class="testimony-wrap" style="background-image: url(images/wazungu.jpg);">
 <div class="overlay"></div>
 <div class="text">
 <p class="mb-4" style="font-size: 17px;">Our Kenyan safari in Samburu National Reserve was a remarkable journey. The reserve's unique flora and fauna were a delight to explore. We spotted the 'Samburu Five' (Gravy’s zebra, Somali ostrich, reticulated giraffe, beisa Oryx, and gerenuk) and were enthralled by their distinct features. Our guide from snapshot tours and safaris was a treasure trove of knowledge and made our safari educational and exciting. The eco-lodge we stayed in had a strong commitment to sustainability, which was commendable. The Samburu people's warm hospitality and cultural experiences added another layer of richness to our adventure</p>
@@ -430,6 +431,7 @@ while($destrow = $destres->fetch_assoc()){
 </div>
 </div>
 </section>
+
 
 
 <section class="ftco-section bg-light">
