@@ -180,44 +180,57 @@ So come join us on a safari adventure of a lifetime! Let us show you the magic a
 </section>
 
 
-<section class="ftco-section ftco-no-pb testimony-section" style="background-image: url(images/bg_1.jpg);">
+<section class="ftco-section ftco-no-pb testimony-section" style="background-image: url(images/bg_1.jpg);" id="testimonies">
 <div class="overlay"></div>
 <div class="container">
 <div class="row justify-content-center mb-5 pb-3">
 <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-<h2 class="mb-4">Happy Client Says</h2>
+<h2 class="mb-4">Happy Clients Say</h2>
 </div>
 </div>
 <div class="row ftco-animate">
 <div class="col-md-12 testimonial">
 <div class="carousel-testimony owl-carousel ftco-owl">
+ 
 <div class="item">
-<div class="testimony-wrap img" style="background-image: url(images/samnnpark.jpg);">
+<div class="testimony-wrap img" style="background-image: url(images/test2.jpg);">
 <div class="overlay"></div>
 <div class="text">
-<p class="mb-4">I had an incredible experience with your tour company at Nairobi National Park. The wildlife and scenery were breathtaking!</p>
-<p class="name">Mukungi Kamunzyu</p>
-<span class="position">Nairobi, Kenya</span>
+<p class="mb-4" style="font-size: 17px;">Words cannot describe the sheer beauty of Kenya's landscapes and wildlife. Tsavo National Park offered a different perspective, with its rugged terrain and vast open spaces. Our safari drives were filled with encounters with elephants, buffalo, and the elusive leopards. The guides from snapshot tours and safaris were knowledgeable and passionate, sharing interesting facts about the animals and their habitats. The lodges we stayed at were top-notch, providing stunning views and excellent service. This safari was a true immersion into nature, and we left with a deep appreciation for Kenya's conservation efforts and snapshots knowledge of the terrain </p>
+<p class="name">Lillian Hartman</p>
+<span class="position">Beverly Hills, California, USA</span>
 </div>
 </div>
 </div>
+
+
 <div class="item">
 <div class="testimony-wrap" style="background-image: url(images/traveller3.jpg);">
 <div class="overlay"></div>
 <div class="text">
-<p class="mb-4">Thank you for an incredible experience at Tsavo National Park. The wildlife was amazing and the tour guides were knowledgeable and friendly.</p>
+<p class="mb-4" style="font-size: 17px;">Kenya is a safari lover's paradise, and our experience there was nothing short of amazing. Amboseli National Park stole our hearts with its breathtaking views of Mount Kilimanjaro and the herds of elephants roaming freely. The guides from snapshot tours and safaris were incredibly skilled at spotting wildlife, and we got up close to lions, giraffes, and even a cheetah on the hunt. Our tented camp was comfortable, with all the necessary amenities, and the campfire under the starry sky was a magical way to end each day. We highly recommend snapshot tours and safaris  for an adventure of a lifetime!</p>
 <p class="name">Charles Dean</p>
-<span class="position">United Kingdom</span>
+<span class="position">London, United Kingdom</span>
 </div>
 </div>
 </div>
 <div class="item">
+  <div class="testimony-wrap img" style="background-image: url(images/samnnpark.jpg);">
+  <div class="overlay"></div>
+  <div class="text">
+  <p class="mb-4">I had an incredible experience with your tour company at Nairobi National Park. The wildlife and scenery were breathtaking!</p>
+  <p class="name">Mukungi Kamunzyu</p>
+  <span class="position">Nairobi, Kenya</span>
+  </div>
+  </div>
+  </div>
+<div class="item">
 <div class="testimony-wrap" style="background-image: url(images/traveller4.jpg);">
 <div class="overlay"></div>
 <div class="text">
-<p class="mb-4">Thanks for an incredible experience with my friends at Samburu. The game drives were unforgettable and the accommodations were top-notch.</p>
+<p class="mb-4" style="font-size: 17px;">Our Kenyan safari in Samburu National Reserve was a remarkable journey. The reserve's unique flora and fauna were a delight to explore. We spotted the 'Samburu Five' (Gravy’s zebra, Somali ostrich, reticulated giraffe, beisa Oryx, and gerenuk) and were enthralled by their distinct features. Our guide from snapshot tours and safaris was a treasure trove of knowledge and made our safari educational and exciting. The eco-lodge we stayed in had a strong commitment to sustainability, which was commendable. The Samburu people's warm hospitality and cultural experiences added another layer of richness to our adventure</p>
 <p class="name">Mark Anthony</p>
-<span class="position">Samburu National Reserve, Kenya</span>
+<span class="position">Atlanta Georgia, USA</span>
 </div>
 </div>
 </div>

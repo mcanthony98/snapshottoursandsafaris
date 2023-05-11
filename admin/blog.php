@@ -4,7 +4,13 @@ include "includes/header.php";
 include "../includes/connect.php";
 include "includes/sessions.php";
 
-$stqry = "SELECT * FROM snapshot_blog";
+if(!isset($_GET["blog"])){
+    echo '<script>location.replace("blogs.php");</script>';
+    exit();
+}
+
+$blog_id = $_GET['blog'];
+$stqry = "SELECT * FROM snapshot_blog WHERE blog_id = '$blog_id'";
 $stres = $conn->query($stqry);
 ?>
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -33,7 +39,7 @@ include "includes/sidebar.php";
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="dashboard.php">Admin</a></li>
-              <li class="breadcrumb-item active">Blogs</li>
+              <li class="breadcrumb-item active">Blog Details</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -72,7 +78,7 @@ include "includes/sidebar.php";
                                             <td><?php echo $strow['no_of_views'];?></td>
                                             <td><?php echo 0;//$strow['phone'];?></td>
                                             <td class="text-nowrap">
-                                                <a href="blog.php?blog=<?php echo $strow['blog_id'];?>" class="btn btn-sm btn-primary" ><i class="fas fa-eye"></i> </a>
+                                                <a class="btn btn-sm btn-primary" ><i class="fas fa-eye"></i> </a>
                                                 
                                                 <a onclick="return deleteRequest('<?php echo $strow['title']?>');" href="processes/processes.php?delete_blog=<?php echo $strow['blog_id'];?>" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i> </a>
                                             </td>

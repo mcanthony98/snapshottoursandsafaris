@@ -70,7 +70,7 @@
                 </a>
                 <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="#" class="nav-link <?php if($pg==4.1){echo "active";}?>">
+                    <a href="petty-cash.php" class="nav-link <?php if($pg==4.1){echo "active";}?>">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Petty Cash</p>
                     </a>
