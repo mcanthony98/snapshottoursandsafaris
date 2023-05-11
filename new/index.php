@@ -409,7 +409,7 @@ while($destrow = $destres->fetch_assoc()){
   <div class="testimony-wrap img" style="background-image: url(images/samnnpark.jpg);">
   <div class="overlay"></div>
   <div class="text">
-  <p class="mb-4">I had an incredible experience with your tour company at Nairobi National Park. The wildlife and scenery were breathtaking!</p>
+  <p class="mb-4" style="font-size: 17px;">Our Kenyan safari was an absolute dream come true! The wildlife sightings in Maasai Mara were beyond our expectations. We witnessed the Great Migration, with thousands of wildebeests and zebras roaming the plains. Our knowledgeable guide from snapshot tours and safaris provided fascinating insights about the animals and their behaviour. The accommodations were luxurious, and the staff was incredibly friendly and attentive. We also enjoyed visiting a Maasai village and learning about their culture. This safari exceeded all our expectations and left us with unforgettable memories.</p>
   <p class="name">Mukungi Kamunzyu</p>
   <span class="position">Nairobi, Kenya</span>
   </div>
