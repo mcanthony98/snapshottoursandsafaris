@@ -1,5 +1,6 @@
 <?php
 $pg = 4;
+$typ = 1;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -55,7 +56,7 @@ Our team building training programs are designed to be fun and engaging, while s
 </div>
 <div class="row">
 <div class="col-md-12">
-<p class="ftco-animate mt-4"><a href="#" class="btn btn-primary py-3 px-5">Book Now</a></p>
+<p class="ftco-animate mt-4"><a type="button" data-toggle="modal" data-target="#bookcoop" class="btn btn-primary py-3 px-5">Book Now</a></p>
 </div>
 </div>
 </div>
@@ -173,7 +174,7 @@ Our team building training programs are designed to be fun and engaging, while s
 </div>
 
 <div class="col-md-12 mt-3 mb-5 heading-section text-center ftco-animate">
-<a class="btn btn-primary py-3 px-5">Book Us Today</a>
+<a class="btn btn-primary py-3 px-5" type="button" data-toggle="modal" data-target="#bookcoop">Book Us Today</a>
 </div>
 
 </div>

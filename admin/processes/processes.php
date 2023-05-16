@@ -259,4 +259,195 @@ elseif(isset($_GET['read_enq'])){
     exit();
 }
 
+
+// Read/ Unread Travel Request
+elseif(isset($_GET['read_booking'])){
+    $id = mysqli_real_escape_string($conn, $_GET["read_booking"]);
+
+    $chkres = $conn->query("SELECT * FROM bookings WHERE booking_id = '$id'");
+    $chkrow = $chkres->fetch_assoc();
+
+    if($chkrow['read_status'] == 0){
+        $new = 1;
+    }else{
+        $new = 0;
+    }
+
+    $qry = "UPDATE bookings SET read_status = '$new' WHERE booking_id ='$id'";
+    $res = $conn->query($qry);
+    if($res === TRUE){
+        $_SESSION['success'] = "Booking status Updated Successfully!";
+    }else{
+        $_SESSION['error'] = "An error occured! Try Again!";
+    }
+   
+
+    header('location: ../travel-requests.php');
+    exit();
+}
+
+//fetch single travel booking
+elseif(isset($_POST['fetch_travel_booking'])){
+    $id = mysqli_real_escape_string($conn, $_POST["fetch_travel_booking"]);
+
+    $qry = "SELECT * FROM bookings JOIN destination ON bookings.destination_id=destination.destination_id WHERE bookings.booking_id = '$id' ";
+    $res = $conn->query($qry);
+    $row = $res->fetch_assoc();
+
+    echo json_encode($row);
+
+}
+
+//fetch single custom booking
+elseif(isset($_POST['fetch_travel_cbooking'])){
+    $id = mysqli_real_escape_string($conn, $_POST["fetch_travel_cbooking"]);
+
+    $qry = "SELECT * FROM custom_bookings WHERE booking_id = '$id' ";
+    $res = $conn->query($qry);
+    $row = $res->fetch_assoc();
+
+    echo json_encode($row);
+
+}
+
+// Read/ Unread Booking Request
+elseif(isset($_GET['read_cbooking'])){
+    $id = mysqli_real_escape_string($conn, $_GET["read_cbooking"]);
+
+    $chkres = $conn->query("SELECT * FROM custom_bookings WHERE booking_id = '$id'");
+    $chkrow = $chkres->fetch_assoc();
+
+    if($chkrow['read_status'] == 0){
+        $new = 1;
+    }else{
+        $new = 0;
+    }
+
+    $qry = "UPDATE custom_bookings SET read_status = '$new' WHERE booking_id ='$id'";
+    $res = $conn->query($qry);
+    if($res === TRUE){
+        $_SESSION['success'] = "Booking status Updated Successfully!";
+    }else{
+        $_SESSION['error'] = "An error occured! Try Again!";
+    }
+   
+
+    header('location: ../booking-requests.php');
+    exit();
+}
+
+//fetch single flight booking
+elseif(isset($_POST['fetch_travel_fbooking'])){
+    $id = mysqli_real_escape_string($conn, $_POST["fetch_travel_fbooking"]);
+
+    $qry = "SELECT * FROM flight_bookings WHERE booking_id = '$id' ";
+    $res = $conn->query($qry);
+    $row = $res->fetch_assoc();
+
+    echo json_encode($row);
+
+}
+
+// Read/ Unread Booking Request
+elseif(isset($_GET['read_fbooking'])){
+    $id = mysqli_real_escape_string($conn, $_GET["read_fbooking"]);
+
+    $chkres = $conn->query("SELECT * FROM flight_bookings WHERE booking_id = '$id'");
+    $chkrow = $chkres->fetch_assoc();
+
+    if($chkrow['read_status'] == 0){
+        $new = 1;
+    }else{
+        $new = 0;
+    }
+
+    $qry = "UPDATE flight_bookings SET read_status = '$new' WHERE booking_id ='$id'";
+    $res = $conn->query($qry);
+    if($res === TRUE){
+        $_SESSION['success'] = "Booking status Updated Successfully!";
+    }else{
+        $_SESSION['error'] = "An error occured! Try Again!";
+    }
+   
+
+    header('location: ../flight-bookings.php');
+    exit();
+}
+
+
+//fetch single transport booking
+elseif(isset($_POST['fetch_travel_tbooking'])){
+    $id = mysqli_real_escape_string($conn, $_POST["fetch_travel_tbooking"]);
+
+    $qry = "SELECT * FROM transport_bookings WHERE booking_id = '$id' ";
+    $res = $conn->query($qry);
+    $row = $res->fetch_assoc();
+
+    echo json_encode($row);
+
+}
+
+// Read/ Unread Transport Booking Request
+elseif(isset($_GET['read_tbooking'])){
+    $id = mysqli_real_escape_string($conn, $_GET["read_tbooking"]);
+
+    $chkres = $conn->query("SELECT * FROM transport_bookings WHERE booking_id = '$id'");
+    $chkrow = $chkres->fetch_assoc();
+
+    if($chkrow['read_status'] == 0){
+        $new = 1;
+    }else{
+        $new = 0;
+    }
+
+    $qry = "UPDATE transport_bookings SET read_status = '$new' WHERE booking_id ='$id'";
+    $res = $conn->query($qry);
+    if($res === TRUE){
+        $_SESSION['success'] = "Booking status Updated Successfully!";
+    }else{
+        $_SESSION['error'] = "An error occured! Try Again!";
+    }
+   
+
+    header('location: ../transport-bookings.php');
+    exit();
+}
+
+//fetch single corporate booking
+elseif(isset($_POST['fetch_travel_coopbooking'])){
+    $id = mysqli_real_escape_string($conn, $_POST["fetch_travel_coopbooking"]);
+
+    $qry = "SELECT * FROM corporate_bookings WHERE booking_id = '$id' ";
+    $res = $conn->query($qry);
+    $row = $res->fetch_assoc();
+
+    echo json_encode($row);
+
+}
+
+// Read/ Unread Corporate Booking Request
+elseif(isset($_GET['read_coopbooking'])){
+    $id = mysqli_real_escape_string($conn, $_GET["read_coopbooking"]);
+
+    $chkres = $conn->query("SELECT * FROM corporate_bookings WHERE booking_id = '$id'");
+    $chkrow = $chkres->fetch_assoc();
+
+    if($chkrow['read_status'] == 0){
+        $new = 1;
+    }else{
+        $new = 0;
+    }
+
+    $qry = "UPDATE corporate_bookings SET read_status = '$new' WHERE booking_id ='$id'";
+    $res = $conn->query($qry);
+    if($res === TRUE){
+        $_SESSION['success'] = "Booking status Updated Successfully!";
+    }else{
+        $_SESSION['error'] = "An error occured! Try Again!";
+    }
+   
+
+    header('location: ../corporate-bookings.php');
+    exit();
+}
 ?>

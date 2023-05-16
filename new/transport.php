@@ -78,7 +78,7 @@ $pg = 3;
 </div>
 
 <div class="col-md-12 mt-4 heading-section text-center ftco-animate">
-<a class="btn btn-primary" href="">Request Your Ride</a>
+<a class="btn btn-primary" type="button" data-toggle="modal" data-target="#booktransport">Request Your Ride</a>
 </div>
 </div>
 </div>

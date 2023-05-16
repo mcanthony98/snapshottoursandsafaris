@@ -53,7 +53,7 @@ $pg = 3;
 <p class="ftco-animate tips"><span>2.</span> Transfers to and from airport&nbsp;&nbsp;</p>
 <p class="ftco-animate tips"><span>3.</span> A tour guide - for flying safaris</p>
 <p class="ftco-animate tips"><span>4.</span> A memorable experience</p>
-<p class="ftco-animate mt-4"><a href="#" class="btn btn-primary py-3 px-5">Book a Flight Now!</a></p>
+<p class="ftco-animate mt-4"><a class="btn btn-primary py-3 px-5" type="button" data-toggle="modal" data-target="#bookflight">Book a Flight Now!</a></p>
 </div>
 </div>
 </div>

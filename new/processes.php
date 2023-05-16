@@ -84,4 +84,60 @@ if(isset($_POST['book_custom_dest'])){
     
     echo $output;
 }
+
+
+//Flight Booking form
+if(isset($_POST['book_flight'])){
+    $from = mysqli_real_escape_string($conn, $_POST["book_flight"]);
+    $name = mysqli_real_escape_string($conn, $_POST["name"]);
+    $email = mysqli_real_escape_string($conn, $_POST["email"]);
+    $phone = mysqli_real_escape_string($conn, $_POST["phone"]);
+    $country = mysqli_real_escape_string($conn, $_POST["country"]);
+    $to = mysqli_real_escape_string($conn, $_POST["to"]);
+    $people = mysqli_real_escape_string($conn, $_POST["people"]);
+    $dateT = mysqli_real_escape_string($conn, $_POST["dateT"]);
+    $comment = mysqli_real_escape_string($conn, $_POST["comment"]);
+    $output = 1;
+    
+    $qry = "INSERT iNTO flight_bookings (name, phone, email, country, flight_from, date_of_travel, flight_to, comment, people, date_created) VALUES ('$name', '$phone', '$email', '$country', '$from', '$dateT', '$to', '$comment', '$people', '$date')";
+    $res = $conn->query($qry);
+    
+    echo $output;
+}
+
+//Transport Booking form
+if(isset($_POST['book_transport'])){
+    $vehicle = mysqli_real_escape_string($conn, $_POST["book_transport"]);
+    $name = mysqli_real_escape_string($conn, $_POST["name"]);
+    $email = mysqli_real_escape_string($conn, $_POST["email"]);
+    $phone = mysqli_real_escape_string($conn, $_POST["phone"]);
+    $country = mysqli_real_escape_string($conn, $_POST["country"]);
+    $days = mysqli_real_escape_string($conn, $_POST["days"]);
+    $dateT = mysqli_real_escape_string($conn, $_POST["dateT"]);
+    $comment = mysqli_real_escape_string($conn, $_POST["comment"]);
+    $output = 1;
+    
+    $qry = "INSERT iNTO transport_bookings (name, phone, email, country, vehicle, date_of_travel, days, comment, date_created) VALUES ('$name', '$phone', '$email', '$country', '$vehicle', '$dateT', '$days', '$comment', '$date')";
+    $res = $conn->query($qry);
+    
+    echo $output;
+}
+
+
+//Coop Booking form
+if(isset($_POST['book_coop'])){
+    $event = mysqli_real_escape_string($conn, $_POST["book_coop"]);
+    $name = mysqli_real_escape_string($conn, $_POST["name"]);
+    $email = mysqli_real_escape_string($conn, $_POST["email"]);
+    $phone = mysqli_real_escape_string($conn, $_POST["phone"]);
+    $people = mysqli_real_escape_string($conn, $_POST["people"]);
+    $dateT = mysqli_real_escape_string($conn, $_POST["dateT"]);
+    $comment = mysqli_real_escape_string($conn, $_POST["comment"]);
+    $output = 1;
+    
+    $qry = "INSERT iNTO corporate_bookings (name, phone, email, type, date_of_event, people, comment, date_created) VALUES ('$name', '$phone', '$email', '$event', '$dateT', '$people', '$comment', '$date')";
+    $res = $conn->query($qry);
+    
+    echo $output;
+}
 ?>

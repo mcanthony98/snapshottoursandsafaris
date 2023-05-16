@@ -213,3 +213,93 @@ $(document).ready(function() {
   });
 });
 </script>
+
+<!--Book Flight form-->
+<script>
+$(document).ready(function() {
+  $("#book_flight").submit(function(event) {
+    event.preventDefault();
+      var x = $("#book_flight").serialize();
+      $.ajax({  
+        url:"processes.php",  
+        type:"POST",  
+        data:x,
+        crossDomain: true,
+        cache: false, 
+        beforeSend:function(){  
+          $('#book_flight_btn').val("Submitting...");
+        }, 
+        success:function(data){ 
+            var element = document.getElementById("bookflightsuccess");
+            element.scrollIntoView();
+            $('#bookflightsuccess').html('<span style="color:green;" class="">You Flight Booking Request has been received. We will contact you shortly! <br>Thank You for Choosing Snapshot Tours and Safaris. </span>');
+            $('#book_flight input').val("");
+            $('#book_flight textarea').val("");
+            $('#book_flight_btn').val("Submit");
+        }  
+});
+
+  });
+});
+</script>
+
+
+<!--Book Transport form-->
+<script>
+$(document).ready(function() {
+  $("#book_transport").submit(function(event) {
+    event.preventDefault();
+      var x = $("#book_transport").serialize();
+      $.ajax({  
+        url:"processes.php",  
+        type:"POST",  
+        data:x,
+        crossDomain: true,
+        cache: false, 
+        beforeSend:function(){  
+          $('#book_transport_btn').val("Submitting...");
+        }, 
+        success:function(data){ 
+            var element = document.getElementById("booktransportsuccess");
+            element.scrollIntoView();
+            $('#booktransportsuccess').html('<span style="color:green;" class="">You Transport Request has been received. We will contact you shortly! <br>Thank You for Choosing Snapshot Tours and Safaris. </span>');
+            $('#book_transport input').val("");
+            $('#book_transport textarea').val("");
+            $('#book_transport_btn').val("Submit");
+        }  
+});
+
+  });
+});
+</script>
+
+
+<!--Book Coop form-->
+<script>
+$(document).ready(function() {
+  $("#book_coop").submit(function(event) {
+    event.preventDefault();
+      var x = $("#book_coop").serialize();
+      $.ajax({  
+        url:"processes.php",  
+        type:"POST",  
+        data:x,
+        crossDomain: true,
+        cache: false, 
+        beforeSend:function(){  
+          $('#book_coop_btn').val("Submitting...");
+        }, 
+        success:function(data){ 
+            var element = document.getElementById("bookcoopsuccess");
+            element.scrollIntoView();
+            $('#bookcoopsuccess').html('<span style="color:green;" class="">You Corporate Training Request has been received. We will contact you shortly! <br>Thank You for Choosing Snapshot Tours and Safaris. </span>');
+            $('#book_coop input').val("");
+            $('#book_coop textarea').val("");
+            $('#book_coop_btn').val("Submit");
+        }  
+});
+
+  });
+});
+</script>
+

@@ -90,39 +90,33 @@
                 </a>
                 <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="#" class="nav-link <?php if($pg==5.1){echo "active";}?>">
+                    <a href="travel-requests.php" class="nav-link <?php if($pg==5.1){echo "active";}?>">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Travel Bookings</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link <?php if($pg==5.2){echo "active";}?>">
+                    <a href="booking-requests.php" class="nav-link <?php if($pg==5.2){echo "active";}?>">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Booking Requests</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link <?php if($pg==5.3){echo "active";}?>">
+                    <a href="flight-bookings.php" class="nav-link <?php if($pg==5.3){echo "active";}?>">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Flight Bookings</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link <?php if($pg==5.4){echo "active";}?>">
+                    <a href="transport-bookings.php" class="nav-link <?php if($pg==5.4){echo "active";}?>">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Transport Bookings</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link <?php if($pg==5.5){echo "active";}?>">
+                    <a href="corporate-bookings.php" class="nav-link <?php if($pg==5.5){echo "active";}?>">
                     <i class="far fa-circle nav-icon"></i>
-                    <p>Conference Bookings</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link <?php if($pg==5.6){echo "active";}?>">
-                    <i class="far fa-circle nav-icon"></i>
-                    <p>Event Bookings</p>
+                    <p>Corporate Bookings</p>
                     </a>
                 </li>
              </ul>
