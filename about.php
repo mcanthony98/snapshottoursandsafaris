@@ -1,157 +1,331 @@
+<?php 
+$pg = 2;
+require "includes/connect.php";
+include "includes/functions.php";
+$catalogueqry = "SELECT * FROM catalogue ORDER BY catalogue_id DESC LIMIT 1";
+$catalogueres = $conn->query($catalogueqry);
+$cataloguerow = $catalogueres->fetch_assoc();
+?>
 <!DOCTYPE html>
-<html style="font-size: 16px;">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    <title>About - Snapshot Tours And Safaris</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="About.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 4.2.6, nicepage.com">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    
-    
-    
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "Snapshot Tours and Safaris",
-		"logo": "images/logo.png",
-		"sameAs": []
-}</script>
-    <meta name="theme-color" content="#F1C40F">
-    <meta property="og:title" content="About">
-    <meta property="og:description" content="">
-    <meta property="og:type" content="website">
-  </head>
-  <body class="u-body">
+<html lang="en">
 
-  <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v13.0" nonce="5kW7DadN"></script>
+<head>
+<title>About Us - Snapshot Tours and Safaris Kenya, Africa</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<?php include 'includes/navbar.php';?>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MPT4TS2');</script>
+<!-- End Google Tag Manager -->
 
-    <section class="u-align-center u-clearfix u-image u-shading u-section-1" id="sec-a8a5" data-image-width="1280" data-image-height="402">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-text u-text-default u-title u-text-1">About Us</h1>
-      </div>
-    </section>
-    <section class="u-clearfix u-section-2" id="sec-f139">
-      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-sheet-1">
-        <div class="u-clearfix u-expanded-width-sm u-expanded-width-xs u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout">
-            <div class="u-layout-row">
-              <div class="u-container-style u-image u-layout-cell u-size-30 u-image-1" data-image-width="1280" data-image-height="853">
-                <div class="u-container-layout u-container-layout-1"></div>
-              </div>
-              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
-                <div class="u-container-layout u-container-layout-2">
-                  <div class="u-align-center u-container-style u-group u-group-1">
-                    <div class="u-container-layout">
-                      <h2 class="u-text u-text-1">Your&nbsp;East Africa Luxury Travel Specialist</h2>
-                      <p class="u-text u-text-2"> We love Africa. It has a magic not found anywhere else on our planet. It is a dream destination and it is our home. Our passion is to inspire you to experience the best of East Africa.We specialise in crafting authentic, memorable and highly customised journeys to soul-enriching destinations in Kenya and Tanzania.Your dream, our expertise. Discover Africa with us.<br>
-                        <br>Our Kenyan holiday deals and destinations are comprehensive, combinable and reversible. All you have to decide where and when you want to go and leave the details to us. We will organize everything including&nbsp;<span style="font-weight: 700;">Airport Transfers, Transport, Hotels, Camps,Lodges</span>&nbsp;from budget to luxury options as per your Budget range.<br>
-                      </p>
-                    </div>
-                  </div>
-                  <a href="index.php#carousel_1513" class="u-active-palette-3-dark-2 u-align-center-sm u-align-center-xs u-border-none u-btn u-btn-round u-button-style u-hover-palette-3-dark-2 u-palette-3-base u-radius-50 u-btn-1">GET YOUR TRAVEL DEALS NOW</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="u-clearfix u-palette-3-dark-1 u-section-3" id="sec-3c98">
-      <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
-        <div class="u-align-center u-container-style u-expanded-width-md u-group u-group-1">
-          <div class="u-container-layout u-container-layout-1">
-            <h2 class="u-text u-text-1">Featured Destinations</h2>
-          </div>
-        </div>
-        <div class="u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1">
-          <div class="u-gutter-0 u-layout">
-            <div class="u-layout-row">
-              <div class="u-align-left u-container-style u-image u-layout-cell u-shading u-size-20 u-image-1" data-image-width="640" data-image-height="800">
-                <div class="u-container-layout u-container-layout-2">
-                  <h3 class="u-text u-text-2">Malindi, Kenya</h3>
-                </div>
-              </div>
-              <div class="u-align-left u-container-style u-image u-layout-cell u-shading u-size-20 u-image-2" data-image-width="640" data-image-height="427">
-                <div class="u-container-layout u-container-layout-3">
-                  <h3 class="u-text u-text-3">Maasai Mara National Park, Kenya</h3>
-                </div>
-              </div>
-              <div class="u-align-left u-container-style u-image u-layout-cell u-shading u-size-20 u-image-3" data-image-width="786" data-image-height="416">
-                <div class="u-container-layout u-container-layout-4">
-                  <h3 class="u-text u-text-4">Serengeti National Park, Tanzania</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a href="destinations.php" class="u-active-black u-border-2 u-border-active-black u-border-black u-border-hover-black u-btn u-btn-round u-button-style u-hover-black u-none u-radius-31 u-text-active-white u-text-black u-text-hover-white u-btn-1">View More</a>
-      </div>
-    </section>
-    <section class="u-align-center u-clearfix u-palette-3-light-3 u-section-4" id="sec-43ab">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-text u-title u-text-1">
-          <span style="font-size: 3rem;">Meet Our Team</span>
-          <span style="font-size: 1.875rem;">
-            <span style="font-size: 1.25rem;"></span>
-          </span>
-        </h1>
-        <div class="u-expanded-width u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
-            <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
-                <div alt="" class="u-image u-image-circle u-image-1" src="" data-image-width="1280" data-image-height="1179"></div>
-                <h5 class="u-text u-text-2">Mukungi Kamunzyu</h5>
-                <p class="u-text u-text-3">Chief Executive Officer</p>
-              </div>
-            </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
-                <div alt="" class="u-image u-image-circle u-image-2" src="" data-image-width="1278" data-image-height="1280"></div>
-                <h5 class="u-text u-text-4">Kalala Lenahliz</h5>
-                <p class="u-text u-text-5">Managing Director</p>
-              </div>
-            </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
-                <div alt="" class="u-image u-image-circle u-image-3" src="" data-image-width="1280" data-image-height="1179"></div>
-                <h5 class="u-text u-text-6">Samuel Muthee</h5>
-                <p class="u-text u-text-7">Tour Guide</p>
-              </div>
-            </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-4">
-                <div alt="" class="u-image u-image-circle u-image-4" src="" data-image-width="1280" data-image-height="1179"></div>
-                <h5 class="u-text u-text-8">Francis Kianga</h5>
-                <p class="u-text u-text-9">Tour Guide</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    
-   <section style="text-align:center;background-color:#f2f3f4;padding:5px 2px 5px 2px;margin-top:0px;"> 
-    <h3 style="font-size: 2rem;">What our Clients Say</h3>
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-fdeca291-515c-4524-a940-dc654f16ce08"></div>
+<?php include "includes/stylesheets.php";?>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '175143165180633');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=175143165180633&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RM45DWF1DC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RM45DWF1DC');
+</script>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPT4TS2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<?php include "includes/navbar.php";?>
+
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/banner2.jpg');" data-stellar-background-ratio="0.5">
+<div class="overlay"></div>
+<div class="container">
+<div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+<div class="col-md-9 ftco-animate pb-5 text-center">
+<h1 class="mb-3 bread">About Us</h1>
+<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>About us <i class="ion-ios-arrow-forward"></i></span></p>
+</div>
+</div>
+</div>
 </section>
-    <?php include "includes/footer.php";?>
+    <section class="ftco-counter img mt-4" id="section-counter">
+    <div class="container">
+    <div class="row d-flex">
+    <div class="col-md-6 d-flex">
+    <div class="img d-flex align-self-stretch" style="background-image:url(images/abouty.jpg);"></div>
+    </div>
+    <div class="col-md-6 pl-md-5 py-5">
+    <div class="row justify-content-start pb-3">
+    <div class="col-md-12 heading-section ftco-animate">
+    <h2 class="mb-4">About Snapshot Tours and Safaris</h2>
+    <p>Welcome to snapshot tours and safaris! We are a leading provider of safari tours in Kenya, offering unique and unforgettable experiences for travellers who want to explore the incredible wildlife, landscapes, and cultures of this stunning country.
+Our team of experienced and knowledgeable guides are passionate about sharing their love and understanding of Kenya with our guests. We offer a range of safari tours, including wildlife safaris, bird watching tours, cultural tours, beach tours and adventure safaris, all designed to provide you with an authentic and immersive experience of Kenya.<br>
+Whether you are traveling solo, as a couple, or with a group of friends or family, we can tailor our tours to meet your needs and preferences. From luxury lodges to tented camps, we work with a range of accommodation partners to ensure that you have a comfortable and enjoyable stay throughout your safari.<br>
+At our Kenyan safari tourism company, we are committed to responsible tourism and conservation. We work closely with local communities and conservation organizations to ensure that our tours have a positive impact on the environment and support sustainable development in the region.<br>
+So come join us on a safari adventure of a lifetime! Let us show you the magic and wonder of Kenya's wildlife and landscapes, and introduce you to the warmth and hospitality of its people.
+</p>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+    <div class="block-18 text-center py-5 bg-light mb-4">
+    <div class="text">
+    <strong class="number" data-number="30">0</strong>
+    <span>Amazing Deals</span>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+    <div class="block-18 text-center py-5 bg-light mb-4">
+    <div class="text">
+    <strong class="number" data-number="200">0</strong>
+    <span>Sold Tours</span>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+    <div class="block-18 text-center py-5 bg-light mb-4">
+    <div class="text">
+    <strong class="number" data-number="2500">0</strong>
+    <span>New Tours</span>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+    <div class="block-18 text-center py-5 bg-light mb-4">
+    <div class="text">
+    <strong class="number" data-number="40">0</strong>
+    <span>Happy Customers</span>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
 
 
-  </body>
+
+
+<section class="ftco-section mt-0 bg-light">
+<div class="container">
+<div class="row justify-content-center mb-5 pb-3">
+<div class="col-md-7 heading-section text-center ftco-animate">
+<h2>What we Offer</h2>
+</div>
+</div>
+<div class="row d-flex">
+<div class="col-md-4 d-flex ftco-animate">
+<div class="blog-entry justify-content-end">
+<a href="destinations.php" class="block-20" style="background-image: url('images/beach.jpg');">
+</a>
+<div class="text mt-3 float-right d-block text-center">
+<h3 class="heading"><a href="destinations.php">Personal and Business Holidays</a></h3>
+<p>We offer memorable Beach and Adventure Safaris for vacation and business.</p>
+<a href="destinations.php" class="btn btn-primary">Learn more</a>
+</div>
+</div>
+</div>
+<div class="col-md-4 d-flex ftco-animate">
+<div class="blog-entry justify-content-end">
+<a href="team-building.php" class="block-20" style="background-image: url('images/tb.jpg');">
+</a>
+<div class="text mt-3 float-right d-block text-center">
+<h3 class="heading"><a href="team-building.php">Team Building Activities</a></h3>
+<p>Corporate outdoor events for organizations and teams.</p>
+<a href="team-building.php" class="btn btn-primary">Learn more</a>
+</div>
+</div>
+</div>
+<div class="col-md-4 d-flex ftco-animate">
+<div class="blog-entry justify-content-end">
+<a href="transport.php" class="block-20" style="background-image: url('images/cruisers.jpg');">
+</a>
+<div class="text mt-3 float-right d-block text-center">
+<h3 class="heading"><a href="destinations.php">Transport</a></h3>
+<p>Hire  Land cruisers, Tours Vans, Tour buses. Driver included.</p>
+<a href="transport.php" class="btn btn-primary">Learn more</a>
+</div>
+</div>
+</div>
+<div class="col-md-4 d-flex ftco-animate">
+<div class="blog-entry justify-content-end">
+<a href="flight.php" class="block-20" style="background-image: url('images/flight.jpg');">
+</a>
+<div class="text mt-3 float-right d-block text-center">
+<h3 class="heading"><a href="#">Flight Booking</a></h3>
+<p>We help you forget the hustle in booking your plane</p>
+<a href="flight.php" class="btn btn-primary">Learn more</a>
+</div>
+</div>
+</div>
+<div class="col-md-4 d-flex ftco-animate">
+<div class="blog-entry justify-content-end">
+<a href="javascrpt:void()" class="block-20" style="background-image: url('images/conference3.jpg');">
+</a>
+<div class="text mt-3 float-right d-block text-center">
+<h3 class="heading"><a href="destinations.php">Conference Booking</a></h3>
+<p>We plan and organise indoor events and conferences</p>
+<a href="javascrpt:void()" class="btn btn-primary">Learn more</a>
+</div>
+</div>
+</div>
+<div class="col-md-4 d-flex ftco-animate">
+<div class="blog-entry justify-content-end">
+<a href="javascrpt:void()" class="block-20" style="background-image: url('images/IMG_4882.JPG');">
+</a>
+<div class="text mt-3 float-right d-block text-center">
+<h3 class="heading"><a href="#">Personalized Events</a></h3>
+<p>We facilitate birthday parties, weddings and parties</p>
+<a href="javascrpt:void()" class="btn btn-primary">Learn more</a>
+</div>
+</div>
+</div>
+<div class="col-md-12 mt-4 heading-section text-center ftco-animate">
+<a class="btn border border-primary" target="_blank" href="files/<?php echo $cataloguerow['catalogue'];?>">Download our Catalogue</a>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="ftco-section ftco-no-pb testimony-section" style="background-image: url(images/bg_1.jpg);" id="testimonies">
+<div class="overlay"></div>
+<div class="container">
+<div class="row justify-content-center mb-5 pb-3">
+<div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+<h2 class="mb-4">Happy Clients Say</h2>
+</div>
+</div>
+<div class="row ftco-animate">
+<div class="col-md-12 testimonial">
+<div class="carousel-testimony owl-carousel ftco-owl">
+ 
+<div class="item">
+<div class="testimony-wrap img" style="background-image: url(images/test2.jpg);">
+<div class="overlay"></div>
+<div class="text">
+<p class="mb-4" style="font-size: 17px;">Words cannot describe the sheer beauty of Kenya's landscapes and wildlife. Tsavo National Park offered a different perspective, with its rugged terrain and vast open spaces. Our safari drives were filled with encounters with elephants, buffalo, and the elusive leopards. The guides from snapshot tours and safaris were knowledgeable and passionate, sharing interesting facts about the animals and their habitats. The lodges we stayed at were top-notch, providing stunning views and excellent service. This safari was a true immersion into nature, and we left with a deep appreciation for Kenya's conservation efforts and snapshots knowledge of the terrain </p>
+<p class="name">Lillian Hartman</p>
+<span class="position">Beverly Hills, California, USA</span>
+</div>
+</div>
+</div>
+
+
+<div class="item">
+<div class="testimony-wrap" style="background-image: url(images/amboseliWazungu.jpg);">
+<div class="overlay"></div>
+<div class="text">
+<p class="mb-4" style="font-size: 17px;">Kenya is a safari lover's paradise, and our experience there was nothing short of amazing. Amboseli National Park stole our hearts with its breathtaking views of Mount Kilimanjaro and the herds of elephants roaming freely. The guides from snapshot tours and safaris were incredibly skilled at spotting wildlife, and we got up close to lions, giraffes, and even a cheetah on the hunt. Our tented camp was comfortable, with all the necessary amenities, and the campfire under the starry sky was a magical way to end each day. We highly recommend snapshot tours and safaris  for an adventure of a lifetime!</p>
+<p class="name">Charles Dean</p>
+<span class="position">London, United Kingdom</span>
+</div>
+</div>
+</div>
+<div class="item">
+  <div class="testimony-wrap img" style="background-image: url(images/wazungumas.jpg);">
+  <div class="overlay"></div>
+  <div class="text">
+  <p class="mb-4" style="font-size: 17px;">Our Kenyan safari was an absolute dream come true! The wildlife sightings in Maasai Mara were beyond our expectations. We witnessed the Great Migration, with thousands of wildebeests and zebras roaming the plains. Our knowledgeable guide from snapshot tours and safaris provided fascinating insights about the animals and their behaviour. The accommodations were luxurious, and the staff was incredibly friendly and attentive. We also enjoyed visiting a Maasai village and learning about their culture. This safari exceeded all our expectations and left us with unforgettable memories</p>
+  <p class="name">Liam O'Sullivan</p>
+  <span class="position">Dublin, Ireland</span>
+  </div>
+  </div>
+  </div>
+<div class="item">
+<div class="testimony-wrap" style="background-image: url(images/wazungu.jpg);">
+<div class="overlay"></div>
+<div class="text">
+<p class="mb-4" style="font-size: 17px;">Our Kenyan safari in Samburu National Reserve was a remarkable journey. The reserve's unique flora and fauna were a delight to explore. We spotted the 'Samburu Five' (Gravy’s zebra, Somali ostrich, reticulated giraffe, beisa Oryx, and gerenuk) and were enthralled by their distinct features. Our guide from snapshot tours and safaris was a treasure trove of knowledge and made our safari educational and exciting. The eco-lodge we stayed in had a strong commitment to sustainability, which was commendable. The Samburu people's warm hospitality and cultural experiences added another layer of richness to our adventure</p>
+<p class="name">Mark Anthony</p>
+<span class="position">Atlanta Georgia, USA</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section class="ftco-section services-section ftco-no-pb">
+<div class="container">
+<div class="row d-flex">
+<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+<div class="media block-6 services d-block">
+<div class="icon"><span class="flaticon-yatch"></span></div>
+<div class="media-body">
+<h3 class="heading mb-3">Activities</h3>
+<p>We have a range of activities including safaris, beach holidays and corporate training.</p>
+</div>
+</div>
+</div>
+<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+<div class="media block-6 services d-block">
+<div class="icon"><span class="flaticon-around"></span></div>
+<div class="media-body">
+<h3 class="heading mb-3">Travel Arrangements</h3>
+<p>We offer customized itineraries to suit your travel plan and budget.</p>
+</div>
+</div>
+</div>
+<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+<div class="media block-6 services d-block">
+<div class="icon"><span class="flaticon-compass"></span></div>
+<div class="media-body">
+<h3 class="heading mb-3">Private Guide</h3>
+<p>You get an experienced professional Tour Guide on all your safaris.</p>
+</div>
+</div>
+</div>
+<div class="col-md-3 d-flex align-self-stretch ftco-animate">
+<div class="media block-6 services d-block">
+<div class="icon"><span class="flaticon-map-of-roads"></span></div>
+<div class="media-body">
+<h3 class="heading mb-3">Location Manager</h3>
+<p>We handle everything. You just need to show up and enjoy.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<?php 
+include "includes/footer.php";
+include "includes/scripts.php";
+?>
+
+</body>
+
 </html>

@@ -1,60 +1,433 @@
+<section class="ftco-subscribe" style="background-image: url(images/banner3.jpg);">
+<div class="overlay">
+<div class="container">
+<div class="row d-flex justify-content-center">
+<div class="col-md-10 text-wrap text-center heading-section ftco-animate">
+<h2>Subcribe to our Newsletter</h2>
+<p id="subtext"></p>
+<div class="row d-flex justify-content-center mt-4 mb-4">
+<div class="col-md-10">
+<form id="subnewsletter" class="subscribe-form">
+<div class="form-group d-flex">
+<input type="email" required id="subemail" class="form-control" name="sub_newsletter" placeholder="Enter email address">
+<input type="submit" id="subbtn" value="Subscribe" class="submit px-3">
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
 <a href="https://api.whatsapp.com/send?phone=254759949546" target="_blank" class="float" style="position:fixed;	width:62px; height:62px;bottom:40px;right:40px;background-color:#25D366;color:#FFF;border-radius:50px;text-align:center;box-shadow: 2px 2px 3px #999;">
       <i class="fa fa-whatsapp fa-3x my-float" style="margin-top:8px;"></i>
       </a>
- <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-black u-clearfix u-footer u-footer" id="sec-f48b"><div class="u-clearfix u-sheet u-sheet-1">
-        <a href="index.php" data-page-id="431927156" class="u-image u-logo u-image-1" data-image-width="352" data-image-height="270" title="Home">
-          <img src="images/logo.png" class="u-logo-image u-logo-image-1">
-        </a>
-        <div class="u-align-center u-container-style u-group u-hidden-sm u-hidden-xs u-group-1">
-          <div class="u-container-layout">
-            <h4 class="u-align-left u-text u-text-palette-3-base u-text-1">Cont​acts <span style="text-decoration: underline !important;"></span>
-            </h4>
-            <ul class="u-align-left u-custom-list u-spacing-4 u-text u-text-2">
-              <li style="margin-left: 1.8em;">
-                <div class="u-list-icon u-list-icon-1">
-                  <svg class="u-svg-content" viewBox="0 0 512.002 512.002" x="0px" y="0px" id="svg-1a62" style="font-size: 0.9em; margin: -0.9em;"><polygon style="fill:#FFC107;" points="16.001,400.001 205.537,256.001 16.001,112.001 306.465,112.001 496.001,256.001   306.465,400.001 "></polygon><path d="M306.465,416.001H16.001c-8.837,0-16-7.163-16-16c0-5.036,2.371-9.778,6.4-12.8l172.8-131.2l-172.8-131.2  c-7.069-5.302-8.502-15.331-3.2-22.4c3.022-4.029,7.764-6.4,12.8-6.4h290.464c3.462,0,6.83,1.123,9.6,3.2l189.536,144  c7.069,5.302,8.502,15.331,3.2,22.4c-0.91,1.213-1.987,2.29-3.2,3.2l-189.472,144C313.342,414.891,309.949,416.015,306.465,416.001z   M63.489,384.001h237.6l168.448-128l-168.448-128h-237.6l151.712,115.2c7.069,5.302,8.502,15.331,3.2,22.4  c-0.91,1.213-1.987,2.29-3.2,3.2L63.489,384.001z"></path></svg>
-                </div>+254-759-949-546
-              </li>
-              <li style="margin-left: 1.8em;">
-                <div class="u-list-icon u-list-icon-2">
-                  <svg class="u-svg-content" viewBox="0 0 512.002 512.002" x="0px" y="0px" id="svg-1a62" style="font-size: 0.9em; margin: -0.9em;"><polygon style="fill:#FFC107;" points="16.001,400.001 205.537,256.001 16.001,112.001 306.465,112.001 496.001,256.001   306.465,400.001 "></polygon><path d="M306.465,416.001H16.001c-8.837,0-16-7.163-16-16c0-5.036,2.371-9.778,6.4-12.8l172.8-131.2l-172.8-131.2  c-7.069-5.302-8.502-15.331-3.2-22.4c3.022-4.029,7.764-6.4,12.8-6.4h290.464c3.462,0,6.83,1.123,9.6,3.2l189.536,144  c7.069,5.302,8.502,15.331,3.2,22.4c-0.91,1.213-1.987,2.29-3.2,3.2l-189.472,144C313.342,414.891,309.949,416.015,306.465,416.001z   M63.489,384.001h237.6l168.448-128l-168.448-128h-237.6l151.712,115.2c7.069,5.302,8.502,15.331,3.2,22.4  c-0.91,1.213-1.987,2.29-3.2,3.2L63.489,384.001z"></path></svg>
-                </div>info@snapshottoursandsafaris.com
-              </li>
-              <li style="margin-left: 1.8em;">
-                <div class="u-list-icon u-list-icon-2">
-                  <svg class="u-svg-content" viewBox="0 0 512.002 512.002" x="0px" y="0px" id="svg-1a62" style="font-size: 0.9em; margin: -0.9em;"><polygon style="fill:#FFC107;" points="16.001,400.001 205.537,256.001 16.001,112.001 306.465,112.001 496.001,256.001   306.465,400.001 "></polygon><path d="M306.465,416.001H16.001c-8.837,0-16-7.163-16-16c0-5.036,2.371-9.778,6.4-12.8l172.8-131.2l-172.8-131.2  c-7.069-5.302-8.502-15.331-3.2-22.4c3.022-4.029,7.764-6.4,12.8-6.4h290.464c3.462,0,6.83,1.123,9.6,3.2l189.536,144  c7.069,5.302,8.502,15.331,3.2,22.4c-0.91,1.213-1.987,2.29-3.2,3.2l-189.472,144C313.342,414.891,309.949,416.015,306.465,416.001z   M63.489,384.001h237.6l168.448-128l-168.448-128h-237.6l151.712,115.2c7.069,5.302,8.502,15.331,3.2,22.4  c-0.91,1.213-1.987,2.29-3.2,3.2L63.489,384.001z"></path></svg>
-                </div>kalala@snapshottoursandsafaris.com
-              </li>
-              <li style="margin-left: 1.8em;">
-                <div class="u-list-icon u-list-icon-3">
-                  <svg class="u-svg-content" viewBox="0 0 512.002 512.002" x="0px" y="0px" id="svg-1a62" style="font-size: 0.9em; margin: -0.9em;"><polygon style="fill:#FFC107;" points="16.001,400.001 205.537,256.001 16.001,112.001 306.465,112.001 496.001,256.001   306.465,400.001 "></polygon><path d="M306.465,416.001H16.001c-8.837,0-16-7.163-16-16c0-5.036,2.371-9.778,6.4-12.8l172.8-131.2l-172.8-131.2  c-7.069-5.302-8.502-15.331-3.2-22.4c3.022-4.029,7.764-6.4,12.8-6.4h290.464c3.462,0,6.83,1.123,9.6,3.2l189.536,144  c7.069,5.302,8.502,15.331,3.2,22.4c-0.91,1.213-1.987,2.29-3.2,3.2l-189.472,144C313.342,414.891,309.949,416.015,306.465,416.001z   M63.489,384.001h237.6l168.448-128l-168.448-128h-237.6l151.712,115.2c7.069,5.302,8.502,15.331,3.2,22.4  c-0.91,1.213-1.987,2.29-3.2,3.2L63.489,384.001z"></path></svg>
-                </div>www.snapshottoursandsafaris.com
-              </li>
-            </ul>
+
+
+<footer class="ftco-footer ftco-footer-2 ftco-section">
+<div class="container">
+<div class="row mb-5">
+<div class="col-md">
+<div class="ftco-footer-widget mb-4">
+<h2 class="ftco-heading-2">Snapshot Tours and Safaris</h2>
+<p>Explore Unlimited!</p>
+<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+<li class="ftco-animate"><a href="https://mobile.twitter.com/Snapshot_tours_" target="_blank"><span class="icon-twitter"></span></a></li>
+<li class="ftco-animate"><a href="https://m.facebook.com/people/Snapshot-tours-and-safaris/100069692835734/" target="_blank"><span class="icon-facebook"></span></a></li>
+<li class="ftco-animate"><a href="https://www.instagram.com/snapshot_tours_and_safaris/?utm_medium=copy_link" target="_blank"><span class="icon-instagram"></span></a></li>
+<li class="ftco-animate"><a href="https://ke.linkedin.com/in/snapshot-tours-and-safaris-852300265" target="_blank"><span class="icon-linkedin"></span></a></li>
+</ul>
+</div>
+</div>
+<div class="col-md">
+<div class="ftco-footer-widget mb-4 ml-md-5">
+<h2 class="ftco-heading-2">Information</h2>
+<ul class="list-unstyled">
+<li><a href="#" class="py-2 d-block">Online Enquiry</a></li>
+<li><a href="#" class="py-2 d-block">General Enquiries</a></li>
+<li><a href="#" class="py-2 d-block">Booking Conditions</a></li>
+<li><a href="#" class="py-2 d-block">Privacy and Policy</a></li>
+<li><a href="#" class="py-2 d-block">Refund Policy</a></li>
+<li><a href="#" class="py-2 d-block">Call Us</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md">
+<div class="ftco-footer-widget mb-4">
+<h2 class="ftco-heading-2">Experience</h2>
+<ul class="list-unstyled">
+<li><a href="#" class="py-2 d-block">Adventure</a></li>
+<li><a href="#" class="py-2 d-block">Hotel and Restaurant</a></li>
+<li><a href="#" class="py-2 d-block">Beach</a></li>
+<li><a href="#" class="py-2 d-block">Nature</a></li>
+<li><a href="#" class="py-2 d-block">Camping</a></li>
+<li><a href="#" class="py-2 d-block">Corporate Programs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md">
+<div class="ftco-footer-widget mb-4">
+<h2 class="ftco-heading-2">Have a Questions?</h2>
+<div class="block-23 mb-3">
+<ul>
+<li><span class="icon icon-map-marker"></span><span class="text">Office 4, Hotel Lillies, Juja, Nairobi, Kenya.</span></li>
+<li><a href="tel:+254759949546"><span class="icon icon-phone"></span><span class="text">+254 7599 49546</span></a></li>
+<li><a href="mail:info@snapshottoursandsafaris.com"><span class="icon icon-envelope mr-2"></span><span class="text"> info@snapshottoursandsafaris.com</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12 text-center">
+</div>
+</div>
+</div>
+</footer>
+
+
+
+
+<!-- MODALS-->
+<!-- type="button" data-toggle="modal" data-target="#specificdest"-->
+
+<!-- Specific destination-->
+
+<div class="modal fade" id="specificdest" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="destModalTitle">Destination</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="destModalBody">itinerary</div>
+          <input type="hidden" id="destModalId">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary float-left" id="destBookModal">Book this Package</button>
+          <button type="button" class="btn border border-primary float-left" id="customBookModal">Get a Customized Package</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Book Specific destination-->
+
+<div class="modal fade" id="bookdest" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="destModalTitle">Book for Package</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="book_dest">
+          <div class="row">
+            <div class="col-sm-6 my-2">
+              <input class="form-control" placeholder="Name" name="name" required>
+            </div>
+            
+            <div class="col-sm-6 my-2">
+              <input type="email" class="form-control" placeholder="Email" name="email" required>
+            </div>
+            
+            <div class="col-sm-6 my-2">
+              <input type="number" class="form-control" placeholder="Phone Number" name="phone" required>
+            </div>
+            
+            <div class="col-sm-6 my-2">
+              <select class="form-control" placeholder="Country of Residence" name="country" required>
+                <option value="0">Country Of Residence</option><option value="Aruba">Aruba</option><option value="Afghanistan">Afghanistan</option><option value="Angola">Angola</option><option value="Albania">Albania</option><option value="Andorra">Andorra</option><option value="United Arab Emirates">United Arab Emirates</option><option value="Argentina">Argentina</option><option value="Armenia">Armenia</option><option value="American Samoa">American Samoa</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Azerbaijan">Azerbaijan</option><option value="Burundi">Burundi</option><option value="Belgium">Belgium</option><option value="Benin">Benin</option><option value="Burkina Faso">Burkina Faso</option><option value="Bangladesh">Bangladesh</option><option value="Bulgaria">Bulgaria</option><option value="Bahrain">Bahrain</option><option value="Bahamas">Bahamas</option><option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option><option value="Belarus">Belarus</option><option value="Belize">Belize</option><option value="Bermuda">Bermuda</option><option value="Bolivia, Plurinational State of">Bolivia, Plurinational State of</option><option value="Brazil">Brazil</option><option value="Barbados">Barbados</option><option value="Brunei Darussalam">Brunei Darussalam</option><option value="Bhutan">Bhutan</option><option value="Botswana">Botswana</option><option value="Central African Republic">Central African Republic</option><option value="Canada">Canada</option><option value="Switzerland">Switzerland</option><option value="Chile">Chile</option><option value="China">China</option><option value="Côte d’Ivoire">Côte d’Ivoire</option><option value="Cameroon">Cameroon</option><option value="Congo, the Democratic Republic of the">Congo, the Democratic Republic of the</option><option value="Congo">Congo</option><option value="Cook Islands">Cook Islands</option><option value="Colombia">Colombia</option><option value="Comoros">Comoros</option><option value="Cape Verde">Cape Verde</option><option value="Costa Rica">Costa Rica</option><option value="Cuba">Cuba</option><option value="Cayman Islands">Cayman Islands</option><option value="Cyprus">Cyprus</option><option value="Czech Republic">Czech Republic</option><option value="Germany">Germany</option><option value="Djibouti">Djibouti</option><option value="Dominica">Dominica</option><option value="Denmark">Denmark</option><option value="Dominican Republic">Dominican Republic</option><option value="Algeria">Algeria</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="Eritrea">Eritrea</option><option value="Spain">Spain</option><option value="Estonia">Estonia</option><option value="Ethiopia">Ethiopia</option><option value="Finland">Finland</option><option value="Fiji">Fiji</option><option value="France">France</option><option value="Micronesia, Federated States of">Micronesia, Federated States of</option><option value="Gabon">Gabon</option><option value="United Kingdom">United Kingdom</option><option value="Georgia">Georgia</option><option value="Ghana">Ghana</option><option value="Guinea">Guinea</option><option value="Gambia">Gambia</option><option value="Guinea-Bissau">Guinea-Bissau</option><option value="Equatorial Guinea">Equatorial Guinea</option><option value="Greece">Greece</option><option value="Grenada">Grenada</option><option value="Guatemala">Guatemala</option><option value="Guam">Guam</option><option value="Guyana">Guyana</option><option value="Hong Kong">Hong Kong</option><option value="Honduras">Honduras</option><option value="Croatia">Croatia</option><option value="Haiti">Haiti</option><option value="Hungary">Hungary</option><option value="Indonesia">Indonesia</option><option value="India">India</option><option value="Ireland">Ireland</option><option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option><option value="Iraq">Iraq</option><option value="Iceland">Iceland</option><option value="Israel">Israel</option><option value="Italy">Italy</option><option value="Jamaica">Jamaica</option><option value="Jordan">Jordan</option><option value="Japan">Japan</option><option value="Kazakhstan">Kazakhstan</option><option value="Kenya">Kenya</option><option value="Kyrgyzstan">Kyrgyzstan</option><option value="Cambodia">Cambodia</option><option value="Kiribati">Kiribati</option><option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option><option value="Korea, Republic of">Korea, Republic of</option><option value="Kuwait">Kuwait</option><option value="Lao People’s Democratic Republic">Lao People’s Democratic Republic</option><option value="Lebanon">Lebanon</option><option value="Liberia">Liberia</option><option value="Libya">Libya</option><option value="Saint Lucia">Saint Lucia</option><option value="Liechtenstein">Liechtenstein</option><option value="Sri Lanka">Sri Lanka</option><option value="Lesotho">Lesotho</option><option value="Lithuania">Lithuania</option><option value="Luxembourg">Luxembourg</option><option value="Latvia">Latvia</option><option value="Morocco">Morocco</option><option value="Monaco">Monaco</option><option value="Moldova, Republic of">Moldova, Republic of</option><option value="Madagascar">Madagascar</option><option value="Maldives">Maldives</option><option value="Mexico">Mexico</option><option value="Marshall Islands">Marshall Islands</option><option value="Macedonia, the former Yugoslav Republic of">Macedonia, the former Yugoslav Republic of</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Myanmar">Myanmar</option><option value="Montenegro">Montenegro</option><option value="Mongolia">Mongolia</option><option value="Mozambique">Mozambique</option><option value="Mauritania">Mauritania</option><option value="Mauritius">Mauritius</option><option value="Malawi">Malawi</option><option value="Malaysia">Malaysia</option><option value="Namibia">Namibia</option><option value="Niger">Niger</option><option value="Nigeria">Nigeria</option><option value="Nicaragua">Nicaragua</option><option value="Netherlands">Netherlands</option><option value="Norway">Norway</option><option value="Nepal">Nepal</option><option value="Nauru">Nauru</option><option value="New Zealand">New Zealand</option><option value="Oman">Oman</option><option value="Pakistan">Pakistan</option><option value="Panama">Panama</option><option value="Peru">Peru</option><option value="Philippines">Philippines</option><option value="Palau">Palau</option><option value="Papua New Guinea">Papua New Guinea</option><option value="Poland">Poland</option><option value="Puerto Rico">Puerto Rico</option><option value="Korea, Democratic People’s Republic of">Korea, Democratic People’s Republic of</option><option value="Portugal">Portugal</option><option value="Paraguay">Paraguay</option><option value="Palestine, State of">Palestine, State of</option><option value="Qatar">Qatar</option><option value="Romania">Romania</option><option value="Russian Federation">Russian Federation</option><option value="Rwanda">Rwanda</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Sudan">Sudan</option><option value="Senegal">Senegal</option><option value="Singapore">Singapore</option><option value="Solomon Islands">Solomon Islands</option><option value="Sierra Leone">Sierra Leone</option><option value="El Salvador">El Salvador</option><option value="San Marino">San Marino</option><option value="Somalia">Somalia</option><option value="Serbia">Serbia</option><option value="Sao Tome and Principe">Sao Tome and Principe</option><option value="Suriname">Suriname</option><option value="Slovakia">Slovakia</option><option value="Slovenia">Slovenia</option><option value="Sweden">Sweden</option><option value="Swaziland">Swaziland</option><option value="Seychelles">Seychelles</option><option value="Syrian Arab Republic">Syrian Arab Republic</option><option value="Chad">Chad</option><option value="Togo">Togo</option><option value="Thailand">Thailand</option><option value="Tajikistan">Tajikistan</option><option value="Turkmenistan">Turkmenistan</option><option value="Timor-Leste">Timor-Leste</option><option value="Tonga">Tonga</option><option value="Trinidad and Tobago">Trinidad and Tobago</option><option value="Tunisia">Tunisia</option><option value="Turkey">Turkey</option><option value="Tuvalu">Tuvalu</option><option value="Taiwan, Province of China">Taiwan, Province of China</option><option value="Tanzania, United Republic of">Tanzania, United Republic of</option><option value="Uganda">Uganda</option><option value="Ukraine">Ukraine</option><option value="Uruguay">Uruguay</option><option value="United States">United States</option><option value="Uzbekistan">Uzbekistan</option><option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option><option value="Venezuela, Bolivarian Republic of">Venezuela, Bolivarian Republic of</option><option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option><option value="Viet Nam">Viet Nam</option><option value="Vanuatu">Vanuatu</option><option value="Samoa">Samoa</option><option value="Yemen">Yemen</option><option value="South Africa">South Africa</option><option value="Zambia">Zambia</option><option value="Zimbabwe">Zimbabwe</option>
+              </select>
+            </div>
+            
+            <div class="col-12 my-2">
+              <input class="form-control" placeholder="Destination" id="destModaldest" required readonly>
+              <input type="hidden" name="book_specific_dest" id="bookdestId">
+            </div>
+
+            <div class="col-sm-6 my-2">
+              <input type="number" class="form-control" placeholder="No. of People" name="people" required>
+            </div>
+
+            <div class="col-sm-6 my-2">
+              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')" class="form-control" placeholder="Date of Travel" name="dateT" required>
+            </div>
+
+            <div class="col-12 my-2">
+              <textarea rows="5" class="form-control" name="comment" placeholder="Any suggestions, preferences, meals, activities..." ></textarea>
+            </div>
+
+            <div class="text-center col-12" id="bookdestsuccess"></div>
           </div>
-        </div>
-        <p class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-custom-font u-font-montserrat u-text u-text-palette-3-base u-text-3"> Explore Unlimited<br>&nbsp;<br>Discover Africa with us.
-        </p>
-        <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
-          <a class="u-social-url" title="facebook" target="_blank" href="https://instagram.com/snapshot_tours_and_safaris?utm_medium=copy_link"><span class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-dd6e"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-dd6e"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M73.5,31.6h-9.1c-1.4,0-3.6,0.8-3.6,3.9v8.5h12.6L72,58.3H60.8v40.8H43.9V58.3h-8V43.9h8v-9.2
-            c0-6.7,3.1-17,17-17h12.5v13.9H73.5z"></path></svg></span>
-          </a>
-          <a class="u-social-url" title="twitter" target="_blank" href="https://instagram.com/snapshot_tours_and_safaris?utm_medium=copy_link"><span class="u-icon u-social-icon u-social-twitter u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9de7"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-9de7"><circle fill="currentColor" class="st0" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M83.8,47.3c0,0.6,0,1.2,0,1.7c0,17.7-13.5,38.2-38.2,38.2C38,87.2,31,85,25,81.2c1,0.1,2.1,0.2,3.2,0.2
-            c6.3,0,12.1-2.1,16.7-5.7c-5.9-0.1-10.8-4-12.5-9.3c0.8,0.2,1.7,0.2,2.5,0.2c1.2,0,2.4-0.2,3.5-0.5c-6.1-1.2-10.8-6.7-10.8-13.1
-            c0-0.1,0-0.1,0-0.2c1.8,1,3.9,1.6,6.1,1.7c-3.6-2.4-6-6.5-6-11.2c0-2.5,0.7-4.8,1.8-6.7c6.6,8.1,16.5,13.5,27.6,14
-            c-0.2-1-0.3-2-0.3-3.1c0-7.4,6-13.4,13.4-13.4c3.9,0,7.3,1.6,9.8,4.2c3.1-0.6,5.9-1.7,8.5-3.3c-1,3.1-3.1,5.8-5.9,7.4
-            c2.7-0.3,5.3-1,7.7-2.1C88.7,43,86.4,45.4,83.8,47.3z"></path></svg></span>
-          </a>
-          <a class="u-social-url" title="instagram" target="_blank" href="https://instagram.com/snapshot_tours_and_safaris?utm_medium=copy_link"><span class="u-icon u-social-icon u-social-instagram u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-36c3"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-36c3"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
-            z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
-            C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
-            c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
-          </a>
-          <a class="u-social-url" title="linkedin" target="_blank" href="https://instagram.com/snapshot_tours_and_safaris?utm_medium=copy_link"><span class="u-icon u-social-icon u-social-linkedin u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-670e"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-670e"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M41.3,83.7H27.9V43.4h13.4V83.7z M34.6,37.9L34.6,37.9c-4.6,0-7.5-3.1-7.5-7c0-4,3-7,7.6-7s7.4,3,7.5,7
-            C42.2,34.8,39.2,37.9,34.6,37.9z M89.6,83.7H76.2V62.2c0-5.4-1.9-9.1-6.8-9.1c-3.7,0-5.9,2.5-6.9,4.9c-0.4,0.9-0.4,2.1-0.4,3.3v22.5
-            H48.7c0,0,0.2-36.5,0-40.3h13.4v5.7c1.8-2.7,5-6.7,12.1-6.7c8.8,0,15.4,5.8,15.4,18.1V83.7z"></path></svg></span>
-          </a>
-        </div>
-        <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-4"> Copyright © 2022, Snapshot Tours &amp; Safaris. All rights reserved&nbsp;</p>
-      </div></footer>
-      
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary float-left" id="book_dest_btn">Submit</button>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Book Customized -->
+
+<div class="modal fade" id="bookcustom" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="destModalTitle">Get a Customized Package</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="book_cust">
+          <div class="row">
+            <div class="col-sm-6 my-2">
+              <input class="form-control" placeholder="Name" name="name" required>
+            </div>
+            
+            <div class="col-sm-6 my-2">
+              <input type="email" class="form-control" placeholder="Email" name="email" required>
+            </div>
+            
+            <div class="col-sm-6 my-2">
+              <input type="number" class="form-control" placeholder="Phone Number" name="phone" required>
+            </div>
+            
+            <div class="col-sm-6 my-2">
+              <select class="form-control" placeholder="Country of Residence" name="country" required>
+                <option value="0">Country Of Residence</option><option value="Aruba">Aruba</option><option value="Afghanistan">Afghanistan</option><option value="Angola">Angola</option><option value="Albania">Albania</option><option value="Andorra">Andorra</option><option value="United Arab Emirates">United Arab Emirates</option><option value="Argentina">Argentina</option><option value="Armenia">Armenia</option><option value="American Samoa">American Samoa</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Azerbaijan">Azerbaijan</option><option value="Burundi">Burundi</option><option value="Belgium">Belgium</option><option value="Benin">Benin</option><option value="Burkina Faso">Burkina Faso</option><option value="Bangladesh">Bangladesh</option><option value="Bulgaria">Bulgaria</option><option value="Bahrain">Bahrain</option><option value="Bahamas">Bahamas</option><option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option><option value="Belarus">Belarus</option><option value="Belize">Belize</option><option value="Bermuda">Bermuda</option><option value="Bolivia, Plurinational State of">Bolivia, Plurinational State of</option><option value="Brazil">Brazil</option><option value="Barbados">Barbados</option><option value="Brunei Darussalam">Brunei Darussalam</option><option value="Bhutan">Bhutan</option><option value="Botswana">Botswana</option><option value="Central African Republic">Central African Republic</option><option value="Canada">Canada</option><option value="Switzerland">Switzerland</option><option value="Chile">Chile</option><option value="China">China</option><option value="Côte d’Ivoire">Côte d’Ivoire</option><option value="Cameroon">Cameroon</option><option value="Congo, the Democratic Republic of the">Congo, the Democratic Republic of the</option><option value="Congo">Congo</option><option value="Cook Islands">Cook Islands</option><option value="Colombia">Colombia</option><option value="Comoros">Comoros</option><option value="Cape Verde">Cape Verde</option><option value="Costa Rica">Costa Rica</option><option value="Cuba">Cuba</option><option value="Cayman Islands">Cayman Islands</option><option value="Cyprus">Cyprus</option><option value="Czech Republic">Czech Republic</option><option value="Germany">Germany</option><option value="Djibouti">Djibouti</option><option value="Dominica">Dominica</option><option value="Denmark">Denmark</option><option value="Dominican Republic">Dominican Republic</option><option value="Algeria">Algeria</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="Eritrea">Eritrea</option><option value="Spain">Spain</option><option value="Estonia">Estonia</option><option value="Ethiopia">Ethiopia</option><option value="Finland">Finland</option><option value="Fiji">Fiji</option><option value="France">France</option><option value="Micronesia, Federated States of">Micronesia, Federated States of</option><option value="Gabon">Gabon</option><option value="United Kingdom">United Kingdom</option><option value="Georgia">Georgia</option><option value="Ghana">Ghana</option><option value="Guinea">Guinea</option><option value="Gambia">Gambia</option><option value="Guinea-Bissau">Guinea-Bissau</option><option value="Equatorial Guinea">Equatorial Guinea</option><option value="Greece">Greece</option><option value="Grenada">Grenada</option><option value="Guatemala">Guatemala</option><option value="Guam">Guam</option><option value="Guyana">Guyana</option><option value="Hong Kong">Hong Kong</option><option value="Honduras">Honduras</option><option value="Croatia">Croatia</option><option value="Haiti">Haiti</option><option value="Hungary">Hungary</option><option value="Indonesia">Indonesia</option><option value="India">India</option><option value="Ireland">Ireland</option><option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option><option value="Iraq">Iraq</option><option value="Iceland">Iceland</option><option value="Israel">Israel</option><option value="Italy">Italy</option><option value="Jamaica">Jamaica</option><option value="Jordan">Jordan</option><option value="Japan">Japan</option><option value="Kazakhstan">Kazakhstan</option><option value="Kenya">Kenya</option><option value="Kyrgyzstan">Kyrgyzstan</option><option value="Cambodia">Cambodia</option><option value="Kiribati">Kiribati</option><option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option><option value="Korea, Republic of">Korea, Republic of</option><option value="Kuwait">Kuwait</option><option value="Lao People’s Democratic Republic">Lao People’s Democratic Republic</option><option value="Lebanon">Lebanon</option><option value="Liberia">Liberia</option><option value="Libya">Libya</option><option value="Saint Lucia">Saint Lucia</option><option value="Liechtenstein">Liechtenstein</option><option value="Sri Lanka">Sri Lanka</option><option value="Lesotho">Lesotho</option><option value="Lithuania">Lithuania</option><option value="Luxembourg">Luxembourg</option><option value="Latvia">Latvia</option><option value="Morocco">Morocco</option><option value="Monaco">Monaco</option><option value="Moldova, Republic of">Moldova, Republic of</option><option value="Madagascar">Madagascar</option><option value="Maldives">Maldives</option><option value="Mexico">Mexico</option><option value="Marshall Islands">Marshall Islands</option><option value="Macedonia, the former Yugoslav Republic of">Macedonia, the former Yugoslav Republic of</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Myanmar">Myanmar</option><option value="Montenegro">Montenegro</option><option value="Mongolia">Mongolia</option><option value="Mozambique">Mozambique</option><option value="Mauritania">Mauritania</option><option value="Mauritius">Mauritius</option><option value="Malawi">Malawi</option><option value="Malaysia">Malaysia</option><option value="Namibia">Namibia</option><option value="Niger">Niger</option><option value="Nigeria">Nigeria</option><option value="Nicaragua">Nicaragua</option><option value="Netherlands">Netherlands</option><option value="Norway">Norway</option><option value="Nepal">Nepal</option><option value="Nauru">Nauru</option><option value="New Zealand">New Zealand</option><option value="Oman">Oman</option><option value="Pakistan">Pakistan</option><option value="Panama">Panama</option><option value="Peru">Peru</option><option value="Philippines">Philippines</option><option value="Palau">Palau</option><option value="Papua New Guinea">Papua New Guinea</option><option value="Poland">Poland</option><option value="Puerto Rico">Puerto Rico</option><option value="Korea, Democratic People’s Republic of">Korea, Democratic People’s Republic of</option><option value="Portugal">Portugal</option><option value="Paraguay">Paraguay</option><option value="Palestine, State of">Palestine, State of</option><option value="Qatar">Qatar</option><option value="Romania">Romania</option><option value="Russian Federation">Russian Federation</option><option value="Rwanda">Rwanda</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Sudan">Sudan</option><option value="Senegal">Senegal</option><option value="Singapore">Singapore</option><option value="Solomon Islands">Solomon Islands</option><option value="Sierra Leone">Sierra Leone</option><option value="El Salvador">El Salvador</option><option value="San Marino">San Marino</option><option value="Somalia">Somalia</option><option value="Serbia">Serbia</option><option value="Sao Tome and Principe">Sao Tome and Principe</option><option value="Suriname">Suriname</option><option value="Slovakia">Slovakia</option><option value="Slovenia">Slovenia</option><option value="Sweden">Sweden</option><option value="Swaziland">Swaziland</option><option value="Seychelles">Seychelles</option><option value="Syrian Arab Republic">Syrian Arab Republic</option><option value="Chad">Chad</option><option value="Togo">Togo</option><option value="Thailand">Thailand</option><option value="Tajikistan">Tajikistan</option><option value="Turkmenistan">Turkmenistan</option><option value="Timor-Leste">Timor-Leste</option><option value="Tonga">Tonga</option><option value="Trinidad and Tobago">Trinidad and Tobago</option><option value="Tunisia">Tunisia</option><option value="Turkey">Turkey</option><option value="Tuvalu">Tuvalu</option><option value="Taiwan, Province of China">Taiwan, Province of China</option><option value="Tanzania, United Republic of">Tanzania, United Republic of</option><option value="Uganda">Uganda</option><option value="Ukraine">Ukraine</option><option value="Uruguay">Uruguay</option><option value="United States">United States</option><option value="Uzbekistan">Uzbekistan</option><option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option><option value="Venezuela, Bolivarian Republic of">Venezuela, Bolivarian Republic of</option><option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option><option value="Viet Nam">Viet Nam</option><option value="Vanuatu">Vanuatu</option><option value="Samoa">Samoa</option><option value="Yemen">Yemen</option><option value="South Africa">South Africa</option><option value="Zambia">Zambia</option><option value="Zimbabwe">Zimbabwe</option>
+              </select>
+            </div>
+            
+            <div class="col-sm-6 my-2">
+              <input class="form-control" placeholder="Place of Travel" name="book_custom_dest" required>
+            </div>
+
+            <div class="col-sm-6 my-2">
+              <input type="number" class="form-control" placeholder="No. of Nights" name="nights" required>
+            </div>
+
+            <div class="col-sm-6 my-2">
+              <input type="number" class="form-control" placeholder="No. of People" name="people" required>
+            </div>
+
+            <div class="col-sm-6 my-2">
+              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')" class="form-control" placeholder="Date of Travel" name="dateT" required>
+            </div>
+
+            <div class="col-12 my-2">
+              <textarea rows="5" class="form-control" name="comment" placeholder="Any suggestions, preferences, meals, activities..." ></textarea>
+            </div>
+
+            <div class="text-center col-12" id="bookcustsuccess"></div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary float-left" id="book_cust_btn">Submit</button>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Book Flight -->
+
+<div class="modal fade" id="bookflight" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="destModalTitle">Book Your Next Flight</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="book_flight">
+          <div class="row">
+            <div class="col-sm-6 my-2">
+              <input class="form-control" placeholder="Name" name="name" required>
+            </div>
+            
+            <div class="col-sm-6 my-2">
+              <input type="email" class="form-control" placeholder="Email" name="email" required>
+            </div>
+            
+            <div class="col-sm-6 my-2">
+              <input type="number" class="form-control" placeholder="Phone Number" name="phone" required>
+            </div>
+            
+            <div class="col-sm-6 my-2">
+              <select class="form-control" placeholder="Country of Residence" name="country" required>
+                <option value="0">Country Of Residence</option><option value="Aruba">Aruba</option><option value="Afghanistan">Afghanistan</option><option value="Angola">Angola</option><option value="Albania">Albania</option><option value="Andorra">Andorra</option><option value="United Arab Emirates">United Arab Emirates</option><option value="Argentina">Argentina</option><option value="Armenia">Armenia</option><option value="American Samoa">American Samoa</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Azerbaijan">Azerbaijan</option><option value="Burundi">Burundi</option><option value="Belgium">Belgium</option><option value="Benin">Benin</option><option value="Burkina Faso">Burkina Faso</option><option value="Bangladesh">Bangladesh</option><option value="Bulgaria">Bulgaria</option><option value="Bahrain">Bahrain</option><option value="Bahamas">Bahamas</option><option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option><option value="Belarus">Belarus</option><option value="Belize">Belize</option><option value="Bermuda">Bermuda</option><option value="Bolivia, Plurinational State of">Bolivia, Plurinational State of</option><option value="Brazil">Brazil</option><option value="Barbados">Barbados</option><option value="Brunei Darussalam">Brunei Darussalam</option><option value="Bhutan">Bhutan</option><option value="Botswana">Botswana</option><option value="Central African Republic">Central African Republic</option><option value="Canada">Canada</option><option value="Switzerland">Switzerland</option><option value="Chile">Chile</option><option value="China">China</option><option value="Côte d’Ivoire">Côte d’Ivoire</option><option value="Cameroon">Cameroon</option><option value="Congo, the Democratic Republic of the">Congo, the Democratic Republic of the</option><option value="Congo">Congo</option><option value="Cook Islands">Cook Islands</option><option value="Colombia">Colombia</option><option value="Comoros">Comoros</option><option value="Cape Verde">Cape Verde</option><option value="Costa Rica">Costa Rica</option><option value="Cuba">Cuba</option><option value="Cayman Islands">Cayman Islands</option><option value="Cyprus">Cyprus</option><option value="Czech Republic">Czech Republic</option><option value="Germany">Germany</option><option value="Djibouti">Djibouti</option><option value="Dominica">Dominica</option><option value="Denmark">Denmark</option><option value="Dominican Republic">Dominican Republic</option><option value="Algeria">Algeria</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="Eritrea">Eritrea</option><option value="Spain">Spain</option><option value="Estonia">Estonia</option><option value="Ethiopia">Ethiopia</option><option value="Finland">Finland</option><option value="Fiji">Fiji</option><option value="France">France</option><option value="Micronesia, Federated States of">Micronesia, Federated States of</option><option value="Gabon">Gabon</option><option value="United Kingdom">United Kingdom</option><option value="Georgia">Georgia</option><option value="Ghana">Ghana</option><option value="Guinea">Guinea</option><option value="Gambia">Gambia</option><option value="Guinea-Bissau">Guinea-Bissau</option><option value="Equatorial Guinea">Equatorial Guinea</option><option value="Greece">Greece</option><option value="Grenada">Grenada</option><option value="Guatemala">Guatemala</option><option value="Guam">Guam</option><option value="Guyana">Guyana</option><option value="Hong Kong">Hong Kong</option><option value="Honduras">Honduras</option><option value="Croatia">Croatia</option><option value="Haiti">Haiti</option><option value="Hungary">Hungary</option><option value="Indonesia">Indonesia</option><option value="India">India</option><option value="Ireland">Ireland</option><option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option><option value="Iraq">Iraq</option><option value="Iceland">Iceland</option><option value="Israel">Israel</option><option value="Italy">Italy</option><option value="Jamaica">Jamaica</option><option value="Jordan">Jordan</option><option value="Japan">Japan</option><option value="Kazakhstan">Kazakhstan</option><option value="Kenya">Kenya</option><option value="Kyrgyzstan">Kyrgyzstan</option><option value="Cambodia">Cambodia</option><option value="Kiribati">Kiribati</option><option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option><option value="Korea, Republic of">Korea, Republic of</option><option value="Kuwait">Kuwait</option><option value="Lao People’s Democratic Republic">Lao People’s Democratic Republic</option><option value="Lebanon">Lebanon</option><option value="Liberia">Liberia</option><option value="Libya">Libya</option><option value="Saint Lucia">Saint Lucia</option><option value="Liechtenstein">Liechtenstein</option><option value="Sri Lanka">Sri Lanka</option><option value="Lesotho">Lesotho</option><option value="Lithuania">Lithuania</option><option value="Luxembourg">Luxembourg</option><option value="Latvia">Latvia</option><option value="Morocco">Morocco</option><option value="Monaco">Monaco</option><option value="Moldova, Republic of">Moldova, Republic of</option><option value="Madagascar">Madagascar</option><option value="Maldives">Maldives</option><option value="Mexico">Mexico</option><option value="Marshall Islands">Marshall Islands</option><option value="Macedonia, the former Yugoslav Republic of">Macedonia, the former Yugoslav Republic of</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Myanmar">Myanmar</option><option value="Montenegro">Montenegro</option><option value="Mongolia">Mongolia</option><option value="Mozambique">Mozambique</option><option value="Mauritania">Mauritania</option><option value="Mauritius">Mauritius</option><option value="Malawi">Malawi</option><option value="Malaysia">Malaysia</option><option value="Namibia">Namibia</option><option value="Niger">Niger</option><option value="Nigeria">Nigeria</option><option value="Nicaragua">Nicaragua</option><option value="Netherlands">Netherlands</option><option value="Norway">Norway</option><option value="Nepal">Nepal</option><option value="Nauru">Nauru</option><option value="New Zealand">New Zealand</option><option value="Oman">Oman</option><option value="Pakistan">Pakistan</option><option value="Panama">Panama</option><option value="Peru">Peru</option><option value="Philippines">Philippines</option><option value="Palau">Palau</option><option value="Papua New Guinea">Papua New Guinea</option><option value="Poland">Poland</option><option value="Puerto Rico">Puerto Rico</option><option value="Korea, Democratic People’s Republic of">Korea, Democratic People’s Republic of</option><option value="Portugal">Portugal</option><option value="Paraguay">Paraguay</option><option value="Palestine, State of">Palestine, State of</option><option value="Qatar">Qatar</option><option value="Romania">Romania</option><option value="Russian Federation">Russian Federation</option><option value="Rwanda">Rwanda</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Sudan">Sudan</option><option value="Senegal">Senegal</option><option value="Singapore">Singapore</option><option value="Solomon Islands">Solomon Islands</option><option value="Sierra Leone">Sierra Leone</option><option value="El Salvador">El Salvador</option><option value="San Marino">San Marino</option><option value="Somalia">Somalia</option><option value="Serbia">Serbia</option><option value="Sao Tome and Principe">Sao Tome and Principe</option><option value="Suriname">Suriname</option><option value="Slovakia">Slovakia</option><option value="Slovenia">Slovenia</option><option value="Sweden">Sweden</option><option value="Swaziland">Swaziland</option><option value="Seychelles">Seychelles</option><option value="Syrian Arab Republic">Syrian Arab Republic</option><option value="Chad">Chad</option><option value="Togo">Togo</option><option value="Thailand">Thailand</option><option value="Tajikistan">Tajikistan</option><option value="Turkmenistan">Turkmenistan</option><option value="Timor-Leste">Timor-Leste</option><option value="Tonga">Tonga</option><option value="Trinidad and Tobago">Trinidad and Tobago</option><option value="Tunisia">Tunisia</option><option value="Turkey">Turkey</option><option value="Tuvalu">Tuvalu</option><option value="Taiwan, Province of China">Taiwan, Province of China</option><option value="Tanzania, United Republic of">Tanzania, United Republic of</option><option value="Uganda">Uganda</option><option value="Ukraine">Ukraine</option><option value="Uruguay">Uruguay</option><option value="United States">United States</option><option value="Uzbekistan">Uzbekistan</option><option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option><option value="Venezuela, Bolivarian Republic of">Venezuela, Bolivarian Republic of</option><option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option><option value="Viet Nam">Viet Nam</option><option value="Vanuatu">Vanuatu</option><option value="Samoa">Samoa</option><option value="Yemen">Yemen</option><option value="South Africa">South Africa</option><option value="Zambia">Zambia</option><option value="Zimbabwe">Zimbabwe</option>
+              </select>
+            </div>
+            
+            <div class="col-sm-6 my-2">
+              <input class="form-control" placeholder="Travelling From" name="book_flight" required>
+            </div>
+
+            <div class="col-sm-6 my-2">
+              <input type="text" class="form-control" placeholder="Travelling To" name="to" required>
+            </div>
+
+            <div class="col-sm-6 my-2">
+              <input type="number" class="form-control" placeholder="No. of People" name="people" required>
+            </div>
+
+            <div class="col-sm-6 my-2">
+              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')" class="form-control" placeholder="Date of Travel" name="dateT" required>
+            </div>
+
+            <div class="col-12 my-2">
+              <textarea rows="5" class="form-control" name="comment" placeholder="Any suggestions, preferences, meals, activities..." ></textarea>
+            </div>
+
+            <div class="text-center col-12" id="bookflightsuccess"></div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary float-left" id="book_flight_btn">Submit</button>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Book Transport -->
+
+<div class="modal fade" id="booktransport" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="destModalTitle">Get a Ride</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="book_transport">
+          <div class="row">
+            <div class="col-sm-6 my-2">
+              <input class="form-control" placeholder="Name" name="name" required>
+            </div>
+            
+            <div class="col-sm-6 my-2">
+              <input type="email" class="form-control" placeholder="Email" name="email" required>
+            </div>
+            
+            <div class="col-sm-6 my-2">
+              <input type="number" class="form-control" placeholder="Phone Number" name="phone" required>
+            </div>
+            
+            <div class="col-sm-6 my-2">
+              <select class="form-control" placeholder="Country of Residence" name="country" required>
+                <option value="0">Country Of Residence</option><option value="Aruba">Aruba</option><option value="Afghanistan">Afghanistan</option><option value="Angola">Angola</option><option value="Albania">Albania</option><option value="Andorra">Andorra</option><option value="United Arab Emirates">United Arab Emirates</option><option value="Argentina">Argentina</option><option value="Armenia">Armenia</option><option value="American Samoa">American Samoa</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Azerbaijan">Azerbaijan</option><option value="Burundi">Burundi</option><option value="Belgium">Belgium</option><option value="Benin">Benin</option><option value="Burkina Faso">Burkina Faso</option><option value="Bangladesh">Bangladesh</option><option value="Bulgaria">Bulgaria</option><option value="Bahrain">Bahrain</option><option value="Bahamas">Bahamas</option><option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option><option value="Belarus">Belarus</option><option value="Belize">Belize</option><option value="Bermuda">Bermuda</option><option value="Bolivia, Plurinational State of">Bolivia, Plurinational State of</option><option value="Brazil">Brazil</option><option value="Barbados">Barbados</option><option value="Brunei Darussalam">Brunei Darussalam</option><option value="Bhutan">Bhutan</option><option value="Botswana">Botswana</option><option value="Central African Republic">Central African Republic</option><option value="Canada">Canada</option><option value="Switzerland">Switzerland</option><option value="Chile">Chile</option><option value="China">China</option><option value="Côte d’Ivoire">Côte d’Ivoire</option><option value="Cameroon">Cameroon</option><option value="Congo, the Democratic Republic of the">Congo, the Democratic Republic of the</option><option value="Congo">Congo</option><option value="Cook Islands">Cook Islands</option><option value="Colombia">Colombia</option><option value="Comoros">Comoros</option><option value="Cape Verde">Cape Verde</option><option value="Costa Rica">Costa Rica</option><option value="Cuba">Cuba</option><option value="Cayman Islands">Cayman Islands</option><option value="Cyprus">Cyprus</option><option value="Czech Republic">Czech Republic</option><option value="Germany">Germany</option><option value="Djibouti">Djibouti</option><option value="Dominica">Dominica</option><option value="Denmark">Denmark</option><option value="Dominican Republic">Dominican Republic</option><option value="Algeria">Algeria</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="Eritrea">Eritrea</option><option value="Spain">Spain</option><option value="Estonia">Estonia</option><option value="Ethiopia">Ethiopia</option><option value="Finland">Finland</option><option value="Fiji">Fiji</option><option value="France">France</option><option value="Micronesia, Federated States of">Micronesia, Federated States of</option><option value="Gabon">Gabon</option><option value="United Kingdom">United Kingdom</option><option value="Georgia">Georgia</option><option value="Ghana">Ghana</option><option value="Guinea">Guinea</option><option value="Gambia">Gambia</option><option value="Guinea-Bissau">Guinea-Bissau</option><option value="Equatorial Guinea">Equatorial Guinea</option><option value="Greece">Greece</option><option value="Grenada">Grenada</option><option value="Guatemala">Guatemala</option><option value="Guam">Guam</option><option value="Guyana">Guyana</option><option value="Hong Kong">Hong Kong</option><option value="Honduras">Honduras</option><option value="Croatia">Croatia</option><option value="Haiti">Haiti</option><option value="Hungary">Hungary</option><option value="Indonesia">Indonesia</option><option value="India">India</option><option value="Ireland">Ireland</option><option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option><option value="Iraq">Iraq</option><option value="Iceland">Iceland</option><option value="Israel">Israel</option><option value="Italy">Italy</option><option value="Jamaica">Jamaica</option><option value="Jordan">Jordan</option><option value="Japan">Japan</option><option value="Kazakhstan">Kazakhstan</option><option value="Kenya">Kenya</option><option value="Kyrgyzstan">Kyrgyzstan</option><option value="Cambodia">Cambodia</option><option value="Kiribati">Kiribati</option><option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option><option value="Korea, Republic of">Korea, Republic of</option><option value="Kuwait">Kuwait</option><option value="Lao People’s Democratic Republic">Lao People’s Democratic Republic</option><option value="Lebanon">Lebanon</option><option value="Liberia">Liberia</option><option value="Libya">Libya</option><option value="Saint Lucia">Saint Lucia</option><option value="Liechtenstein">Liechtenstein</option><option value="Sri Lanka">Sri Lanka</option><option value="Lesotho">Lesotho</option><option value="Lithuania">Lithuania</option><option value="Luxembourg">Luxembourg</option><option value="Latvia">Latvia</option><option value="Morocco">Morocco</option><option value="Monaco">Monaco</option><option value="Moldova, Republic of">Moldova, Republic of</option><option value="Madagascar">Madagascar</option><option value="Maldives">Maldives</option><option value="Mexico">Mexico</option><option value="Marshall Islands">Marshall Islands</option><option value="Macedonia, the former Yugoslav Republic of">Macedonia, the former Yugoslav Republic of</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Myanmar">Myanmar</option><option value="Montenegro">Montenegro</option><option value="Mongolia">Mongolia</option><option value="Mozambique">Mozambique</option><option value="Mauritania">Mauritania</option><option value="Mauritius">Mauritius</option><option value="Malawi">Malawi</option><option value="Malaysia">Malaysia</option><option value="Namibia">Namibia</option><option value="Niger">Niger</option><option value="Nigeria">Nigeria</option><option value="Nicaragua">Nicaragua</option><option value="Netherlands">Netherlands</option><option value="Norway">Norway</option><option value="Nepal">Nepal</option><option value="Nauru">Nauru</option><option value="New Zealand">New Zealand</option><option value="Oman">Oman</option><option value="Pakistan">Pakistan</option><option value="Panama">Panama</option><option value="Peru">Peru</option><option value="Philippines">Philippines</option><option value="Palau">Palau</option><option value="Papua New Guinea">Papua New Guinea</option><option value="Poland">Poland</option><option value="Puerto Rico">Puerto Rico</option><option value="Korea, Democratic People’s Republic of">Korea, Democratic People’s Republic of</option><option value="Portugal">Portugal</option><option value="Paraguay">Paraguay</option><option value="Palestine, State of">Palestine, State of</option><option value="Qatar">Qatar</option><option value="Romania">Romania</option><option value="Russian Federation">Russian Federation</option><option value="Rwanda">Rwanda</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Sudan">Sudan</option><option value="Senegal">Senegal</option><option value="Singapore">Singapore</option><option value="Solomon Islands">Solomon Islands</option><option value="Sierra Leone">Sierra Leone</option><option value="El Salvador">El Salvador</option><option value="San Marino">San Marino</option><option value="Somalia">Somalia</option><option value="Serbia">Serbia</option><option value="Sao Tome and Principe">Sao Tome and Principe</option><option value="Suriname">Suriname</option><option value="Slovakia">Slovakia</option><option value="Slovenia">Slovenia</option><option value="Sweden">Sweden</option><option value="Swaziland">Swaziland</option><option value="Seychelles">Seychelles</option><option value="Syrian Arab Republic">Syrian Arab Republic</option><option value="Chad">Chad</option><option value="Togo">Togo</option><option value="Thailand">Thailand</option><option value="Tajikistan">Tajikistan</option><option value="Turkmenistan">Turkmenistan</option><option value="Timor-Leste">Timor-Leste</option><option value="Tonga">Tonga</option><option value="Trinidad and Tobago">Trinidad and Tobago</option><option value="Tunisia">Tunisia</option><option value="Turkey">Turkey</option><option value="Tuvalu">Tuvalu</option><option value="Taiwan, Province of China">Taiwan, Province of China</option><option value="Tanzania, United Republic of">Tanzania, United Republic of</option><option value="Uganda">Uganda</option><option value="Ukraine">Ukraine</option><option value="Uruguay">Uruguay</option><option value="United States">United States</option><option value="Uzbekistan">Uzbekistan</option><option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option><option value="Venezuela, Bolivarian Republic of">Venezuela, Bolivarian Republic of</option><option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option><option value="Viet Nam">Viet Nam</option><option value="Vanuatu">Vanuatu</option><option value="Samoa">Samoa</option><option value="Yemen">Yemen</option><option value="South Africa">South Africa</option><option value="Zambia">Zambia</option><option value="Zimbabwe">Zimbabwe</option>
+              </select>
+            </div>
+            
+            <div class="col-sm-12 my-2">
+              <select class="form-control" placeholder="Choose a Vehicle" name="book_transport" required>
+                <option value="0">Choose a Vehicle</option>
+                <option value="Land Cruiser">Land Cruiser (Luxury)</option>
+                <option value="Tour Van">Tour Van </option>
+                <option value="Tour Bus">Tour Bus</option>
+              </select>
+            </div>
+
+            <div class="col-sm-6 my-2">
+              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')" class="form-control" placeholder="Date of Travel" name="dateT" required>
+            </div>
+
+            <div class="col-sm-6 my-2">
+              <input type="number" class="form-control" placeholder="No. of Days" name="days" required>
+            </div>
+
+            <div class="col-12 my-2">
+              <textarea rows="5" class="form-control" name="comment" placeholder="Any suggestions, preferences, meals, activities..." ></textarea>
+            </div>
+
+            <div class="text-center col-12" id="booktransportsuccess"></div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary float-left" id="book_transport_btn">Submit</button>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Book Corporate -->
+
+<div class="modal fade" id="bookcoop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="destModalTitle">Book a Corporate Activity</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="book_coop">
+          <div class="row">
+            <div class="col-sm-6 my-2">
+              <input class="form-control" placeholder="Name" name="name" required>
+            </div>
+            
+            <div class="col-sm-6 my-2">
+              <input type="email" class="form-control" placeholder="Email" name="email" required>
+            </div>
+            
+            <div class="col-sm-6 my-2">
+              <input type="number" class="form-control" placeholder="Phone Number" name="phone" required>
+            </div>
+                        
+            <div class="col-sm-12 my-2">
+              <select class="form-control coop-type" placeholder="Choose a Corporate Activity" name="book_coop" required>
+                <option value="0">Choose a Corporate Activity</option>
+                <option value="1" <?php if($typ == 1){echo 'selected';}?> >Team Building</option>
+                <option value="2" <?php if($typ == 2){echo 'selected';}?> >Employee Training </option>
+              </select>
+            </div>
+
+            <div class="col-sm-6 my-2">
+              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')" class="form-control" placeholder="Date of Event" name="dateT" required>
+            </div>
+
+            <div class="col-sm-6 my-2">
+              <input type="number" class="form-control" placeholder="No. of People" name="people" required>
+            </div>
+
+            <div class="col-12 my-2">
+              <textarea rows="5" class="form-control" name="comment" placeholder="Any suggestions, preferences, meals, activities..." ></textarea>
+            </div>
+
+            <div class="text-center col-12" id="bookcoopsuccess"></div>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary float-left" id="book_coop_btn">Submit</button>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>

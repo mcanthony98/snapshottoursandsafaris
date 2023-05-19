@@ -1,6 +1,6 @@
 <?php
     session_start();
-	require "../includes/connect.php";
+	require "includes/connect.php";
 	date_default_timezone_set("Africa/Nairobi");
     $date = date("m/d/Y g:iA");
     $ddate = date("Y_m_d_H_i_s");

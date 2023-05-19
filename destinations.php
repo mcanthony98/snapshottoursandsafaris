@@ -1,153 +1,206 @@
+<?php
+$pg = 3;
+require "includes/connect.php";
+include "includes/functions.php";
+$destqry = "SELECT * FROM destination ORDER BY position ASC";
+$destres = $conn->query($destqry);
+?>
 <!DOCTYPE html>
-<html style="font-size: 16px;">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    <title>Destinations - Snapshot Tours And Safaris</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Destinations.css" media="screen">
-    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 4.2.6, nicepage.com">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "Snapshot Tours and Safaris",
-		"logo": "images/logo.png",
-		"sameAs": []
-}</script>
-    <meta name="theme-color" content="#F1C40F">
-    <meta property="og:title" content="Destinations">
-    <meta property="og:description" content="">
-    <meta property="og:type" content="website">
-  </head>
-  <body class="u-body">
+<html lang="en">
 
-  <?php include 'includes/navbar.php';?>
+<head>
+<title>Affordable Destinations - Snapshot Tours and Safaris Kenya, Africa</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <section class="u-align-center u-clearfix u-image u-shading u-section-1" id="sec-dc6b" data-image-width="1280" data-image-height="402">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-text u-text-default u-title u-text-1">Destinations</h1>
-      </div>
-    </section>
-    <section class="u-clearfix u-gradient u-section-2" id="sec-24be">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-expanded-width u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
-            <div class="u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-1">
-                <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-1" data-image-width="1280" data-image-height="960" src="images/4fa927002949d3e3f7790377b0cd89e84a0d0216f6a3d7150a923b6a31ca301c5ce4cc1cf620077d21797f2aa5b8fe17080d5b2b12bcedb7301d0f_12801.jpg">
-                <h3 class="u-text u-text-default u-text-1">2 Days 1 Night Amboseli Safari</h3>
-                <a href="destinations/2-days-1-night-amboseli-safari.php" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-1">learn more</a>
-              </div>
-            </div>
-            <div class="u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-2">
-                <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-2" data-image-width="1280" data-image-height="853" src="images/d581f73b929c2c583976112b19ebbd8e00bccb04b16558b45258871fc6509717363b384b285f64191f873306b3b5a3058689ac2561199a51455862_1280.jpg">
-                <h3 class="u-text u-text-default u-text-2">3 Days 2 Nights Amboseli Safari</h3>
-                <a href="destinations/3-days-2-nights-amboseli-safari.php" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-2">learn more</a>
-              </div>
-            </div>
-            <div class="u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-3">
-                <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-3" data-image-width="1280" data-image-height="967" src="images/ce716e1bc28b9f1d8e367ede10cfe827637e5f8370c8c30f8526cedc5884f9bdf8ebc80b27490cc56d1933f7ddeed41c5ea10610b1e4153f40468b_1280.jpg">
-                <h3 class="u-text u-text-default u-text-3">3 Days 2 Nights Maasai Mara Safari</h3>
-                <a href="destinations/3-days-2-nights-maasai-mara-safari.php" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-3">learn more</a>
-              </div>
-            </div>
-            <div class="u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-4">
-                <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-4" data-image-width="1280" data-image-height="853" src="images/32fa0b701217fac3a6552ef9c838e0dd4cdea72e966864ab865f4fd20b700f462212494fbf98ab69c2131e6e3b941b28d076a0ca12e56fadfa8ec1_1280.jpg">
-                <h3 class="u-text u-text-default u-text-4">5 Days 4 Nights Amboseli Tsavo Safari</h3>
-                <a href="destinations/5-days-4-nights-amboseli-tsavo-safari.php" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-4">View more</a>
-              </div>
-            </div>
-            <div class="u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-5">
-                <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-5" data-image-width="1280" data-image-height="854" src="images/5006d3e4aa7e4001078df3f0ebec7b00e91a920cca33385be60b960f72511609790f21a02a1e6b5ac1db537878cdc4e684d756c053e4aaffde8b04_1280.jpg">
-                <h3 class="u-text u-text-default u-text-5">3 Days Mara Big Five Safari</h3>
-                <a href="" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-5">learn more</a>
-              </div>
-            </div>
-            <div class="u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-6">
-                <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-6" data-image-width="150" data-image-height="99" src="images/0b4102371c267210c27126ae358244d9795d71a6902e8588bb38d39d5a5947a83e61766b2c5916e2035c3ae000ac3c71cff12290803865d846d36b_1280.jpg">
-                <h3 class="u-text u-text-default u-text-6">4 Days Classic Nakuru Mara</h3>
-                <a href="" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-6">learn more</a>
-              </div>
-            </div>
-            <div class="u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-7">
-                <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-7" data-image-width="150" data-image-height="101" src="images/g6fad10b202615066a9117fffa57d39a0eae505f77c6e630334f97c0d87ebc03e9233363da3875544edd457af931d22b0_1280.jpg">
-                <h3 class="u-text u-text-default u-text-7">4 Days Samburu Nakuru Safari</h3>
-                <a href="" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-7">learn more</a>
-              </div>
-            </div>
-            <div class="u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-8">
-                <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-8" data-image-width="1280" data-image-height="960" src="images/fcc7eab24d86a6dc1b978832579e4a8ec905e73a598034b41a80459ee67fc779e0c7e6a836e2f196f161841e904c2a1797f8ded4afeb74506435c3_1280.jpg">
-                <h3 class="u-text u-text-default u-text-8">5 Days Nakuru Mara Safari</h3>
-                <a href="" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-8">learn more</a>
-              </div>
-            </div>
-            <div class="u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-9">
-                <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-9" data-image-width="1280" data-image-height="853" src="images/2e848ac95d258695335d4473a6b2cb71ba3b33fa15f791ef34b19b95fab39598af84623d76db7e8830dd7fb27893b8eaf7af915cc3563dc84e1d0f_1280.jpg">
-                <h3 class="u-text u-text-default u-text-9">6 Days Luxury Kenya Safari</h3>
-                <a href="" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-9">learn more</a>
-              </div>
-            </div>
-            <div class="u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-10">
-                <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-10" data-image-width="1280" data-image-height="853" src="images/9ea437329065be32805850ca0d2f97f0d4b5eebfa51f09820716611413ebfa85b6e669ea45f850ba196c9c4300bb9326083256d5e597c139cd9b82_1280.jpg">
-                <h3 class="u-text u-text-default u-text-10">7 Days Taste of Kenya Safari</h3>
-                <a href="" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-10">learn more</a>
-              </div>
-            </div>
-            <div class="u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-11">
-                <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-11" data-image-width="960" data-image-height="1280" src="images/a355f6dc978f245a7ecec290de6ce9e3bf9221eec7f118e58d23c1ec9c1034fd169a3c957dace3e2c36cd66920cf82e3a3b2af289d344326ca94ec_1280.jpg">
-                <h3 class="u-text u-text-default u-text-11">6 Days Aberdare Nakuru Safari</h3>
-                <a href="" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-11">learn more</a>
-              </div>
-            </div>
-            <div class="u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-12">
-                <img alt="" class="u-expanded-width u-hover-feature u-image u-image-default u-image-12" data-image-width="1280" data-image-height="853" src="images/46058c977652d159ee41069dcdfcbc094be314cd7069bd6f14009504c7bd4d05a2109917d4d63dab15120b28ff5d614de1058f664d4729ee3a20b7_1280.jpg">
-                <h3 class="u-text u-text-default u-text-12">7 Days Mara Nakuru Amboseli</h3>
-                <a href="" class="u-active-none u-border-2 u-border-hover-palette-3-dark-1 u-border-palette-3-base u-btn u-button-style u-hover-none u-none u-text-body-color u-btn-12">learn more</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a href="index.php#carousel_1513" class="u-align-center u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-13"> Plan your trip now</a>
-      </div>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-    </section>
-    
-    
-    <?php include "includes/footer.php";?>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MPT4TS2');</script>
+<!-- End Google Tag Manager -->
+
+<?php include "includes/stylesheets.php";?>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '175143165180633');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=175143165180633&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RM45DWF1DC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RM45DWF1DC');
+</script>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPT4TS2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<?php include "includes/navbar.php";?>
 
 
-  </body>
+
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/banner2.jpg');" data-stellar-background-ratio="0.5">
+<div class="overlay"></div>
+<div class="container">
+<div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+<div class="col-md-9 ftco-animate pb-5 mb-5 text-center">
+<h1 class="mb-3 bread">Places to Travel</h1>
+<p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Destination <i class="ion-ios-arrow-forward"></i></span></p>
+</div>
+</div>
+</div>
+</section>
+<section class="ftco-section ftco-no-pb ftco-no-pt">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<div class="search-wrap-1 ftco-animate p-4">
+<form action="#" class="search-property-1">
+<div class="row">
+<div class="col-lg align-items-end">
+<div class="form-group">
+<label for="#">Destination</label>
+<div class="form-field">
+<div class="icon"><span class="ion-ios-search"></span></div>
+<input type="text" class="form-control" placeholder="Search place">
+</div>
+</div>
+</div>
+ <div class="col-lg align-items-end">
+<div class="form-group">
+<label for="#">Check-in date</label>
+<div class="form-field">
+<div class="icon"><span class="ion-ios-calendar"></span></div>
+<input type="text" class="form-control checkin_date" placeholder="Check In Date">
+</div>
+</div>
+</div>
+<div class="col-lg align-items-end">
+<div class="form-group">
+<label for="#">Check-out date</label>
+<div class="form-field">
+<div class="icon"><span class="ion-ios-calendar"></span></div>
+<input type="text" class="form-control checkout_date" placeholder="Check Out Date">
+</div>
+</div>
+</div>
+<div class="col-lg align-items-end">
+<div class="form-group">
+<label for="#">Price Limit</label>
+<div class="form-field">
+<div class="select-wrap">
+<div class="icon"><span class="ion-ios-arrow-down"></span></div>
+<select name="" id="" class="form-control">
+<option value="">$100</option>
+<option value="">$150</option>
+<option value="">$200</option>
+<option value="">$250</option>
+<option value="">$300</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg align-self-end">
+<div class="form-group">
+<div class="form-field">
+<input type="submit" value="Search" class="form-control btn btn-primary">
+</div>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="ftco-section">
+<div class="container">
+<div class="row justify-content-center pb-5">
+<div class="col-md-12 heading-section text-center ftco-animate">
+<h2 class="mb-4">Best Place to Travel</h2>
+<p></p>
+</div>
+</div>
+<div class="row">
+<?php 
+while($destrow = $destres->fetch_assoc()){
+?>
+<div class="col-md-6 col-lg-3 ftco-animate">
+<div class="project">
+<a class="destination-single" id="<?php echo $destrow["destination_id"];?>" type="button" data-toggle="modal" data-target="#specificdest">
+<div class="img">
+<img src="files/<?php echo $destrow['image'];?>" class="img-fluid" alt="<?php echo $destrow['location'];?>">
+</div>
+<div class="text">
+<h4 class="price">$<?php echo $destrow['price'];?></h4>
+<span><?php echo $destrow['days'] . " Days " . $destrow['nights'] . " Nights ";?></span>
+<h3><?php echo $destrow["location"];?></a></h3>
+<div class="star d-flex clearfix">
+<div class="mr-auto float-left">
+<span class="ion-ios-star"></span>
+<span class="ion-ios-star"></span>
+<span class="ion-ios-star"></span>
+<span class="ion-ios-star"></span>
+<span class="ion-ios-star"></span>
+</div>
+<div class="float-right">
+<span class="rate"><a class="destination-single" >(<?php echo randomRates();?>)</a></span>
+</div>
+</div>
+</div>
+<a href="files/<?php echo $destrow['image'];?>" class="icon d-flex justify-content-center align-items-center">
+<span class="icon-expand"></span>
+</a>
+</div>
+</div>
+<?php } ?>
+
+</div>
+<div class="row mt-5">
+<div class="col text-center">
+<div class="block-27">
+<ul>
+<li><a href="#">&lt;</a></li>
+<li class="active"><span>1</span></li>
+<li><a href="#">&gt;</a></li>
+</ul>
+</div>
+</div>
+ </div>
+</div>
+</section>
+
+<?php 
+include "includes/footer.php";
+include "includes/scripts.php";
+?>
+
+
+</body>
+
 </html>
