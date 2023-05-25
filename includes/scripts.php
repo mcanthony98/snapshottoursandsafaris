@@ -94,6 +94,7 @@ $(document).ready(function() {
             $('#contForm input').val("");
             $('#contForm textarea').val("");
             $('#contbtn').val("Send Message");
+            window.location.href = "thank-you-contact.php";
         }  
 });
 
