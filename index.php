@@ -20,6 +20,8 @@ $blogsres = $conn->query($blogsqry);
 <title>Snapshot Tours and Safaris Kenya - Explore Unlimited!</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="Snapshot Tours and Safaris, Travel experiences, best travel experiences, Passionate travelers, Breathtaking adventures, Cultural encounters, Tailor-made itineraries, Adrenaline junkie, Tranquil moments, Natural wonders, World-class hospitality, thrilling adventures, indelible mark in your memories, incredible experiences, travel experts, Masai Mara, sinking Lake Amboseli, Maasai Heritage">
+<meta name="description" content="Explore the world's most intriguing destinations with Snapshot Tours and Safaris. Since we are also passionate explorers, we are committed and dedicated to curating long-term memories by creating memorable travel journeys that immerse you in the essence of each unique destination. ">
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
