@@ -37,36 +37,27 @@
 <li class="ftco-animate"><a href="https://mobile.twitter.com/Snapshot_tours_" target="_blank"><span class="icon-twitter"></span></a></li>
 <li class="ftco-animate"><a href="https://m.facebook.com/people/Snapshot-tours-and-safaris/100069692835734/" target="_blank"><span class="icon-facebook"></span></a></li>
 <li class="ftco-animate"><a href="https://www.instagram.com/snapshot_tours_and_safaris/?utm_medium=copy_link" target="_blank"><span class="icon-instagram"></span></a></li>
-<li class="ftco-animate"><a href="https://ke.linkedin.com/in/snapshot-tours-and-safaris-852300265" target="_blank"><span class="icon-linkedin"></span></a></li>
+<li class="ftco-animate"><a href="https://ke.linkedin.com/in/snapshot-tours-and-safaris-852300265" target="_blank"><span style="display: inline-block; width: 44px; height: 28px; margin-left: 10px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" fill="currentColor">
+  <path d="M4.458 21.025H.999V8.644h3.459zM2.729 6.709C1.225 6.709 0 5.483 0 3.978s1.225-2.73 2.729-2.73c1.505 0 2.73 1.226 2.73 2.73s-1.225 2.73-2.73 2.73zM21.827 21.025h-3.459v-5.54c0-1.316-.026-3.008-1.832-3.008-1.832 0-2.115 1.432-2.115 2.91v5.638h-3.459V8.644h3.375v1.547h.047c.471-.89 1.617-1.832 3.328-1.832 3.555 0 4.21 2.342 4.21 5.38V21.025z"/>
+</svg>
+</span></a></li>
 </ul>
 </div>
 </div>
 <div class="col-md">
 <div class="ftco-footer-widget mb-4 ml-md-5">
-<h2 class="ftco-heading-2">Information</h2>
+<h2 class="ftco-heading-2">Information & Enquiry</h2>
 <ul class="list-unstyled">
-<li><a href="#" class="py-2 d-block">Online Enquiry</a></li>
-<li><a href="#" class="py-2 d-block">General Enquiries</a></li>
-<li><a href="#" class="py-2 d-block">Booking Conditions</a></li>
-<li><a href="#" class="py-2 d-block">Privacy and Policy</a></li>
-<li><a href="#" class="py-2 d-block">Refund Policy</a></li>
-<li><a href="#" class="py-2 d-block">Call Us</a></li>
+<li><a type="button" data-toggle="modal" data-target="#bookcustom" class="py-2 d-block">Request a Travel Package</a></li>
+<li><a type="button" data-toggle="modal" data-target="#bookcoop" class="py-2 d-block">Get Corporate Training</a></li>
+<li><a type="button" data-toggle="modal" data-target="#bookflight" class="py-2 d-block">Book a Flight</a></li>
+<li><a type="button" data-toggle="modal" data-target="#booktransport" class="py-2 d-block">Get Transport</a></li>
+<li><a href="contact.php#contact_on" class="py-2 d-block">General Enquiries</a></li>
+<li><a href="policies.php" class="py-2 d-block">Privacy and Policy</a></li>
 </ul>
 </div>
 </div>
-<div class="col-md">
-<div class="ftco-footer-widget mb-4">
-<h2 class="ftco-heading-2">Experience</h2>
-<ul class="list-unstyled">
-<li><a href="#" class="py-2 d-block">Adventure</a></li>
-<li><a href="#" class="py-2 d-block">Hotel and Restaurant</a></li>
-<li><a href="#" class="py-2 d-block">Beach</a></li>
-<li><a href="#" class="py-2 d-block">Nature</a></li>
-<li><a href="#" class="py-2 d-block">Camping</a></li>
-<li><a href="#" class="py-2 d-block">Corporate Programs</a></li>
-</ul>
-</div>
-</div>
+
 <div class="col-md">
 <div class="ftco-footer-widget mb-4">
 <h2 class="ftco-heading-2">Have a Questions?</h2>
@@ -74,7 +65,7 @@
 <ul>
 <li><span class="icon icon-map-marker"></span><span class="text">Office 4, Hotel Lillies, Juja, Nairobi, Kenya.</span></li>
 <li><a href="tel:+254759949546"><span class="icon icon-phone"></span><span class="text">+254 7599 49546</span></a></li>
-<li><a href="mail:info@snapshottoursandsafaris.com"><span class="icon icon-envelope mr-2"></span><span class="text"> info@snapshottoursandsafaris.com</span></a></li>
+<li><a href="mail:info@snapshottoursandsafaris.com"><span class="icon icon-envelope"></span><span class="text"> info@snapshottoursandsafaris.com</span></a></li>
 </ul>
 </div>
 </div>
@@ -141,7 +132,7 @@
             </div>
             
             <div class="col-sm-6 my-2">
-              <input type="number" class="form-control" placeholder="Phone Number" name="phone" required>
+              <input type="text" class="form-control" placeholder="Phone Number" name="phone" required>
             </div>
             
             <div class="col-sm-6 my-2">
@@ -203,7 +194,7 @@
             </div>
             
             <div class="col-sm-6 my-2">
-              <input type="number" class="form-control" placeholder="Phone Number" name="phone" required>
+              <input type="text" class="form-control" placeholder="Phone Number" name="phone" required>
             </div>
             
             <div class="col-sm-6 my-2">
@@ -267,7 +258,7 @@
             </div>
             
             <div class="col-sm-6 my-2">
-              <input type="number" class="form-control" placeholder="Phone Number" name="phone" required>
+              <input type="text" class="form-control" placeholder="Phone Number" name="phone" required>
             </div>
             
             <div class="col-sm-6 my-2">
@@ -332,7 +323,7 @@
             </div>
             
             <div class="col-sm-6 my-2">
-              <input type="number" class="form-control" placeholder="Phone Number" name="phone" required>
+              <input type="text" class="form-control" placeholder="Phone Number" name="phone" required>
             </div>
             
             <div class="col-sm-6 my-2">
@@ -398,14 +389,19 @@
             </div>
             
             <div class="col-sm-6 my-2">
-              <input type="number" class="form-control" placeholder="Phone Number" name="phone" required>
+              <input type="text" class="form-control" placeholder="Phone Number" name="phone" required>
             </div>
                         
             <div class="col-sm-12 my-2">
               <select class="form-control coop-type" placeholder="Choose a Corporate Activity" name="book_coop" required>
                 <option value="0">Choose a Corporate Activity</option>
+                <?php if($typ){ ?>
                 <option value="1" <?php if($typ == 1){echo 'selected';}?> >Team Building</option>
                 <option value="2" <?php if($typ == 2){echo 'selected';}?> >Employee Training </option>
+                <?php }else{?>
+                  <option value="1" >Team Building</option>
+                <option value="2" >Employee Training </option>
+                <?php }?>
               </select>
             </div>
 

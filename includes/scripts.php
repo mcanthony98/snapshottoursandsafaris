@@ -63,7 +63,8 @@ $(document).ready(function() {
             if(data == '0'){
               $('#subtext').html('<span style="color:red;" class="">You are already subscribed to our Newsletter!</span>');
             }else{
-              $('#subtext').html('<span style="color:green;" class="">Welcome to our Newsletter. You are now subscribed!</span>');
+              $('#subtext').html('success');
+              window.location.href = "thank-you-subscribe.php";
             }
             $('#subbtn').val("Subscribe");
             $('#subemail').val("");
@@ -90,7 +91,7 @@ $(document).ready(function() {
           $('#contbtn').val("Sending...");
         }, 
         success:function(data){ 
-            $('#conttext').html('<span style="color:green;" class="">Your Message has been sent successfully! We will contact you shortly via the email provided!</span>');
+            $('#conttext').html('Success');
             $('#contForm input').val("");
             $('#contForm textarea').val("");
             $('#contbtn').val("Send Message");
@@ -174,10 +175,11 @@ $(document).ready(function() {
         success:function(data){ 
             var element = document.getElementById("bookdestsuccess");
             element.scrollIntoView();
-            $('#bookdestsuccess').html('<span style="color:green;" class="">You Booking Request has been received. We will contact you shortly! <br>Thank You for Choosing Snapshot Tours and Safaris. </span>');
+            $('#bookdestsuccess').html('Success');
             $('#book_dest input').val("");
             $('#book_dest textarea').val("");
             $('#book_dest_btn').val("Submit");
+            window.location.href = "thank-you-bookings.php";
         }  
 });
 
@@ -204,10 +206,11 @@ $(document).ready(function() {
         success:function(data){ 
             var element = document.getElementById("bookcustsuccess");
             element.scrollIntoView();
-            $('#bookcustsuccess').html('<span style="color:green;" class="">You Booking Request has been received. We will contact you shortly! <br>Thank You for Choosing Snapshot Tours and Safaris. </span>');
+            $('#bookcustsuccess').html('Success');
             $('#book_cust input').val("");
             $('#book_cust textarea').val("");
             $('#book_cust_btn').val("Submit");
+            window.location.href = "thank-you-bookings.php";
         }  
 });
 
@@ -233,10 +236,11 @@ $(document).ready(function() {
         success:function(data){ 
             var element = document.getElementById("bookflightsuccess");
             element.scrollIntoView();
-            $('#bookflightsuccess').html('<span style="color:green;" class="">You Flight Booking Request has been received. We will contact you shortly! <br>Thank You for Choosing Snapshot Tours and Safaris. </span>');
+            $('#bookflightsuccess').html('Success');
             $('#book_flight input').val("");
             $('#book_flight textarea').val("");
             $('#book_flight_btn').val("Submit");
+            window.location.href = "thank-you-flight.php";
         }  
 });
 
@@ -263,10 +267,11 @@ $(document).ready(function() {
         success:function(data){ 
             var element = document.getElementById("booktransportsuccess");
             element.scrollIntoView();
-            $('#booktransportsuccess').html('<span style="color:green;" class="">You Transport Request has been received. We will contact you shortly! <br>Thank You for Choosing Snapshot Tours and Safaris. </span>');
+            $('#booktransportsuccess').html('Success');
             $('#book_transport input').val("");
             $('#book_transport textarea').val("");
             $('#book_transport_btn').val("Submit");
+            window.location.href = "thank-you-transport.php";
         }  
 });
 
@@ -293,10 +298,15 @@ $(document).ready(function() {
         success:function(data){ 
             var element = document.getElementById("bookcoopsuccess");
             element.scrollIntoView();
-            $('#bookcoopsuccess').html('<span style="color:green;" class="">You Corporate Training Request has been received. We will contact you shortly! <br>Thank You for Choosing Snapshot Tours and Safaris. </span>');
+            $('#bookcoopsuccess').html('Success');
             $('#book_coop input').val("");
             $('#book_coop textarea').val("");
             $('#book_coop_btn').val("Submit");
+            if(data == 1){
+              window.location.href = "thank-you-teambuilding.php";
+            }else if(data == 2){
+              window.location.href = "thank-you-training.php";
+            }
         }  
 });
 

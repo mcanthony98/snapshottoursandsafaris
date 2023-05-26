@@ -28,6 +28,7 @@ if(isset($_POST['contactEnquiry'])){
     $sub = mysqli_real_escape_string($conn, $_POST["sub"]);
     $sms = mysqli_real_escape_string($conn, $_POST["sms"]);
     $output = 1;
+    $_SESSION['thank_you_name'] = " ".$name;
     
     $qry = "INSERT iNTO enquiries (name, email, subject, message, date_created) VALUES ('$name', '$em', '$sub', '$sms', '$date')";
     $res = $conn->query($qry);
@@ -59,6 +60,7 @@ if(isset($_POST['book_specific_dest'])){
     $dateT = mysqli_real_escape_string($conn, $_POST["dateT"]);
     $comment = mysqli_real_escape_string($conn, $_POST["comment"]);
     $output = 1;
+    $_SESSION['thank_you_name'] = " ".$name;
     
     $qry = "INSERT iNTO bookings (name, phone, email, country, destination_id, date_of_travel, comment, people, date_created) VALUES ('$name', '$phone', '$email', '$country', '$destid', '$dateT', '$comment', '$people', '$date')";
     $res = $conn->query($qry);
@@ -66,7 +68,7 @@ if(isset($_POST['book_specific_dest'])){
     echo $output;
 }
 
-//Specific Dest form
+//Custom Dest form
 if(isset($_POST['book_custom_dest'])){
     $dest = mysqli_real_escape_string($conn, $_POST["book_custom_dest"]);
     $name = mysqli_real_escape_string($conn, $_POST["name"]);
@@ -78,6 +80,7 @@ if(isset($_POST['book_custom_dest'])){
     $dateT = mysqli_real_escape_string($conn, $_POST["dateT"]);
     $comment = mysqli_real_escape_string($conn, $_POST["comment"]);
     $output = 1;
+    $_SESSION['thank_you_name'] = " ".$name;
     
     $qry = "INSERT iNTO custom_bookings (name, phone, email, country, destination, date_of_travel, nights, comment, people, date_created) VALUES ('$name', '$phone', '$email', '$country', '$dest', '$dateT', '$nights', '$comment', '$people', '$date')";
     $res = $conn->query($qry);
@@ -98,6 +101,7 @@ if(isset($_POST['book_flight'])){
     $dateT = mysqli_real_escape_string($conn, $_POST["dateT"]);
     $comment = mysqli_real_escape_string($conn, $_POST["comment"]);
     $output = 1;
+    $_SESSION['thank_you_name'] = " ".$name;
     
     $qry = "INSERT iNTO flight_bookings (name, phone, email, country, flight_from, date_of_travel, flight_to, comment, people, date_created) VALUES ('$name', '$phone', '$email', '$country', '$from', '$dateT', '$to', '$comment', '$people', '$date')";
     $res = $conn->query($qry);
@@ -116,6 +120,7 @@ if(isset($_POST['book_transport'])){
     $dateT = mysqli_real_escape_string($conn, $_POST["dateT"]);
     $comment = mysqli_real_escape_string($conn, $_POST["comment"]);
     $output = 1;
+    $_SESSION['thank_you_name'] = " ".$name;
     
     $qry = "INSERT iNTO transport_bookings (name, phone, email, country, vehicle, date_of_travel, days, comment, date_created) VALUES ('$name', '$phone', '$email', '$country', '$vehicle', '$dateT', '$days', '$comment', '$date')";
     $res = $conn->query($qry);
@@ -134,10 +139,11 @@ if(isset($_POST['book_coop'])){
     $dateT = mysqli_real_escape_string($conn, $_POST["dateT"]);
     $comment = mysqli_real_escape_string($conn, $_POST["comment"]);
     $output = 1;
+    $_SESSION['thank_you_name'] = " ".$name;
     
     $qry = "INSERT iNTO corporate_bookings (name, phone, email, type, date_of_event, people, comment, date_created) VALUES ('$name', '$phone', '$email', '$event', '$dateT', '$people', '$comment', '$date')";
     $res = $conn->query($qry);
     
-    echo $output;
+    echo $event;
 }
 ?>

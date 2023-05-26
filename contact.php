@@ -69,7 +69,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 </section>
-<section class="ftco-section ftco-no-pb contact-section">
+<section class="ftco-section ftco-no-pb contact-section" id="contact_on">
 <div class="container">
 <div class="row d-flex contact-info">
 <div class="col-md-3 d-flex">
@@ -115,7 +115,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="container">
 <div class="row block-9">
 <div class="col-md-6 order-md-last d-flex">
-<form id="contForm" class="bg-light p-5 contact-form">
+
+<form id="contForm" class="bg-light p-4 contact-form">
+<h3 class="">Write your message here</h3>
 <div class="form-group">
 <input type="text" class="form-control" name="name" placeholder="Your Name">
 </div>

@@ -71,7 +71,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="col-md-12 heading-section text-center ftco-animate">
 <h2 class="mb-4">Thank you for reaching out to us!</h2>
 <p>
-Thank you<strong><?php echo $thank_you_name;?></strong>. We appreciate your interest in <a href="https://snapshottoursandsafaris.com">Snapshot Tours and Safaris</a>. Our team will review your message and get back to you shortly. In the meantime, feel free to explore more about our company and discover exciting travel options.
+Thank you<strong><?php echo $thank_you_name;?></strong>. We appreciate your interest in <a href="https://snapshottoursandsafaris.com">Snapshot Tours and Safaris</a>. Our team will review your request and get back to you shortly. In the meantime, feel free to explore more about our company and discover exciting activities and travel options.
 </p>
 </div>
 </div>
