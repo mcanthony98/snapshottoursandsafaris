@@ -113,12 +113,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="form-field">
 <div class="select-wrap">
 <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-<select name="" id="" class="form-control">
-<option class="text-dark" value="">Maasai Mara National Park, Kenya</option>
-<option class="text-dark" value="">Serengeti National Park, Tanzania</option>
-<option class="text-dark" value="">Tsavo National Park, Kenya</option>
-<option class="text-dark" value="">Amboseli National Park, Kenya</option>
-<option class="text-dark" value="">Samburu National Park, Kenya</option>
+<select name="destination" id="" class="form-control">
+<option class="text-dark" value="Maasai Mara">Maasai Mara National Park, Kenya</option>
+<option class="text-dark" value="Serengeti">Serengeti National Park, Tanzania</option>
+<option class="text-dark" value="Tsavo">Tsavo National Park, Kenya</option>
+<option class="text-dark" value="Amboseli">Amboseli National Park, Kenya</option>
+<option class="text-dark" value="Samburu">Samburu National Park, Kenya</option>
 </select>
 </div>
 </div>

@@ -3,7 +3,13 @@ $pg = 3;
 require "includes/connect.php";
 include "includes/functions.php";
 $destqry = "SELECT * FROM destination ORDER BY position ASC";
+
+if(isset($_GET['destination'])){
+  $searchdest = $_GET['destination'];
+  $destqry = "SELECT * FROM destination ORDER BY CASE WHEN location LIKE '%$searchdest%' THEN 0 ELSE 1 END, location; ";
+}
 $destres = $conn->query($destqry);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,6 +18,8 @@ $destres = $conn->query($destqry);
 <title>Affordable Destinations - Snapshot Tours and Safaris Kenya, Africa</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="Snapshot Tours and Safaris, Travel experiences, best travel experiences, Passionate travelers, Breathtaking adventures, Cultural encounters, Tailor-made itineraries, Adrenaline junkie, Tranquil moments, Natural wonders, World-class hospitality, thrilling adventures, indelible mark in your memories, incredible experiences, travel experts, Masai Mara, sinking Lake Amboseli, Maasai Heritage">
+<meta name="description" content="Explore the world's most intriguing destinations with Snapshot Tours and Safaris. Since we are also passionate explorers, we are committed and dedicated to curating long-term memories by creating memorable travel journeys that immerse you in the essence of each unique destination. ">
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -87,12 +95,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="form-field">
 <div class="select-wrap">
 <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-<select name="" id="" class="form-control">
-<option class="text-dark" value="">Maasai Mara National Park, Kenya</option>
-<option class="text-dark" value="">Serengeti National Park, Tanzania</option>
-<option class="text-dark" value="">Tsavo National Park, Kenya</option>
-<option class="text-dark" value="">Amboseli National Park, Kenya</option>
-<option class="text-dark" value="">Samburu National Park, Kenya</option>
+<select name="destination" id="" class="form-control">
+<option class="text-dark" value="Maasai Mara">Maasai Mara National Park, Kenya</option>
+<option class="text-dark" value="Serengeti">Serengeti National Park, Tanzania</option>
+<option class="text-dark" value="Tsavo">Tsavo National Park, Kenya</option>
+<option class="text-dark" value="Amboseli">Amboseli National Park, Kenya</option>
+<option class="text-dark" value="Samburu">Samburu National Park, Kenya</option>
 </select>
 </div>
 </div>
@@ -168,11 +176,7 @@ while($destrow = $destres->fetch_assoc()){
 <div class="row mt-5">
 <div class="col text-center">
 <div class="block-27">
-<ul>
-<li><a href="#">&lt;</a></li>
-<li class="active"><span>1</span></li>
-<li><a href="#">&gt;</a></li>
-</ul>
+
 </div>
 </div>
  </div>
@@ -182,9 +186,22 @@ while($destrow = $destres->fetch_assoc()){
 <?php 
 include "includes/footer.php";
 include "includes/scripts.php";
+if(isset($_GET['dot']) && $_GET['dot'] != ""){
+  $dot = $_GET['dot'];
 ?>
 
+<script>
+  const dotfields = document.querySelectorAll('input[name="dateT"]');
+  const defaultdotValue = <?php echo $dot;?>;
 
+  dotfields.forEach(function(input) {
+    input.value = defaultdotValue;
+  });
+
+
+</script>
+
+<?php } ?>
 </body>
 
 </html>

@@ -11,7 +11,7 @@ $typ = 2;
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="keywords" content="Snapshot Tours and Safaris, Travel experiences, best travel experiences, Passionate travelers, Breathtaking adventures, Cultural encounters, Tailor-made itineraries, Adrenaline junkie, Tranquil moments, Natural wonders, World-class hospitality, thrilling adventures, indelible mark in your memories, incredible experiences, travel experts, Masai Mara, sinking Lake Amboseli, Maasai Heritage">
-<meta name="description" content="As a trusted leader in professional development and training solutions, we specialize in equipping businesses of all sizes with the tools they need to thrive. Our mission is to support organizations by cultivating a highly skilled workforce capable of unlocking their full potential. ">
+<meta name="description" content="As a trusted leader in professional development and training solutions, we specialize in equipping businesses of all sizes with the tools they need to thrive. Our mission is to support organizations by cultivating a highly skilled workforce capable of unlocking their full potential.">
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
