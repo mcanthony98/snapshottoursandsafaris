@@ -87,7 +87,7 @@
 <!-- Specific destination-->
 
 <div class="modal fade" id="specificdest" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-scrollable ">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable ">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="destModalTitle">Destination</h5>
@@ -151,7 +151,7 @@
             </div>
 
             <div class="col-sm-6 my-2">
-              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')" class="form-control" placeholder="Date of Travel" name="dateT" required>
+              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')" min="<?php echo date("Y-m-d");?>" class="form-control" placeholder="Date of Travel" name="dateT" required>
             </div>
 
             <div class="col-12 my-2">
@@ -216,7 +216,7 @@
             </div>
 
             <div class="col-sm-6 my-2">
-              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')" class="form-control" placeholder="Date of Travel" name="dateT" required>
+              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')"  min="<?php echo date("Y-m-d");?>" class="form-control" placeholder="Date of Travel" name="dateT" required>
             </div>
 
             <div class="col-12 my-2">
@@ -280,7 +280,7 @@
             </div>
 
             <div class="col-sm-6 my-2">
-              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')" class="form-control" placeholder="Date of Travel" name="dateT" required>
+              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')"  min="<?php echo date("Y-m-d");?>" class="form-control" placeholder="Date of Travel" name="dateT" required>
             </div>
 
             <div class="col-12 my-2">
@@ -342,7 +342,7 @@
             </div>
 
             <div class="col-sm-6 my-2">
-              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')" class="form-control" placeholder="Date of Travel" name="dateT" required>
+              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')"  min="<?php echo date("Y-m-d");?>"  class="form-control" placeholder="Date of Travel" name="dateT" required>
             </div>
 
             <div class="col-sm-6 my-2">
@@ -381,7 +381,7 @@
         <form id="book_coop">
           <div class="row">
             <div class="col-sm-6 my-2">
-              <input class="form-control" placeholder="Name" name="name" required>
+              <input class="form-control" placeholder="Name/Organisation" name="name" required>
             </div>
             
             <div class="col-sm-6 my-2">
@@ -406,7 +406,7 @@
             </div>
 
             <div class="col-sm-6 my-2">
-              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')" class="form-control" placeholder="Date of Event" name="dateT" required>
+              <input type="text" onfocus="(this.type='date')"   onblur="(this.type='text')"  min="<?php echo date("Y-m-d");?>"  class="form-control" placeholder="Date of Event" name="dateT" required>
             </div>
 
             <div class="col-sm-6 my-2">

@@ -1,5 +1,5 @@
  <?php 
- header ("Location: new/");
+ //header ("Location: new/");
  ?>
  
  <header class="u-clearfix u-gradient u-header u-sticky u-header" id="sec-cd51"><div class="u-clearfix u-sheet u-sheet-1">

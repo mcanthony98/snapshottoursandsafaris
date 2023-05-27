@@ -10,6 +10,8 @@ $typ = 2;
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="Snapshot Tours and Safaris, Travel experiences, best travel experiences, Passionate travelers, Breathtaking adventures, Cultural encounters, Tailor-made itineraries, Adrenaline junkie, Tranquil moments, Natural wonders, World-class hospitality, thrilling adventures, indelible mark in your memories, incredible experiences, travel experts, Masai Mara, sinking Lake Amboseli, Maasai Heritage">
+<meta name="description" content="As a trusted leader in professional development and training solutions, we specialize in equipping businesses of all sizes with the tools they need to thrive. Our mission is to support organizations by cultivating a highly skilled workforce capable of unlocking their full potential. ">
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -81,9 +83,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="col-md-12 heading-section ftco-animate">
 <h2 class="mb-4">Snapshot Corporate Training</h2>
 <p>
-We are a leading provider of professional development and training solutions for businesses of all sizes. Our mission is to help organizations cultivate a skilled workforce and empower their employees to reach their full potential. We understand that in today's fast-paced and ever-changing business world, ongoing learning and development are critical to staying competitive and successful.<br>
-Our training programs are designed to address the specific needs and challenges of modern businesses, we understand that every organization has unique training needs, which is why we offer a range of training programs tailored to meet the specific requirements of our clients. Our team of experienced and NITA certified trainers and experts are dedicated to delivering high-quality, engaging and impactful training sessions that equip your employees with the skills they need to succeed.<br>
-Our comprehensive training programs cover a wide range of topics, including leadership, communication, team building, project management, customer service, and many more. Our team of experienced trainers and coaches are dedicated to delivering practical and engaging training sessions that meet the unique needs and goals of each organization We offer both on-site and online training options to ensure that your employees have access to the training they need, no matter where they are located.
+As a trusted leader in professional development and training solutions, we specialize in equipping businesses of all sizes with the tools they need to thrive. Our mission is to support organizations by cultivating a highly skilled workforce capable of unlocking their full potential. In today's dynamic and competitive business landscape, continuous learning and Skill development is necessary to attain and sustain success.
+<br>
+We acknowledge the distinct training needs and challenges faced by modern businesses. To cater for these unique requirements, we offer a diverse range of targeted training programs designed to address specific areas of improvement. Our team entails experienced and NITA certified trainers and experts who are committed to delivering exceptional, interactive, and impactful training sessions that enhances individual and organizational growth.
+<br>
+Our comprehensive training curriculum spans an extensive array of topics, encompassing leadership, communication, team building, project management, customer service, and much more. With our skilled trainers and coaches at the helm, we ensure practical and engaging sessions tailored to meet the distinctive objectives and aspirations of each organization. 
+For utmost convenience, we provide both on-site and online training options, ensuring that your employees have unfettered access to our transformative programs regardless of their geographical location. Elevate your organization's capabilities and propel success through continuous learning and development by choosing us!!
+
 </p>
 </div>
 </div>

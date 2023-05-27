@@ -8,6 +8,8 @@ $pg = 3;
 <title>Book a Flight - Snapshot Tours and Safaris Kenya, Africa</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="Snapshot Tours and Safaris, Travel experiences, best travel experiences, Passionate travelers, Breathtaking adventures, Cultural encounters, travel experts, Masai Mara">
+<meta name="description" content="We take pride in simplifying your travel arrangements, and eliminating the hassle typically associated with planning flights for Safaris. Let us handle the logistics while you focus on creating unforgettable memories.  ">
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -79,15 +81,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="row justify-content-start pb-3">
 <div class="col-md-12 heading-section ftco-animate">
 <h2 class="mb-4">Planning To Fly?</h2>
-<p>At <span class="text-bold">Snapshot Tours and Safaris</span>, we help you book your flights within Kenya, Tanzania and to other countries in and out of Africa. At Snapshot Tours and Safaris, we make your work easier; we remove the hustle you would have gone through to plan your flights.<br>This package entails:<br></p>
+<p>At <span class="text-bold">Snapshot Tours and Safaris</span>, we take pride in simplifying your travel arrangements, and eliminating the hassle typically associated with planning flights for Safaris. Let us handle the logistics while you focus on creating unforgettable memories. Whether you're exploring the enchanting plains of the Serengeti or embarking on a thrilling adventure to distant lands, our dedicated team is here to make your journey effortless.<br>
+Experience the freedom of stress-free travel as we take care of every detail, from securing the best flight options to providing expert guidance throughout the process. Engage with us today and unlock a world of travel possibilities, where convenience and exceptional service go hand in hand.
+<br>What is in Our Flight Package:<br></p>
 </div>
 </div>
 <div class="row">
 <div class="col-md-12">
-<p class="ftco-animate tips"><span>1.</span> Flight Booking - Only need to provide&nbsp; the date and destination</p>
+<p class="ftco-animate tips"><span>1.</span> Flight Booking </p>
 <p class="ftco-animate tips"><span>2.</span> Transfers to and from airport&nbsp;&nbsp;</p>
 <p class="ftco-animate tips"><span>3.</span> A tour guide - for flying safaris</p>
-<p class="ftco-animate tips"><span>4.</span> A memorable experience</p>
+<p class="ftco-animate tips"><span>4.</span> Best deals to all destinations</p>
 <p class="ftco-animate mt-4"><a class="btn btn-primary py-3 px-5" type="button" data-toggle="modal" data-target="#bookflight">Book a Flight Now!</a></p>
 </div>
 </div>

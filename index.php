@@ -68,7 +68,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
 <div class="col-md-7 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
 <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Welcome To Snapshot Tours and Safaris</h1>
-<p class="mb-4" style="color:#f9c400;" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Explore Unlimited!</p>
+<p class="mb-4"  data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Explore East Africa with Us - Unveil the hidden Gems of Kenya and Tanzania</p>
 </div>
 </div>
 </div>
@@ -79,8 +79,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
 <div class="col-md-7 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
-<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Discover Africa's wildlife on our safaris.</h1>
-<p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel | Leisure | Experience | Discover</p>
+<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">The Ultimate Experiences in the Savannah of East Africa</h1>
+<p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Wonders | Wildebeests | Migrations | Safaris | Lodges | Parks | Giraffe Center | Flamingos | Mara</p>
 </div>
 </div>
 </div>
@@ -92,66 +92,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
 <div class="col-md-7 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
-<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Experience the adventure of a lifetime!</h1>
-<p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel without going around in circles with Snapshot Tours and Safaris</p>
+<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">We Show you East Africa, Because We Know It Better!</h1>
+<p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Travel | Adventure | Discover | Experience | Memories</p>
 </div>
 </div>
 </div>
 </div>
 
 
-<section class="ftco-section ftco-no-pb ftco-no-pt">
+<section class="ftco-section ftco-no-pb ftco-no-pt d-none d-lg-block">
 <div class="container">
 <div class="row">
 <div class="col-md-12">
 <div class="search-wrap-1 ftco-animate p-4">
-<form action="destinations.php" class="search-property-1">
+<form action="destinations.php#destinations_o" class="search-property-1">
 <div class="row">
-<div class="col-lg align-items-end">
+<div class="col-lg-5 align-items-end">
 <div class="form-group">
 <label for="#">Destination</label>
 <div class="form-field">
-<div class="icon"><span class="ion-ios-search"></span></div>
-<input type="text" class="form-control" placeholder="Search place">
-</div>
-</div>
-</div>
-<div class="col-lg align-items-end">
-<div class="form-group">
-<label for="#">Check-in date</label>
-<div class="form-field">
-<div class="icon"><span class="ion-ios-calendar"></span></div>
-<input type="text" class="form-control checkin_date" placeholder="Check In Date">
-</div>
-</div>
-</div>
-<div class="col-lg align-items-end">
-<div class="form-group">
-<label for="#">Check-out date</label>
-<div class="form-field">
-<div class="icon"><span class="ion-ios-calendar"></span></div>
-<input type="text" class="form-control checkout_date" placeholder="Check Out Date">
-</div>
-</div>
-</div>
-<div class="col-lg align-items-end">
-<div class="form-group">
-<label for="#">Price Limit</label>
-<div class="form-field">
 <div class="select-wrap">
 <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-<select name="" id="" class="form-control ">
-<option value="">$100</option>
-<option value="">$150</option>
-<option value="">$200</option>
-<option value="">$250</option>
-<option value="">$300</option>
+<select name="" id="" class="form-control">
+<option class="text-dark" value="">Maasai Mara National Park, Kenya</option>
+<option class="text-dark" value="">Serengeti National Park, Tanzania</option>
+<option class="text-dark" value="">Tsavo National Park, Kenya</option>
+<option class="text-dark" value="">Amboseli National Park, Kenya</option>
+<option class="text-dark" value="">Samburu National Park, Kenya</option>
 </select>
 </div>
 </div>
 </div>
 </div>
-<div class="col-lg align-self-end">
+<div class="col-lg-4 align-items-end">
+<div class="form-group">
+<label for="#">Date of Travel</label>
+<div class="form-field">
+<div class="icon"><span class="ion-ios-calendar"></span></div>
+<input type="text" class="form-control" onfocus="(this.type='date')"   onblur="(this.type='text')"  min="<?php echo date("Y-m-d");?>" placeholder="Date of Travel">
+</div>
+</div>
+</div>
+<div class="col-lg-3 align-self-end">
 <div class="form-group">
 <div class="form-field">
 <input type="submit" value="Search" class="form-control btn btn-primary">
@@ -171,23 +153,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="container">
 <div class="row justify-content-center pb-5">
 <div class="col-md-12 heading-section text-center ftco-animate">
-<h2 class="mb-4">Best Place to Travel</h2>
-<p>Choose among our top destination and get the best experience with us.</p>
+<h2 class="mb-4">Best Travel Destinations</h2>
+<p>Unleash top experiences from our high-ranked destinations with versatility of activities</p>
 </div>
 </div>
 <div class="row">
 <?php
 while($destrow = $destres->fetch_assoc()){
 ?>
+
 <div class="col-md-6 col-lg-3 ftco-animate">
 <div class="project">
+<a class="destination-single" id="<?php echo $destrow["destination_id"];?>" type="button" data-toggle="modal" data-target="#specificdest">
 <div class="img">
 <img src="files/<?php echo $destrow['image'];?>" class="img-fluid" alt="<?php echo $destrow['location'];?>">
 </div>
 <div class="text">
 <h4 class="price">$<?php echo $destrow['price'];?></h4>
 <span><?php echo $destrow['days'] . " Days " . $destrow['nights'] . " Nights ";?></span>
-<h3><a class="destination-single" id="<?php echo $destrow["destination_id"];?>" type="button" data-toggle="modal" data-target="#specificdest"><?php echo $destrow["location"];?></a></h3>
+<h3><?php echo $destrow["location"];?></a></h3>
 <div class="star d-flex clearfix">
 <div class="mr-auto float-left">
 <span class="ion-ios-star"></span>
@@ -197,7 +181,7 @@ while($destrow = $destres->fetch_assoc()){
 <span class="ion-ios-star"></span>
 </div>
 <div class="float-right">
-<span class="rate"><a href="#">(<?php echo randomRates();?>)</a></span>
+<span class="rate"><a class="destination-single" >(<?php echo randomRates();?>)</a></span>
 </div>
 </div>
 </div>
@@ -227,43 +211,48 @@ while($destrow = $destres->fetch_assoc()){
     <div class="col-md-6 pl-md-5 py-5">
     <div class="row justify-content-start pb-3">
     <div class="col-md-12 heading-section ftco-animate">
-    <h2 class="mb-4">About Snapshot Tours and Safaris</h2>
-    <p>Welcome to <span style="color:#f9c400;">Snapshot Tours and Safaris</span>, where we aim to bring you the best travel experiences from around the world. We are a team of passionate travelers who believe that exploring new destinations, experiencing different cultures, and creating unforgettable memories are some of life's most rewarding experiences. <br>
-    
-    Our mission is to provide you with an exceptional travel experience that is tailored to your unique preferences and interests. Whether you are seeking adventure, relaxation, culture, or cuisine, we have the expertise and resources to design a customized itinerary that meets your specific needs. <br/>
-    
-    Thank you for choosing us as your travel partner. We look forward to helping you create memories that will last a lifetime.</p>
+    <h2 class="mb-4">About Us</h2>
+    <p>Welcome to <span style="color:#f9c400;">Snapshot Tours and Safaris</span>. Since 2019, we have been committed to offering extraordinary travel experiences in Kenya and East Africa. We have connected & partnered with locals at every destination to offer first-hand knowledge about all activities, secret gems, culture and heritage, and exquisite lodges for our travelers. <br>
+    We present the best of Africa to you – Since we know it Better. 
+ <br>
+ <br>
+ <h5 class="text-dark">Why Travel with Us?</h5>
+ We are on a mission to offer exceptional experiences in all our safaris, committing every effort to every trip to curate everlasting memories. We are passionate about crafting tailor-made itineraries that reflect your personal preferences and interests. <br>
+Are you an adrenaline junkie seeking heart-pounding thrills? Or perhaps you long for tranquil moments amidst breathtaking natural wonders? Are you still stuck wondering where to experience the tons of beautiful sceneries in Kenya and Tanzania? – Driven by your needs and preferences, our team of experienced travel experts is committed to designing and presenting exceptional travels that fulfill your fantasies with your dream adventures.
+ </p>
     </div>
     </div>
+    </div>
+    <div class="col-md-12 pl-md-5 py-5">
     <div class="row">
-    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+    <div class="col-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
     <div class="block-18 text-center py-5 bg-light mb-4">
     <div class="text">
-    <strong class="number" data-number="30">0</strong>
-    <span>Amazing Deals</span>
-    </div>
-    </div>
-    </div>
-    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
-    <div class="block-18 text-center py-5 bg-light mb-4">
-    <div class="text">
-    <strong class="number" data-number="200">0</strong>
+    <strong class="number" data-number="234">0</strong>
     <span>Sold Tours</span>
     </div>
     </div>
     </div>
-    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+    <div class="col-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
     <div class="block-18 text-center py-5 bg-light mb-4">
     <div class="text">
-    <strong class="number" data-number="2500">0</strong>
-    <span>New Tours</span>
+    <strong class="number" data-number="47">0</strong>
+    <span>Visited Destinations</span>
     </div>
     </div>
     </div>
-    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+    <div class="col-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
     <div class="block-18 text-center py-5 bg-light mb-4">
     <div class="text">
-    <strong class="number" data-number="40">0</strong>
+    <strong class="number" data-number="7">0</strong>
+    <span>Tour Guides</span>
+    </div>
+    </div>
+    </div>
+    <div class="col-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+    <div class="block-18 text-center py-5 bg-light mb-4">
+    <div class="text">
+    <strong class="number" data-number="234">0</strong>
     <span>Happy Customers</span>
     </div>
     </div>
@@ -280,8 +269,13 @@ while($destrow = $destres->fetch_assoc()){
 <div class="media block-6 services d-block">
 <div class="icon"><span class="flaticon-yatch"></span></div>
 <div class="media-body">
-<h3 class="heading mb-3">Activities</h3>
-<p>We have a range of activities including safaris, beach holidays and corporate training.</p>
+<h3 class="heading mb-3">Our Activities</h3>
+<p>We specialize in:
+-Safaris
+-Vacations and Holiday trips
+-Beach Holidays
+-Corporate Training & Team Building.
+</p>
 </div>
 </div>
 </div>
@@ -289,8 +283,8 @@ while($destrow = $destres->fetch_assoc()){
 <div class="media block-6 services d-block">
 <div class="icon"><span class="flaticon-around"></span></div>
 <div class="media-body">
-<h3 class="heading mb-3">Travel Arrangements</h3>
-<p>We offer customized itineraries to suit your travel plan and budget.</p>
+<h3 class="heading mb-3">Travel Plans & Deals</h3>
+<p>We tailor our itineraries according to your budget and negotiate deals on your behalf. </p>
 </div>
 </div>
 </div>
@@ -298,8 +292,8 @@ while($destrow = $destres->fetch_assoc()){
 <div class="media block-6 services d-block">
 <div class="icon"><span class="flaticon-compass"></span></div>
 <div class="media-body">
-<h3 class="heading mb-3">Private Guide</h3>
-<p>You get an experienced professional Tour Guide on all your safaris.</p>
+<h3 class="heading mb-3">Travel and Trip Guide</h3>
+<p>All our packages are inclusive of an experienced trip guide for ultimate experiences.</p>
 </div>
 </div>
 </div>
@@ -321,7 +315,7 @@ while($destrow = $destres->fetch_assoc()){
 <div class="container">
 <div class="row justify-content-center mb-5 pb-3">
 <div class="col-md-7 heading-section text-center ftco-animate">
-<h2>What we Offer</h2>
+<h2>Our Services</h2>
 </div>
 </div>
 <div class="row d-flex">

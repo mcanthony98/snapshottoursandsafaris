@@ -73,58 +73,41 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 </section>
-<section class="ftco-section ftco-no-pb ftco-no-pt">
+
+<section class="ftco-section ftco-no-pb ftco-no-pt d-none d-lg-block" >
 <div class="container">
 <div class="row">
 <div class="col-md-12">
 <div class="search-wrap-1 ftco-animate p-4">
-<form action="#" class="search-property-1">
+<form action="destinations.php#destinations_o" class="search-property-1">
 <div class="row">
-<div class="col-lg align-items-end">
+<div class="col-lg-5 align-items-end">
 <div class="form-group">
 <label for="#">Destination</label>
-<div class="form-field">
-<div class="icon"><span class="ion-ios-search"></span></div>
-<input type="text" class="form-control" placeholder="Search place">
-</div>
-</div>
-</div>
- <div class="col-lg align-items-end">
-<div class="form-group">
-<label for="#">Check-in date</label>
-<div class="form-field">
-<div class="icon"><span class="ion-ios-calendar"></span></div>
-<input type="text" class="form-control checkin_date" placeholder="Check In Date">
-</div>
-</div>
-</div>
-<div class="col-lg align-items-end">
-<div class="form-group">
-<label for="#">Check-out date</label>
-<div class="form-field">
-<div class="icon"><span class="ion-ios-calendar"></span></div>
-<input type="text" class="form-control checkout_date" placeholder="Check Out Date">
-</div>
-</div>
-</div>
-<div class="col-lg align-items-end">
-<div class="form-group">
-<label for="#">Price Limit</label>
 <div class="form-field">
 <div class="select-wrap">
 <div class="icon"><span class="ion-ios-arrow-down"></span></div>
 <select name="" id="" class="form-control">
-<option value="">$100</option>
-<option value="">$150</option>
-<option value="">$200</option>
-<option value="">$250</option>
-<option value="">$300</option>
+<option class="text-dark" value="">Maasai Mara National Park, Kenya</option>
+<option class="text-dark" value="">Serengeti National Park, Tanzania</option>
+<option class="text-dark" value="">Tsavo National Park, Kenya</option>
+<option class="text-dark" value="">Amboseli National Park, Kenya</option>
+<option class="text-dark" value="">Samburu National Park, Kenya</option>
 </select>
 </div>
 </div>
 </div>
 </div>
-<div class="col-lg align-self-end">
+<div class="col-lg-4 align-items-end">
+<div class="form-group">
+<label for="#">Date of Travel</label>
+<div class="form-field">
+<div class="icon"><span class="ion-ios-calendar"></span></div>
+<input type="text" class="form-control checkin_date" placeholder="Date of Travel">
+</div>
+</div>
+</div>
+<div class="col-lg-3 align-self-end">
 <div class="form-group">
 <div class="form-field">
 <input type="submit" value="Search" class="form-control btn btn-primary">
@@ -138,7 +121,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 </section>
-<section class="ftco-section">
+
+<section class="ftco-section" id="destinations_o">
 <div class="container">
 <div class="row justify-content-center pb-5">
 <div class="col-md-12 heading-section text-center ftco-animate">

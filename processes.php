@@ -1,9 +1,11 @@
 <?php
     session_start();
 	require "includes/connect.php";
+    require "includes/mailer.php";
 	date_default_timezone_set("Africa/Nairobi");
     $date = date("m/d/Y g:iA");
     $ddate = date("Y_m_d_H_i_s");
+    $snapshot_self_email = "info@snapshottoursandsafaris.com";
 
 	//Subscribe to Newsletter
 if(isset($_POST['sub_newsletter'])){
@@ -34,6 +36,21 @@ if(isset($_POST['contactEnquiry'])){
     $res = $conn->query($qry);
     
     echo $output;
+
+    $emsubject = "New Enquiry From the Website";
+    $embody = "
+        <p>Hello,</p>
+        <p>You have a new enquiry from the website - Contact Us page <br/> Here is the message:</p>
+        <br/>
+        <p>
+        <b>Name:</b> ".$name." <br/>
+        <b>Email:</b> ".$em." <br/>
+        <b>Subject:</b> ".$sub." <br/>
+        <b>Message:</b> ".$sms." <br/>
+        </p> 
+    ";
+
+    maillinge($snapshot_self_email, $emsubject, $embody);
 }
 
 
@@ -66,6 +83,30 @@ if(isset($_POST['book_specific_dest'])){
     $res = $conn->query($qry);
     
     echo $output;
+
+    $dqry = "SELECT * FROM destination WHERE destination_id = '$destid'";
+    $dres = $conn->query($dqry);
+    $drow = $dres->fetch_assoc();
+    $destname = $drow["days"] . " Days " . $drow["nights"] . " Nights " . $drow["location"];
+
+    $emsubject = "New Booking From the Website";
+    $embody = "
+        <p>Hello,</p>
+        <p>You have a new Booking Request from the website - $destname Package <br/> Here is the message:</p>
+        <br/>
+        <p>
+        <b>Name:</b> ".$name." <br/>
+        <b>Email:</b> ".$email." <br/>
+        <b>Phone:</b> ".$phone." <br/>
+        <b>Country of Residence:</b> ".$country." <br/>
+        <b>Destination:</b> ".$destname." <br/>
+        <b>No. of People:</b> ".$people." <br/>
+        <b>Date of Travel:</b> ".$dateT." <br/>
+        <b>Additional info:</b> ".$comment." <br/>
+        </p> 
+    ";
+
+    maillinge($snapshot_self_email, $emsubject, $embody);
 }
 
 //Custom Dest form
@@ -86,6 +127,25 @@ if(isset($_POST['book_custom_dest'])){
     $res = $conn->query($qry);
     
     echo $output;
+
+    $emsubject = "New Booking From the Website";
+    $embody = "
+        <p>Hello,</p>
+        <p>You have a new Booking Request from the website - Custom Booking <br/> Here is the message:</p>
+        <br/>
+        <p>
+        <b>Name:</b> ".$name." <br/>
+        <b>Email:</b> ".$email." <br/>
+        <b>Phone:</b> ".$phone." <br/>
+        <b>Country of Residence:</b> ".$country." <br/>
+        <b>Destination:</b> ".$dest." <br/>
+        <b>No. of People:</b> ".$people." <br/>
+        <b>Date of Travel:</b> ".$dateT." <br/>
+        <b>Additional info:</b> ".$comment." <br/>
+        </p> 
+    ";
+
+    maillinge($snapshot_self_email, $emsubject, $embody);
 }
 
 
@@ -107,6 +167,26 @@ if(isset($_POST['book_flight'])){
     $res = $conn->query($qry);
     
     echo $output;
+
+    $emsubject = "New Flight Booking From the Website";
+    $embody = "
+        <p>Hello,</p>
+        <p>You have a new Flight Booking Request from the website - Flight Booking <br/> Here is the message:</p>
+        <br/>
+        <p>
+        <b>Name:</b> ".$name." <br/>
+        <b>Email:</b> ".$email." <br/>
+        <b>Phone:</b> ".$phone." <br/>
+        <b>Country of Residence:</b> ".$country." <br/>
+        <b>From:</b> ".$from." <br/>
+        <b>To:</b> ".$to." <br/>
+        <b>No. of People:</b> ".$people." <br/>
+        <b>Date of Travel:</b> ".$dateT." <br/>
+        <b>Additional info:</b> ".$comment." <br/>
+        </p> 
+    ";
+
+    maillinge($snapshot_self_email, $emsubject, $embody);
 }
 
 //Transport Booking form
@@ -126,6 +206,25 @@ if(isset($_POST['book_transport'])){
     $res = $conn->query($qry);
     
     echo $output;
+
+    $emsubject = "New Transport Request From the Website";
+    $embody = "
+        <p>Hello,</p>
+        <p>You have a new Transport Enquiry from the website - Transport <br/> Here is the message:</p>
+        <br/>
+        <p>
+        <b>Name:</b> ".$name." <br/>
+        <b>Email:</b> ".$email." <br/>
+        <b>Phone:</b> ".$phone." <br/>
+        <b>Country of Residence:</b> ".$country." <br/>
+        <b>Vehicle:</b> ".$vehicle." <br/>
+        <b>No. of Days:</b> ".$days." <br/>
+        <b>Date of Travel:</b> ".$dateT." <br/>
+        <b>Additional info:</b> ".$comment." <br/>
+        </p> 
+    ";
+
+    maillinge($snapshot_self_email, $emsubject, $embody);
 }
 
 
@@ -145,5 +244,30 @@ if(isset($_POST['book_coop'])){
     $res = $conn->query($qry);
     
     echo $event;
+
+    if($event == 1){
+        $eventtype = "Team Building";
+    }elseif($event == 2){
+        $eventtype = "Corporate Training";
+    }
+    
+
+    $emsubject = "New Corporate Enquiry from the Website";
+    $embody = "
+        <p>Hello,</p>
+        <p>You have a new Corporate Enquiry from the website - $eventtype <br/> Here is the message:</p>
+        <br/>
+        <p>
+        <b>Name:</b> ".$name." <br/>
+        <b>Email:</b> ".$email." <br/>
+        <b>Phone:</b> ".$phone." <br/>
+        <b>Type:</b> ".$eventtype." <br/>
+        <b>No. of People:</b> ".$people." <br/>
+        <b>Date of Travel:</b> ".$dateT." <br/>
+        <b>Additional info:</b> ".$comment." <br/>
+        </p> 
+    ";
+
+    maillinge($snapshot_self_email, $emsubject, $embody);
 }
 ?>

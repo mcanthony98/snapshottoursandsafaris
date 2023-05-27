@@ -13,6 +13,8 @@ $cataloguerow = $catalogueres->fetch_assoc();
 <title>About Us - Snapshot Tours and Safaris Kenya, Africa</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="Snapshot Tours and Safaris, safari tours in Kenya, wildlife, landscapes, cultures, authentic experience, wildlife safaris, bird watching tours, cultural tours, beach tours, adventure safaris, customizable travel plans, Luxurious lodges, responsible tourism, conservation, local communities, sustainable development, enchantment, hospitality">
+<meta name="description" content="Welcome to Snapshot Tours and Safaris, a leading provider of safari tours in Kenya and Tanzania. Immerse yourself in the spectacular wildlife experience, remarkable landscapes, and vibrant cultures of this magnificent country. Our experienced guides are passionate about sharing their love and extensive knowledge of Kenya with our valued guests.">
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -79,46 +81,53 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="img d-flex align-self-stretch" style="background-image:url(images/abouty.jpg);"></div>
     </div>
     <div class="col-md-6 pl-md-5 py-5">
-    <div class="row justify-content-start pb-3">
+    <div class="row justify-content-start pb-0">
     <div class="col-md-12 heading-section ftco-animate">
-    <h2 class="mb-4">About Snapshot Tours and Safaris</h2>
-    <p>Welcome to snapshot tours and safaris! We are a leading provider of safari tours in Kenya, offering unique and unforgettable experiences for travellers who want to explore the incredible wildlife, landscapes, and cultures of this stunning country.
-Our team of experienced and knowledgeable guides are passionate about sharing their love and understanding of Kenya with our guests. We offer a range of safari tours, including wildlife safaris, bird watching tours, cultural tours, beach tours and adventure safaris, all designed to provide you with an authentic and immersive experience of Kenya.<br>
-Whether you are traveling solo, as a couple, or with a group of friends or family, we can tailor our tours to meet your needs and preferences. From luxury lodges to tented camps, we work with a range of accommodation partners to ensure that you have a comfortable and enjoyable stay throughout your safari.<br>
-At our Kenyan safari tourism company, we are committed to responsible tourism and conservation. We work closely with local communities and conservation organizations to ensure that our tours have a positive impact on the environment and support sustainable development in the region.<br>
-So come join us on a safari adventure of a lifetime! Let us show you the magic and wonder of Kenya's wildlife and landscapes, and introduce you to the warmth and hospitality of its people.
+    <h2 class="mb-3">About Us</h2>
+    <p>Welcome to Snapshot Tours and Safaris, a leading provider of safari tours in Kenya and Tanzania. Immerse yourself in the spectacular wildlife experience, remarkable landscapes, and vibrant cultures of this magnificent country. Our experienced guides are passionate about sharing their love and extensive knowledge of Kenya with our valued guests.<br>
+
+Discover our range of safari tours, including wildlife safaris in major parks and reserves, bird-watching tours in the great lakes of Nakuru and Naivasha, cultural tours at Masai Mara, beach tours and Coastal experiences, and adventure safaris, each meticulously designed to offer an authentic and unforgettable experience of Kenya's wonders.<br>
+
+Whether you're a solo traveler, a couple seeking a romantic getaway, or a group of friends and family, our tours and travel plans are customizable to cater to your unique needs and preferences. With a diverse selection of accommodations, from luxurious lodges to comfortable tented camps, we collaborate with trusted partners to ensure your safari is a truly comfortable and enjoyable journey.<br>
+
+At Snapshot Tours and Safaris, responsible tourism and conservation are at the core of our values. We actively collaborate with local communities and conservation organizations to ensure that our tours make a positive impact on the environment and contribute to sustainable development in the region. We are aligned with the SDGs to ensure sustainability from our operations and socially inclined to ensure a positive impact on the local communities.<br>
+
+Embark on a safari adventure of a lifetime and witness the enchantment and splendor of Kenya's wildlife and landscapes. Experience the genuine warmth and hospitality of its people as we guide you through its extraordinary destinations.
+
 </p>
     </div>
     </div>
+    </div>
+    <div class="col-md-12 pl-md-5 py-5">
     <div class="row">
-    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+    <div class="col-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
     <div class="block-18 text-center py-5 bg-light mb-4">
     <div class="text">
-    <strong class="number" data-number="30">0</strong>
-    <span>Amazing Deals</span>
-    </div>
-    </div>
-    </div>
-    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
-    <div class="block-18 text-center py-5 bg-light mb-4">
-    <div class="text">
-    <strong class="number" data-number="200">0</strong>
+    <strong class="number" data-number="234">0</strong>
     <span>Sold Tours</span>
     </div>
     </div>
     </div>
-    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+    <div class="col-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
     <div class="block-18 text-center py-5 bg-light mb-4">
     <div class="text">
-    <strong class="number" data-number="2500">0</strong>
-    <span>New Tours</span>
+    <strong class="number" data-number="47">0</strong>
+    <span>Visited Destinations</span>
     </div>
     </div>
     </div>
-    <div class="col-md-6 justify-content-center counter-wrap ftco-animate">
+    <div class="col-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
     <div class="block-18 text-center py-5 bg-light mb-4">
     <div class="text">
-    <strong class="number" data-number="40">0</strong>
+    <strong class="number" data-number="7">0</strong>
+    <span>Tour Guides</span>
+    </div>
+    </div>
+    </div>
+    <div class="col-6 col-lg-3 justify-content-center counter-wrap ftco-animate">
+    <div class="block-18 text-center py-5 bg-light mb-4">
+    <div class="text">
+    <strong class="number" data-number="234">0</strong>
     <span>Happy Customers</span>
     </div>
     </div>
@@ -136,7 +145,7 @@ So come join us on a safari adventure of a lifetime! Let us show you the magic a
 <div class="container">
 <div class="row justify-content-center mb-5 pb-3">
 <div class="col-md-7 heading-section text-center ftco-animate">
-<h2>What we Offer</h2>
+<h2>Our Services</h2>
 </div>
 </div>
 <div class="row d-flex">
