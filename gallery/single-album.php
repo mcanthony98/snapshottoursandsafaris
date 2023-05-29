@@ -120,7 +120,7 @@ $imgres = $conn->query($imgqry);
 <div class="row" id="lightgallery">
 
 <?php while($imgrow = $imgres->fetch_assoc()){?>
-<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 col-6 item px-1 py-0" data-aos="fade" data-src="images/<?php echo $imgrow['image_small'];?>" data-sub-html="<?php echo $imgrow['description'];?>">
+<div class="col-sm-6 col-md-4 col-lg-3 col-xl-2 col-6 item px-1 py-0" data-aos="fade" data-src="images/<?php echo $imgrow['image_big'];?>" data-sub-html="<?php echo $imgrow['description'];?>">
 <a href="#"><img src="images/<?php echo $imgrow['image_small'];?>" alt="" class="img-fluid"></a>
 </div>
 <?php } ?>
