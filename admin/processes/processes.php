@@ -514,6 +514,14 @@ function compressAndAddLogo($source, $destination) {
     $logoX = $imageWidth - $logoWidth - 10; // Adjust the position of the logo as needed
     $logoY = $imageHeight - $logoHeight - 10; // Adjust the position of the logo as needed
     imagecopy($image, $logo, $logoX, $logoY, 0, 0, $logoWidth, $logoHeight);
+
+    // Save the image with the logo attached
+    imagejpeg($image, $destination, $quality);
+    
+    // Free up memory
+    imagedestroy($image);
+    imagedestroy($logo);
+
 }
 
 // Function to resize the image and save a small version
