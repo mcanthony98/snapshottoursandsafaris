@@ -450,4 +450,92 @@ elseif(isset($_GET['read_coopbooking'])){
     header('location: ../corporate-bookings.php');
     exit();
 }
+
+
+if(isset($_POST['upload-images'])){
+    $album_id = $_POST["upload-images"];
+    $alslug = $_POST["alslug"];
+    if(isset($_POST['category'])){
+        $cat_id = $_POST['category'];
+    }else{
+        $cat_id = "NULL";
+    }
+
+    // Folder where the images will be saved
+    $targetFolder = "../../gallery/images/";
+
+    // Iterate through each uploaded file
+foreach ($_FILES['images']['tmp_name'] as $key => $tmp_name) {
+    // Skip if no file was uploaded
+    if (empty($_FILES['images']['name'][$key])) {
+        continue;
+    }
+    
+    // Generate a unique filename
+    $filename = uniqid() . "_" . $_FILES['images']['name'][$key];
+    
+    // Compress and add company logo to the image
+    compressAndAddLogo($tmp_name, $targetFolder . $filename);
+    
+    // Resize and save a small version of the image
+    $smallFilename = resizeImage($tmp_name, $targetFolder, $filename);
+    
+    // Insert image information into the database
+    $sql = "INSERT INTO gallery_image (image_small, image_big, album_id, category_id, date_created) VALUES ('$smallFilename', '$filename', '$album_id', '$cat_id', '$date')";
+    if ($conn->query($sql) !== TRUE) {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+}
+
+// Close the database connection
+$conn->close();
+$_SESSION['success'] = "Images Uploaded Successfully!";
+
+header('location: ../gallery-images.php?album='.$alslug);
+exit();
+}
+
+
+// Function to compress and add company logo to the image
+function compressAndAddLogo($source, $destination) {
+    // Load the image
+    $image = imagecreatefromstring(file_get_contents($source));
+    
+    // Compress the image to 200KB size
+    $quality = 75; // Adjust this value to control image quality and file size
+    imagejpeg($image, $destination, $quality);
+    
+    // Add company logo at the bottom-right of the image
+    $logo = imagecreatefrompng('../../gallery/images/logo.png'); // Replace with your company logo image path
+    $logoWidth = imagesx($logo);
+    $logoHeight = imagesy($logo);
+    $imageWidth = imagesx($image);
+    $imageHeight = imagesy($image);
+    $logoX = $imageWidth - $logoWidth - 10; // Adjust the position of the logo as needed
+    $logoY = $imageHeight - $logoHeight - 10; // Adjust the position of the logo as needed
+    imagecopy($image, $logo, $logoX, $logoY, 0, 0, $logoWidth, $logoHeight);
+}
+
+// Function to resize the image and save a small version
+function resizeImage($source, $destinationFolder, $filename) {
+    // Load the image
+    $image = imagecreatefromstring(file_get_contents($source));
+    
+    // Resize the image to 900x750
+    $width = 900;
+    $height = 750;
+    $resizedImage = imagescale($image, $width, $height);
+    
+    // Generate the small filename by adding "_small" to the original filename
+    $smallFilename = str_replace(".", "_small.", $filename);
+    
+    // Save the resized image
+    imagejpeg($resizedImage, $destinationFolder . $smallFilename, 75); // Adjust the quality as needed
+    
+    // Free up memory
+    imagedestroy($image);
+    imagedestroy($resizedImage);
+    
+    return $smallFilename;
+}
 ?>

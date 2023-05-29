@@ -139,7 +139,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link <?php if($pg==8){echo 'active';}?>">
+                <a href="gallery.php" class="nav-link <?php if($pg==8){echo 'active';}?>">
                     <i class="nav-icon fas fa-file-image"></i>
                     <p>
                     Gallery

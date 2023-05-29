@@ -33,7 +33,9 @@ session_start();
   <!-- Daterange picker -->
   <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
-  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css"> 
+  <!-- Ekko Lightbox -->
+  <link rel="stylesheet" href="plugins/ekko-lightbox/ekko-lightbox.css">
   <!-- fullCalendar -->
   <link rel="stylesheet" href="plugins/fullcalendar/main.css">
   <!-- Bootstrap Color Picker -->
@@ -46,9 +48,22 @@ session_start();
  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
 
  <style>
-        #map {
-            height: 500px;
-            width: 100%;
-        }
-    </style>
+    #map {
+        height: 500px;
+        width: 100%;
+    }
+
+  .gallery-image-container {
+    width: 300px; /* Set your desired width */
+    height: 300px; /* Set your desired height */
+    border: 1px solid black;
+    overflow: hidden;
+  }
+
+  .gallery-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+</style>
 </head>

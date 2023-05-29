@@ -1,26 +1,26 @@
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 <div class="container">
-<img src="images/logo.png" class="img-fluid m-1" width="100px" height="50px"  href="index.php">
+<img src="../images/logo.png" class="img-fluid m-1" width="100px" height="50px"  href="../index.php">
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 <span class="oi oi-menu"></span> Menu
 </button>
 <div class="collapse navbar-collapse" id="ftco-nav">
 <ul class="navbar-nav ml-auto">
-<li class="nav-item <?php if($pg == 1){echo "active";}?>"><a href="index.php" class="nav-link">Home</a></li>
-<li class="nav-item <?php if($pg == 2){echo "active";}?>"><a href="about.php" class="nav-link">About</a></li>
+<li class="nav-item <?php if($pg == 1){echo "active";}?>"><a href="../index.php" class="nav-link">Home</a></li>
+<li class="nav-item <?php if($pg == 2){echo "active";}?>"><a href="../about.php" class="nav-link">About</a></li>
 <li class="nav-item dropdown <?php if($pg == 3){echo "active";}?>">
         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">Tours &amp; Safaris</a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="destinations.php">Our Destinations</a>
-          <a class="dropdown-item" href="flight.php">Book a Flight</a>
-          <a class="dropdown-item" href="transport.php">Get Transport</a>
+          <a class="dropdown-item" href="../destinations.php">Our Destinations</a>
+          <a class="dropdown-item" href="../flight.php">Book a Flight</a>
+          <a class="dropdown-item" href="../transport.php">Get Transport</a>
         </div>
       </li>
 <li class="nav-item dropdown <?php if($pg == 4){echo "active";}?>">
   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">Corporate Training</a>
   <div class="dropdown-menu">
-    <a class="dropdown-item" href="training.php">Training Programs</a>
-    <a class="dropdown-item" href="team-building.php">Team Building</a>
+    <a class="dropdown-item" href="../training.php">Training Programs</a>
+    <a class="dropdown-item" href="../team-building.php">Team Building</a>
   </div>
 </li>
 <!--<li class="nav-item dropdown <?php if($pg == 5){echo "active";}?>">
@@ -30,10 +30,10 @@
           <a class="dropdown-item" href="events.php">Snapshot Events</a>
         </div>
       </li>-->
-<li class="nav-item <?php if($pg == 6){echo "active";}?>"><a href="gallery/" class="nav-link">Gallery</a></li>
-<li class="nav-item <?php if($pg == 7){echo "active";}?>"><a href="blogs.php" class="nav-link">Blogs</a></li>
-<li class="nav-item <?php if($pg == 8){echo "active";}?>"><a href="contact.php" class="nav-link">Contact</a></li>
-<li class="nav-item cta"><a class="nav-link" type="button" data-toggle="modal" data-target="#bookcustom">Book Now</a></li>
+<li class="nav-item <?php if($pg == 6){echo "active";}?>"><a href="../gallery/" class="nav-link">Gallery</a></li>
+<li class="nav-item <?php if($pg == 7){echo "active";}?>"><a href="../blogs.php" class="nav-link">Blogs</a></li>
+<li class="nav-item <?php if($pg == 8){echo "active";}?>"><a href="../contact.php" class="nav-link">Contact</a></li>
+<!--<li class="nav-item cta"><a class="nav-link" type="button" data-toggle="modal" data-target="#bookcustom">Book Now</a></li>-->
 </ul>
 </div>
 </div>
