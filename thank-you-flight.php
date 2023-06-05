@@ -45,15 +45,7 @@ src="https://www.facebook.com/tr?id=175143165180633&ev=PageView&noscript=1"
 <!-- End Meta Pixel Code -->
 
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RM45DWF1DC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-RM45DWF1DC');
-</script>
 <body>
 
 <!-- Google Tag Manager (noscript) -->
