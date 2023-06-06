@@ -56,10 +56,6 @@ src="https://www.facebook.com/tr?id=175143165180633&ev=PageView&noscript=1"
 </script>
 <body>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPT4TS2"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
 <?php include "includes/navbar.php";?>
 
