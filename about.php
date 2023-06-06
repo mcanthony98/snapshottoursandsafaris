@@ -10,19 +10,20 @@ $cataloguerow = $catalogueres->fetch_assoc();
 <html lang="en">
 
 <head>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KMT5R9P');</script>
+<!-- End Google Tag Manager -->
+
 <title>About Us - Snapshot Tours and Safaris Kenya, Africa</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="keywords" content="Snapshot Tours and Safaris, safari tours in Kenya, wildlife, landscapes, cultures, authentic experience, wildlife safaris, bird watching tours, cultural tours, beach tours, adventure safaris, customizable travel plans, Luxurious lodges, responsible tourism, conservation, local communities, sustainable development, enchantment, hospitality">
 <meta name="description" content="Welcome to Snapshot Tours and Safaris, a leading provider of safari tours in Kenya and Tanzania. Immerse yourself in the spectacular wildlife experience, remarkable landscapes, and vibrant cultures of this magnificent country. Our experienced guides are passionate about sharing their love and extensive knowledge of Kenya with our valued guests.">
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MPT4TS2');</script>
-<!-- End Google Tag Manager -->
 
 <?php include "includes/stylesheets.php";?>
 
@@ -45,17 +46,11 @@ src="https://www.facebook.com/tr?id=175143165180633&ev=PageView&noscript=1"
 <!-- End Meta Pixel Code -->
 
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RM45DWF1DC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RM45DWF1DC');
-</script>
 <body>
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KMT5R9P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <?php include "includes/navbar.php";?>
 
