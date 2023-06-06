@@ -10,7 +10,7 @@ $catalogueres = $conn->query($catalogueqry);
 $cataloguerow = $catalogueres->fetch_assoc();
 
 
-$blogsqry = "SELECT * FROM snapshot_blog ORDER BY blog_id DESC LIMIT 3";
+$blogsqry = "SELECT * FROM snapshot_blog ORDER BY blog_id DESC LIMIT 0";
 $blogsres = $conn->query($blogsqry);
 ?>
 <!DOCTYPE html>
