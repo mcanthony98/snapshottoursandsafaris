@@ -24,7 +24,7 @@ $(document).ready(function(){
       function showText(no){
 
         $("#caro"+no).show();
-        $("#caro"+no).delay(6500).fadeOut(500, function(){document.getElementById("caro"+no).style.display = "none";});
+        //$("#caro"+no).delay(6500).fadeOut(500, function(){document.getElementById("caro"+no).style.display = "none";});
        
       }
       function hideText(no){
