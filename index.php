@@ -74,7 +74,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 
-<div class="hero-wrap js-fullheight mySlides" id="caro2" style="display:none; background-image: url('images/caro8.jpg');" data-stellar-background-ratio="0.5">
+<!--<div class="hero-wrap js-fullheight mySlides" id="caro2" style="display:none; background-image: url('images/caro8.jpg');" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
@@ -97,7 +97,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 </div>
-</div>
+</div>-->
 
 
 <section class="ftco-section ftco-no-pb ftco-no-pt d-none d-lg-block">
@@ -149,7 +149,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 
-<section class="ftco-section">
+<!--<section class="ftco-section">
 <div class="container">
 <div class="row justify-content-center pb-5">
 <div class="col-md-12 heading-section text-center ftco-animate">
@@ -198,7 +198,7 @@ while($destrow = $destres->fetch_assoc()){
 </div>
 </div>
 </div>
-</section>
+</section>-->
 
 
 
@@ -456,7 +456,7 @@ Are you an adrenaline junkie seeking heart-pounding thrills? Or perhaps you long
 
 
 
-<section class="ftco-section bg-light">
+<!--<section class="ftco-section bg-light">
 <div class="container">
 <div class="row justify-content-center mb-5 pb-3">
 <div class="col-md-7 heading-section text-center ftco-animate">
@@ -490,7 +490,7 @@ Are you an adrenaline junkie seeking heart-pounding thrills? Or perhaps you long
 </div>
 </div>
 </div>
-</section>
+</section>-->
 <?php 
 include "includes/modals.php";
 include "includes/footer.php";
