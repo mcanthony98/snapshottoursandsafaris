@@ -31,14 +31,14 @@ $(document).ready(function(){
         document.getElementById("caro"+no).style.display = "none";
       }
       showText(counter);
-      setInterval (function () {
+      /*setInterval (function () {
         counter++;
 
         if(counter == 4){
           counter = 1;
         }
         showText(counter);
-    }, 7000);
+    }, 7000);*/
 
 });
 </script>
