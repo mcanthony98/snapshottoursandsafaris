@@ -2,7 +2,7 @@
 $pg = 1;
 require "includes/connect.php";
 include "includes/functions.php";
-$destqry = "SELECT * FROM destination ORDER BY position ASC LIMIT 4";
+$destqry = "SELECT * FROM destination ORDER BY position ASC LIMIT 0";
 $destres = $conn->query($destqry);
 
 $catalogueqry = "SELECT * FROM catalogue ORDER BY catalogue_id DESC LIMIT 1";
